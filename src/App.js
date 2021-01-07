@@ -1,13 +1,12 @@
 import './App.css';
-import heroSection from './components/index/heroSection';
-import Navigation from './components/Navigation';
+import { BrowserRouter as Router } from "react-router-dom";
+import Home from './views';
 
 function App() {
   return (
-    <>
-    <Navigation/>
-    <heroSection/>
-    </>
+    <Router>
+    <Home/>
+    </Router>
   );
 }
 

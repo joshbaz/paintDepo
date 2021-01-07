@@ -15,7 +15,6 @@ justify-self: flex-start;
 cursor: pointer;
 padding-left: 5px;
 
-
 `;
 
 export const LogoImage = styles.img`
@@ -25,7 +24,11 @@ height: 40px;
 export const MobileIcon = styles.div`
 color: #662583;
 padding-right:5px;
- 
+ cursor: pointer;
+ position relative;
+ height: 40px;
+ top: 0.3rem;
+ font-size: 20px;
 @media all and (min-width: 1000px) {
  display: none;   
 }

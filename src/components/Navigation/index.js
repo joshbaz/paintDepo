@@ -12,18 +12,16 @@ import {
     LogoImage
 } 
 from './navStyle';
-const Navigation = () => {
+const Navigation = ({toggle}) => {
     return (
       <Nav>
-
-        <NavLogo to ="/" >
-          <LogoImage src ={Logo}/>
+        <NavLogo to="/">
+          <LogoImage src={Logo} />
         </NavLogo>
 
-        <MobileIcon>
-          <FaBars/>
+        <MobileIcon onClick={toggle}>
+          <FaBars />
         </MobileIcon>
-
 
         <NavMenu>
           <NavItem>
@@ -31,10 +29,10 @@ const Navigation = () => {
           </NavItem>
 
           <NavItem>
-            <NavLink to ="products">PRODUCTS</NavLink>
+            <NavLink to="products">PRODUCTS</NavLink>
           </NavItem>
 
-          <NavItem> 
+          <NavItem>
             <NavLink to="ourstory">OUR STORY</NavLink>
           </NavItem>
 
