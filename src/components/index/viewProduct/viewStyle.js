@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 export const ViewWrapper = styles.section`
 width: 100vw;
 height: 100vh;
-
+background-color: #FCFCFC;
 `;
 
 export const ViewContainer = styles.div`
@@ -12,6 +12,7 @@ width: 100%;
 height: 100%;
 position: relative;
 align-items:center;
+background-color: #FCFCFC;
 ;
 `;
 export const ObjectImageWrapper = styles.div`

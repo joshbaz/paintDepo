@@ -1,14 +1,16 @@
 import styled from 'styled-components';
 
 export const OfferWrapper = styled.section`
-width: 100%;
-height: 100vh;
+  width: 100%;
+  height: 100vh;
+  background-color: #FCFCFC;
 `;
 
 export const OfferContainer = styled.div`
-width: 100%;
-height: 100%;
-text-align: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #fcfcfc;
 `;
 
 export const OfferTitle = styled.h1`

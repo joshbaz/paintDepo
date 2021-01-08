@@ -1,17 +1,18 @@
 import styled from 'styled-components';
 
 export const ChooseWrapper = styled.section`
-width: 100%;
-height: 100vh;
-
+  width: 100%;
+  height: 100vh;
+  background-color: #fcfcfc;
 `;
 
 export const ChooseContainer = styled.div`
-text-align: center;
-width: 100%;
-height: 100%;
-position: relative;
-align-items:center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  align-items: center;
+  background-color: #fcfcfc;
 `;
 
 export const ChooseTitle = styled.h1`
