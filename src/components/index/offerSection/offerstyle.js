@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const OfferWrapper = styled.section`
 width: 100%;
-height: 100%;
+height: 100vh;
 `;
 
 export const OfferContainer = styled.div`

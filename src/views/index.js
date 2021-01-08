@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import ChooseSection from '../components/index/choose'
 import HeroSection from '../components/index/heroSection'
 import OfferSection from '../components/index/offerSection'
 import ViewProduct from '../components/index/viewProduct'
@@ -18,6 +19,7 @@ const Home = () => {
           
           <ViewProduct/>
           <OfferSection/>
+          <ChooseSection/>
         </>
     )
 }
