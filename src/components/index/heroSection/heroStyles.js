@@ -3,6 +3,9 @@ import styles from 'styled-components';
 
 export const HeroWrapper = styles.section`
 width: 100vw;
+height: 100vh;
+overflow:hidden;
+z-index: 1;
 `;
 
 export const HeroContainer = styles.div`
@@ -11,7 +14,7 @@ width: 100%;
 
 export const HeroBg = styles.div`
 position: relative;
-width: 100vw;
+width: 100%;
 margin: 0
 animation: 20s slider infinite;
 `;

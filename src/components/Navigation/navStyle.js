@@ -2,12 +2,14 @@ import styles from 'styled-components';
 import {Link} from 'react-router-dom';
 
 export const Nav = styles.nav`
-width: 100vw;
+width: 100%;
 display: flex;
 position: sticky;
 align-items: center;
 height: 80px;
 justify-content: space-between;
+overflow: hidden;
+z-index:2;
 `;
 
 export const NavLogo = styles(Link)`
@@ -44,6 +46,7 @@ export const NavMenu = styles.ul`
  position: relative;
  height: 20px;
 top: -1px;
+right:2rem;
 
 }
 `;
