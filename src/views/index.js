@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import HeroSection from '../components/index/heroSection'
+import OfferSection from '../components/index/offerSection'
 import ViewProduct from '../components/index/viewProduct'
 import MobileMenu from '../components/MobileMenu'
 import Navigation from '../components/Navigation'
@@ -16,6 +17,7 @@ const Home = () => {
           <Navigation toggle={toggle}/>
           
           <ViewProduct/>
+          <OfferSection/>
         </>
     )
 }
