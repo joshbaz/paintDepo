@@ -28,6 +28,12 @@ import {
   SiteItem,
   PolicyItem,
   FaqItem,
+  Line,
+  Icon,
+  LinkItem1,
+  LinkItem,
+  LinkItem2,
+  LinkItem3,
 } from "./footerStyle";
 const Footer = () => {
     return (
@@ -37,11 +43,18 @@ const Footer = () => {
             <SocialTitle>FOLLOW US</SocialTitle>
 
             <Socials>
-              <FaFacebook />
-              <FaTwitter />
-              <FaInstagram />
+              <Icon>
+                <FaFacebook />
+              </Icon>
+              <Icon>
+                <FaTwitter />
+              </Icon>
+              <Icon>
+                <FaInstagram />
+              </Icon>
             </Socials>
           </SocialsWrapper>
+          <Line />
           <ContentWrapper>
             <StoryWrapper>
               <StoryTitle>OUR STORY</StoryTitle>
@@ -69,12 +82,14 @@ const Footer = () => {
               <EmailDetails>info@thepaintdepo.co.ke</EmailDetails>
             </LocationWrapper>
           </ContentWrapper>
+      
+          <Line />
           <LinkWrapper>
-          <LinkItems>
-            <SiteItem>SITEMAP</SiteItem>
-            <PolicyItem>PRIVACY POLICY</PolicyItem>
-            <FaqItem>FAQ</FaqItem>
-          </LinkItems>
+            <LinkItems>
+              <LinkItem1> <SiteItem>SITEMAP</SiteItem></LinkItem1>
+              <LinkItem2><PolicyItem>PRIVACY POLICY</PolicyItem></LinkItem2>
+              <LinkItem3><FaqItem>FAQ</FaqItem></LinkItem3>
+            </LinkItems>
           </LinkWrapper>
         </FooterContainer>
       </FooterWrapper>
