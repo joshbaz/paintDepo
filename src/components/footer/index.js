@@ -31,7 +31,6 @@ import {
   Line,
   Icon,
   LinkItem1,
-  LinkItem,
   LinkItem2,
   LinkItem3,
 } from "./footerStyle";
@@ -82,7 +81,7 @@ const Footer = () => {
               <EmailDetails>info@thepaintdepo.co.ke</EmailDetails>
             </LocationWrapper>
           </ContentWrapper>
-      
+
           <Line />
           <LinkWrapper>
             <LinkItems>
