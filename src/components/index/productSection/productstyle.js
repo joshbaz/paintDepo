@@ -45,7 +45,7 @@ margin-bottom: 14px;
 
 export const TextWrapper = styled.div`
   position: absolute;
-  top: 13.8rem;
+  top: 13.9rem;
   width: 100vw;
   height: 49.32px;
   background: #fcfcfc;
