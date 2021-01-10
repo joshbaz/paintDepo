@@ -6,7 +6,7 @@ height: 100%;
 `;
 
 export const  PolicyContainer = styled.div`
-width: 100%;
+width: 80%;
 height: 100%;
 `;
 
@@ -31,7 +31,8 @@ export const DateUpdated = styled.p`
 export const  PolicyIntro = styled.div`
 position: relative;
 left: 35px;
-width: 80vw;
+width: 70vw;
+margin: 0;
 `;
 
 export const PolicyText = styled.p`

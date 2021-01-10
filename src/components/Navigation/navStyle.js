@@ -4,11 +4,12 @@ import {Link} from 'react-router-dom';
 export const Nav = styles.nav`
 width: 100%;
 display: flex;
-position: sticky;
+position: fixed;
 align-items: center;
 height: 80px;
 justify-content: space-between;
 overflow: hidden;
+background-color: rgba(255, 255, 255, 0.37);
 z-index:2;
 `;
 
