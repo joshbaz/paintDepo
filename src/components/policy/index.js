@@ -12,7 +12,7 @@ import {
   PolicyDetailTitle,
   PolicyParagraph,
 } from "./policyStyle";
-const Policy = () => {
+const PolicySection = () => {
     return (
       <PolicyWrapper>
         <PolicyContainer>
@@ -137,4 +137,4 @@ const Policy = () => {
     );
 }
 
-export default Policy
+export default PolicySection
