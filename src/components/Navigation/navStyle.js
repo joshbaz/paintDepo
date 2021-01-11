@@ -2,7 +2,7 @@ import styles from 'styled-components';
 import {Link} from 'react-router-dom';
 
 export const Nav = styles.nav`
-width: 100%;
+width:100vw;
 display: flex;
 position: fixed;
 align-items: center;
@@ -11,6 +11,7 @@ justify-content: space-between;
 overflow: hidden;
 background-color: rgba(255, 255, 255, 0.37);
 z-index:2;
+overflow:hidden;
 `;
 
 export const NavLogo = styles(Link)`
