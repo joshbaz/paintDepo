@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react';
+import ArrowUpImg from '../../assets/images/ArrowUp.png';
+import ArrowDownImg from '../../assets/images/ArrowDown2.png';
 import {
   FaqWrapper,
   FaqContainer,
@@ -12,10 +14,17 @@ import {
   FaqQuestion,
   Question,
   Button,
-  Arrow,
+  ArrowUp,
+  ArrowDown,
   FaqAnswer,
 } from "./FaqStyle";
 const FaqSection = () => {
+
+  const [clickState , setclickState] = useState(false);
+
+  const openClick = () => {
+    setclickState(!clickState)
+  }
     return (
       <FaqWrapper>
         <FaqContainer>
@@ -31,8 +40,12 @@ const FaqSection = () => {
               <FaqDetails>
                 <FaqQuestion>
                   <Question>What range of products do you have?</Question>
-                  <Button>
-                    <Arrow />
+                  <Button onClick={openClick}>
+                    {clickState ? (
+                      <ArrowUp src={ArrowUpImg} />
+                    ) : (
+                      <ArrowDown src={ArrowDownImg} />
+                    )}
                   </Button>
                 </FaqQuestion>
                 <FaqAnswer>
@@ -44,8 +57,12 @@ const FaqSection = () => {
               <FaqDetails>
                 <FaqQuestion>
                   <Question>What range of products do you have?</Question>
-                  <Button>
-                    <Arrow />
+                  <Button onClick={openClick}>
+                    {clickState ? (
+                      <ArrowUp src={ArrowUpImg} />
+                    ) : (
+                      <ArrowDown src={ArrowDownImg} />
+                    )}
                   </Button>
                 </FaqQuestion>
                 <FaqAnswer>
@@ -57,8 +74,12 @@ const FaqSection = () => {
               <FaqDetails>
                 <FaqQuestion>
                   <Question>What range of products do you have?</Question>
-                  <Button>
-                    <Arrow />
+                  <Button onClick={openClick}>
+                    {clickState ? (
+                      <ArrowUp src={ArrowUpImg} />
+                    ) : (
+                      <ArrowDown src={ArrowDownImg} />
+                    )}
                   </Button>
                 </FaqQuestion>
                 <FaqAnswer>
