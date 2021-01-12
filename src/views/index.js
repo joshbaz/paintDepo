@@ -7,7 +7,7 @@ import Product from '../components/index/productSection'
 import ViewProduct from '../components/index/viewProduct'
 import MobileMenu from '../components/MobileMenu'
 import Navigation from '../components/Navigation'
-
+import {SliderInfo} from '../data/heroSlider'
 const Home = () => {
     const [OpenMobileMenu, setMobileMenu] = useState(false);
 
@@ -15,17 +15,17 @@ const Home = () => {
         setMobileMenu(!OpenMobileMenu)
     }
     return (
-        <>
-          <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle}/>
-          <Navigation toggle={toggle}/>
-          
-          <ViewProduct/>
-          <OfferSection/>
-          <ChooseSection/>
-          <Product/>
-          <Footer/>
-        </>
-    )
+      <>
+        <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
+        <Navigation toggle={toggle} />
+        <HeroSection slides={SliderInfo} />
+        <ViewProduct />
+        <OfferSection />
+        <ChooseSection />
+        <Product />
+        <Footer />
+      </>
+    );
 }
 
 export default Home

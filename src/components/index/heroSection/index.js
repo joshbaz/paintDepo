@@ -1,58 +1,82 @@
-import React from 'react';
-import first from '../../../assets/images/pearl.png';
-import second from '../../../assets/images/pearl-sample-room.png';
+import React, { useState, useRef, useEffect } from 'react';
+
 import {
-    HeroWrapper, 
-    HeroContainer, 
-    HeroBg,
-    HeroContent,
-    PictureBg,
-    HeroH1,
-    HeroP,
-    HeroArrow,
+  HeroWrapper,
+  HeroContainer,
+  HeroSlide,
+  HeroSlider,
+  HeroContent,
+  HeroImage,
+  HeroHead,
+  HeroP,
+  SliderButtons,
+  PreviousArrow,
+  NextArrow,
+} from "./heroStyles";
 
-} from './heroStyles';
 
-const heroSection = () => {
-    const data = [
-        {
-            id: 1,
-            image: first,
-            Heading: 'PEARL',
-            text: 'Gives You An Arabic Feel',
+const HeroSection = ({slides}) => {
+ const [current, setCurrent] =useState(0);
+ const length = slides.length;
+ const timeout = useRef(null);
 
-        },
-        {
-            id: 2,
-            image: second,
-            Heading: 'RELAX AT HOME',
-            text: '',
-
+ useEffect(()=>{
+     const nextSlide=()=>{
+        setCurrent(current=>(current===length-1? 0: current + 1))
         }
-    ]
 
-    const playSlide = () => {
-        
-    }
+        timeout.current = setTimeout(nextSlide, 15000);
 
+        return function() {
+            if(timeout.current){
+                clearTimeout(timeout.current);
+            }
+        }
+ }, [current, length])
+ const nextSlide = ()=> {
+     if (timeout.current) {
+       clearTimeout(timeout.current);
+     }
+     setCurrent(current === length - 1 ? 0: current + 1)
+ }
+
+ const prevSlide = ()=> {
+     if (timeout.current) {
+       clearTimeout(timeout.current);
+     }
+     setCurrent(current === 0 ? length - 1 : current - 1)
+ }
+
+ if(!Array.isArray(slides) || slides.length <=0) {
+     return null
+ }
     return (
         <HeroWrapper id="home">
         <HeroContainer>
-            <HeroBg>
-            <PictureBg />
-            </HeroBg>
-            <HeroContent>
-            <HeroH1> PEARL </HeroH1>
-            <HeroP>Gives You An Arabic Feel</HeroP>
-            </HeroContent>
-
-            <HeroArrow>
-             
-            </HeroArrow>
+            {slides.map((slide, index)=>{
+                return (
+                    <HeroSlide key={index}>
+                    {index === current && (
+                    <HeroSlider>
+                        <HeroImage src={slide.Image} alt={slide.alt}/>
+                        <HeroContent>
+                            <HeroHead>{slide.title}</HeroHead>
+                            <HeroP>{slide.subText}</HeroP>
+                        </HeroContent>
+                    </HeroSlider>
+                    )}
+                   
+                    </HeroSlide>
+                )
+            })}
+            <SliderButtons>
+                <PreviousArrow onClick={prevSlide}/>
+                <NextArrow onClick={nextSlide}/>
+            </SliderButtons>
         </HeroContainer>
             
         </HeroWrapper>
     )
 }
 
-export default heroSection
+export default HeroSection
