@@ -12,7 +12,7 @@ align-items: center;
 transition: 0.2s ease-in-out;
 opacity: ${({ activeMenu }) => (activeMenu ? "100%" : "0")};
 top: ${({ activeMenu }) => (activeMenu ? "0" : "-100%")};
-
+overflow:hidden;
 `;
 
 export const HeadSection = styles.div`

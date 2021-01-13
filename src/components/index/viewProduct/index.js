@@ -34,7 +34,7 @@ const viewProduct = () => {
                 Whatever the room,we have a product for you.
               </ContentText>
               <ContentButtonWrapper>
-                <ContentButton>VIEW PRODUCTS</ContentButton>
+                <ContentButton to="/products">VIEW PRODUCTS</ContentButton>
               </ContentButtonWrapper>
             </ProductContent>
           </ProductWrapper>

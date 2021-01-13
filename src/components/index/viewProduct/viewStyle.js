@@ -2,9 +2,10 @@ import styles from 'styled-components';
 import {Link} from 'react-router-dom';
 
 export const ViewWrapper = styles.section`
-width: 100vw;
-height: 100vh;
+width: 100%;
+height: 100%;
 background-color: #FCFCFC;
+overflow:hidden;
 `;
 
 export const ViewContainer = styles.div`
@@ -13,7 +14,8 @@ height: 100%;
 position: relative;
 align-items:center;
 background-color: #FCFCFC;
-;
+padding: 126px 0;
+overflow:hidden;
 `;
 export const ObjectImageWrapper = styles.div`
 display:none;
@@ -35,7 +37,7 @@ export const ImageWrapper = styles.div`
 export const ProductImage = styles.img`
 width: 228.71px;
 height: 225.6px;
-
+object-fit:cover;
 @media all and (min-width: 1000px){
     width: 255.38px;
     height: 251.91px;
@@ -67,10 +69,10 @@ margin-bottom: 17.64px;
 `;
 export const ContentButtonWrapper = styles.div`
 position: relative;
-width:100vw;
-
+width:100%;
+margin-top: 40px;
 `;
-export const ContentButton = styles.button`
+export const ContentButton = styles(Link)`
 margin:auto;
 text-decoration: none;
 border: 3px solid black;
@@ -80,4 +82,7 @@ border-radius:5px;
 font-size: 17.9px;
 font-weight: 500;
 outline: none;
+padding: 20px 50px;
+text-decoration:none;
+color: black;
 `;

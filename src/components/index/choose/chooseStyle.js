@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const ChooseWrapper = styled.section`
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: #fcfcfc;
+  overflow:hidden;
 `;
 
 export const ChooseContainer = styled.div`
@@ -13,12 +14,14 @@ export const ChooseContainer = styled.div`
   position: relative;
   align-items: center;
   background-color: #fcfcfc;
+  overflow: hidden;
 `;
 
 export const ChooseTitle = styled.h1`
 font-size:29px;
 line-height: 34px;
 font-weight: 300;
+padding-top: 106px;
 `;
 
 export const ChooseList = styled.ul`

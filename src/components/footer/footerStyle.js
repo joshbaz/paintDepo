@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FooterWrapper = styled.footer`
-  width: 100vw;
+  width: 100%;
   height: 100%;
   background: #272727;
   margin-top: 100px;
@@ -184,9 +184,10 @@ export const EmailDetails = styled.h3`
 `;
 
 export const LinkWrapper = styled.div`
-width: 91vw;
-height: 20px;
-margin:auto;
+  width: 91%;
+  height: 20px;
+  margin: auto;
+  background: #272727;
 `;
 export const LinkItems = styled.div`
   display: flex;
@@ -213,23 +214,32 @@ export const SiteItem = styled.h3`
   font-size: 15px;
   line-height: 20px;
   font-weight: normal;
-@media all and (max-width: 373px){
+  @media all and (max-width: 412px) {
     font-size: 10px;
-}
+  }
+  @media all and (max-width: 373px) {
+    font-size: 10px;
+  }
 `;
 export const PolicyItem = styled.h3`
   font-size: 15px;
   line-height: 20px;
   font-weight: normal;
 
-  @media all and (max-width: 373px) {
+  @media all and (max-width: 412px) {
     font-size: 10px;
+  }
+  @media all and (max-width: 373px) {
+    font-size: 9px;
   }
 `;
 export const FaqItem = styled.h3`
   font-size: 15px;
   line-height: 20px;
   font-weight: normal;
+  @media all and (max-width: 412px) {
+    font-size: 10px;
+  }
   @media all and (max-width: 373px) {
     font-size: 10px;
   }

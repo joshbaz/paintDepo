@@ -10,9 +10,10 @@ import Faq from "./views/Faq";
 import GlobalStyle from "./globalStyles";
 function App() {
   return (
-    <>
-    <GlobalStyle/>
+    
+    
     <Router>
+     <GlobalStyle/>
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/policy" component={Policy} exact />
@@ -23,7 +24,7 @@ function App() {
         <Route path="/FAQ" component={Faq} exact />
       </Switch>
     </Router>
-    </>
+    
   );
 }
 

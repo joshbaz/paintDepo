@@ -2,14 +2,16 @@ import styled from 'styled-components';
 
 export const ProductWrapper = styled.section`
 width: 100vw;
-height: 100vh;
+height: 100%;
 margin-top: 80px;
+overflow:hidden;
 `;
 
 export const ProductContainer = styled.div`
 text-align: center;
 width: 100%;
 height: 100%;
+overflow:hidden;
 `;
 
 export const ProductTitle = styled.h1`
@@ -63,6 +65,11 @@ export const ItemText = styled.h3`
 `;
 
 export const ItemImage = styled.img`
-  width: 100vw;
+  width: 90%;
   height: 271.37px;
+  object-fit: cover;
+  @media all and (max-width: 540px){
+    object-fit:contain;
+  }
+  
 `;
