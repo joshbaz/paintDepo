@@ -38,7 +38,7 @@ width: 100%;
 padding-bottom: 86px;
 `;
 
-export const OfferButton = styled.button`
+export const OfferButton = styled(Link)`
 text-decoration: none;
 border: 3px solid black;
 outline: none;
@@ -47,4 +47,8 @@ height: 65px;
 width: 295.45px;
 font-size: 20px;
 line-height: 23px;
+padding-left: 20px;
+padding-right:20px;
+padding-top:15px;
+padding-bottom:15px;
 `;

@@ -25,7 +25,7 @@ const Navigation = ({toggle}) => {
 
         <NavMenu>
           <NavItem>
-            <NavLink to="home">HOME</NavLink>
+            <NavLink to="/">HOME</NavLink>
           </NavItem>
 
           <NavItem>
@@ -37,7 +37,7 @@ const Navigation = ({toggle}) => {
           </NavItem>
 
           <NavItem>
-            <NavLink to="contactus">CONTACT US</NavLink>
+            <NavLink to="contact">CONTACT US</NavLink>
           </NavItem>
         </NavMenu>
       </Nav>

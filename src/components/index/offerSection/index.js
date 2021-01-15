@@ -21,7 +21,7 @@ const OfferSection = () => {
             to your walls.
           </OfferText>
           <OfferButtonWrapper>
-            <OfferButton>REQUEST QUOTE</OfferButton>
+            <OfferButton to="/contact">REQUEST QUOTE</OfferButton>
           </OfferButtonWrapper>
         </OfferContainer>
       </OfferWrapper>

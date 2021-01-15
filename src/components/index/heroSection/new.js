@@ -1,25 +1,24 @@
-import styled from 'styled-components';
-import {Link} from 'react-router-dom';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 export const ProductWrapper = styled.section`
-width: 100vw;
-height: 100%;
-margin-top: 80px;
-overflow:hidden;
+  width: 100vw;
+  height: 100%;
+  margin-top: 80px;
+  overflow: hidden;
 `;
 
 export const ProductContainer = styled.div`
-text-align: center;
-width: 100%;
-height: 100%;
-overflow:hidden;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 `;
 
 export const ProductTitle = styled.h1`
-font-size: clamp(2rem, 2.5rem, 3rem);
-font-weight: 300;
-line-height: 43.36px;
-margin-bottom: 19px;
-
+  font-size: clamp(2rem, 2.5rem, 3rem);
+  font-weight: 300;
+  line-height: 43.36px;
+  margin-bottom: 19px;
 `;
 
 export const ProductText = styled.p`
@@ -40,61 +39,50 @@ export const ProductText = styled.p`
 
 export const ProductContent = styled.ul`
   text-decoration: none;
-  position:relative;
-  height:100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  width: 90%;
-  margin:auto;
+
   margin-top: 30px;
-  grid-gap: 2rem;
   @media all and (min-width: 768px) {
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
   }
-  @media all and (max-width: 768px) {
+  @media all and (min-width: 540px) {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
   }
 `;
 export const ProductItem = styled(Link)`
   list-style: none;
   position: relative;
-  margin: 0;
-  text-decoration: none;
-  width: 100%;
-
+  margin-bottom: 14px;
   @media all and (min-width: 768px) {
     width: 100%;
     bottom: 0;
   }
 `;
 
-export const ProductItem1 = styled(Link)`
-  list-style: none;
-  position: relative;
- top:0;
- bottom:0;
- left:0;
-  text-decoration: none;
-
-  z-index: 2;
- 
-`;
-
 export const TextWrapper = styled.div`
   position: absolute;
-  top: 50;
-  bottom: 0;
 
-  display: flex;
-  justify-content: center;
-  width: 100%;
+  width: 100vw;
   height: 49.32px;
   background: #fcfcfc;
   text-align: center;
   opacity: 0.7;
   z-index: 200;
+  bottom: 13px;
+  @media all and (min-width: 985px) {
+    bottom: 0;
+    top: 42vh;
+    left: 0;
+    right: 0;
+  }
+  @media all and (min-width: 768px) {
+    width: 100%;
+    bottom: 3vh;
+  }
+  @media all and (min-width: 540px) {
+    bottom: 4px;
+  }
 `;
 
 export const ItemText = styled.h3`
@@ -105,27 +93,18 @@ export const ItemText = styled.h3`
   margin-top: 14px;
   font-family: Arial;
   color: #000000;
-  @media all and (max-width:278px){
-    font-size: 12px;
-  }
 `;
 
 export const ItemImage = styled.img`
-  position: relative;
-  width: 100%;
+  width: 90%;
   height: 271.37px;
-  object-fit: contain;
+  object-fit: cover;
   @media all and (min-width: 768px) {
     object-fit: contain;
     -o-object-fit: contain;
-    height: 100%;
+    height: 90%;
   }
   @media all and (min-width: 540px) {
     object-fit: contain;
-  }
-
-  @media all and (max-width: 398px) {
-    object-fit: cover;
-    -o-object-fit: cover;
   }
 `;

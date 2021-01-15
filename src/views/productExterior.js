@@ -1,18 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Footer from "../components/footer";
 import MobileMenu from "../components/MobileMenu";
 import Navigation from "../components/Navigation";
 import ExteriorSection from '../components/productDetail/exterior';
 
-const productExterior = () => {
+const ProductExterior = () => {
+  const [OpenMobileMenu, setMobileMenu] = useState(false);
+
+  const toggle = () => {
+    setMobileMenu(!OpenMobileMenu);
+  };
     return (
       <>
-        <MobileMenu />
-        <Navigation />
-        <ExteriorSection/>
+        <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
+        <Navigation toggle={toggle} />
+        <ExteriorSection />
         <Footer />
       </>
     );
 }
 
-export default productExterior
+export default ProductExterior

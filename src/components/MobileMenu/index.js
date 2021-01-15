@@ -44,7 +44,7 @@ const MobileMenu = ({mobileActive, toggle}) => {
           </MenuItem>
 
           <MenuItem>
-            <MenuLink to="contactus" onClick={toggle}>
+            <MenuLink to="contact" onClick={toggle}>
               CONTACT US
             </MenuLink>
           </MenuItem>

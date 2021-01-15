@@ -22,7 +22,11 @@ import {
   FormTextArea,
   FormError,
 } from "./contactStyle";
-const ContactSection = () => {
+
+import FormDetails from './form';
+import validate from '../../validation'
+const ContactSection = ({submitForm}) => {
+  const {handleChange,values,handleSubmit,errors}= FormDetails(submitForm,validate);
     return (
       <ContactWrapper>
         <ContactContainer>
@@ -43,22 +47,53 @@ const ContactSection = () => {
             </EmailWrapper>
 
             <FormWrapper>
-              <Form>
+              <Form onSubmit={handleSubmit}>
                 <FormH1>GET IN TOUCH</FormH1>
                 <FormP>SEND US A MESSAGE</FormP>
-                <FormError>Error Message</FormError>
-                <FormLabel htmlFor="name">NAME*</FormLabel>
-                <FormInput type="text" name="name"/>
+                <FormLabel htmlFor="unames">NAME*</FormLabel>
+                <FormInput
+                  id="unames"
+                  type="text"
+                  name="unames"
+                  placeholder="Enter your username"
+                  value={values.unames}
+                  onChange={handleChange}
+                />
+                {errors.unames && <FormError>{errors.unames}</FormError>}
                 <FormLabel htmlFor="email">EMAIL ADDRESS*</FormLabel>
-                <FormInput type="email" name="email"/>
-                <FormLabel htmlFor="phone">PHONE NUMBER*</FormLabel>
-                <FormInput type="text" name="phone"/>
+                <FormInput
+                  type="email"
+                  name="email"
+                  value={values.email}
+                  onChange={handleChange}
+                />
+                {errors.email && <FormError>{errors.email}</FormError>}
+                <FormLabel htmlFor="phoneNumber">PHONE NUMBER*</FormLabel>
+                <FormInput
+                  type="text"
+                  name="phoneNumber"
+                  value={values.phoneNumber}
+                  onChange={handleChange}
+                />
+                {errors.phoneNumber && (
+                  <FormError>{errors.phoneNumber}</FormError>
+                )}
                 <FormLabel htmlFor="location">LOCATION*</FormLabel>
-                <FormInput type="text" name="location"/>
+                <FormInput
+                  type="text"
+                  name="location"
+                  value={values.location}
+                  onChange={handleChange}
+                />
+                {errors.location && <FormError>{errors.location}</FormError>}
                 <FormLabel htmlFor="message">MESSAGE*</FormLabel>
-                <FormTextArea  name="message"/>
+                <FormTextArea
+                  name="message"
+                  value={values.message}
+                  onChange={handleChange}
+                />
+                {errors.message && <FormError>{errors.message}</FormError>}
                 <FormButton type="submit">SEND</FormButton>
-               
               </Form>
             </FormWrapper>
           </ContactContent>

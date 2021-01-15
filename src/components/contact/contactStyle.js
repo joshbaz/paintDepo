@@ -104,7 +104,9 @@ font-size: 18px;
 line-height:21px;
 margin-bottom: 21px;
 `;
-export const FormError = styled.div``;
+export const FormError = styled.p`
+color:red;
+`;
 export const FormLabel = styled.label`
 font-weight: 400;
 font-size: 15px;

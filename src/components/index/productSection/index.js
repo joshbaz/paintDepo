@@ -2,16 +2,18 @@ import React from 'react'
 import Interior from '../../../assets/images/interior.png';
 import Exterior from '../../../assets/images/exterior.png';
 import {
-    ProductWrapper,
-    ProductContainer,
-    ProductTitle,
-    ProductText,
-    ProductContent,
-    ProductItem,
-    TextWrapper,
-    ItemText,
-    ItemImage
-} from './productstyle';
+  ProductWrapper,
+  ProductContainer,
+  ProductTitle,
+  ProductText,
+  ProductContent,
+  ProductItem,
+  ProductItem1,
+  TextWrapper,
+  TextWrapper1,
+  ItemText,
+  ItemImage,
+} from "./productstyle";
 const Product = () => {
     return (
       <ProductWrapper>
@@ -22,19 +24,19 @@ const Product = () => {
             Paints family
           </ProductText>
           <ProductContent>
-            <ProductItem>
+            <ProductItem to="/products/interior">
+            <ItemImage src={Interior} />
               <TextWrapper>
-                <ItemText >INTERIOR PAINTS & PRIMERS</ItemText>
+                <ItemText>INTERIOR PAINTS & PRIMERS</ItemText>
               </TextWrapper>
-
-              <ItemImage src={Interior} />
             </ProductItem>
 
-            <ProductItem>
+            <ProductItem to="/products/exterior">
+            <ItemImage src={Exterior} />
               <TextWrapper>
-                <ItemText >EXTERIOR PAINTS & PRIMERS</ItemText>
+                <ItemText>EXTERIOR PAINTS & PRIMERS</ItemText>
               </TextWrapper>
-              <ItemImage src={Exterior} />
+              
             </ProductItem>
           </ProductContent>
         </ProductContainer>

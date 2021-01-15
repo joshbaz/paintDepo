@@ -192,11 +192,14 @@ export const LinkWrapper = styled.div`
 export const LinkItems = styled.div`
   display: flex;
   justify-content:center;
+  margin-top:10px;
+  
 `;
 export const LinkItem1 = styled.div`
-text-align: left;
-width: 30vw;
-`
+  text-align: left;
+  width: 30vw;
+  
+`;
 export const LinkItem2 = styled.div`
   text-align: center;
   width: 40vw;
