@@ -13,16 +13,19 @@ export const FooterContainer = styled.div`
   height: 100%;
   text-align: center;
   color: #fcfcfc;
+  position:relative;
 `;
 
 export const SocialsWrapper = styled.div`
   margin-bottom: 15px;
+
   @media all and (min-width: 768px) {
     display: flex;
     margin: auto;
     justify-content: space-between;
     align-items: center;
     width: 90%;
+    
   }
 `;
 
@@ -34,13 +37,25 @@ export const SocialTitle = styled.h1`
   @media all and (max-width: 321px) {
     font-size: 16px;
   }
+  @media all and (min-width: 1000px){
+    position:relative;
+    left: 75px;
+  }
   @media all and (min-width: 768px) {
-    margin-bottom:0;
-
+  
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
 `;
 export const SocialIconWrapper = styled.div`
-
+  @media all and (min-width: 1000px) {
+    position: relative;
+    right: 75px;
+  }
+  @media all and (min-width: 768px) {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
 `;
 export const Socials = styled.div`
   margin: auto;
@@ -67,20 +82,22 @@ width: 90vw;
 margin: auto;
 `;
 export const ContentWrapper = styled.div`
-height: 422px;
+  height: 422px;
 
-@media all and (min-width:768px){
-  display:grid;
-  grid-template-columns:1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  height: 322px;
-  width: 90%;
-  margin:auto;
-}
+  @media all and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 1fr;
+    grid-template-rows: 1fr;
+    height: 322px;
+    width: 90%;
+    margin: auto;
+    margin-left: 190px;
+    display: ${({ detailCheck }) => (detailCheck ? "none" : "grid")};
+  }
 
-@media all and (max-width:480px){
-  display: ${({detailCheck})=> detailCheck ? 'none': 'block'};
-}
+  @media all and (max-width: 480px) {
+    display: ${({ detailCheck }) => (detailCheck ? "none" : "block")};
+  }
 `;
 
 export const StoryWrapper = styled.div`
@@ -90,6 +107,7 @@ margin: auto;
 
 @media all and (min-width:768px){
   width: 100%;
+  text-align:left;
 }
 `;
 
@@ -144,6 +162,7 @@ export const ProductWrapper = styled.div`
   margin: auto;
   @media all and (min-width: 768px) {
     width: 100%;
+    text-align: left;
   }
 `;
 
@@ -206,6 +225,7 @@ export const ContactWrapper = styled.div`
   margin: auto;
   @media all and (min-width: 768px) {
     width: 100%;
+    text-align: left;
   }
 `;
 export const ContactLink = styled(Link)`
@@ -255,6 +275,7 @@ export const LocationWrapper = styled.div`
   margin: auto;
   @media all and (min-width: 768px) {
     width: 100%;
+    text-align: left;
   }
 `;
 
@@ -318,19 +339,27 @@ export const EmailDetails = styled.h3`
   }
 `;
 
-export const MoreWrapper = styled.div`
+export const MoreWrapperWeb = styled.div`
 display:none;
-
-@media all and (max-width: 480px){
+@media all and (min-width:768px){
   display:block;
 }
+`
+export const MoreWrapper = styled.div`
+  display: none;
+  @media all and (max-width: 767px) {
+  display: block;
+  }
+  @media all and (max-width: 480px) {
+    display: block;
+  }
 `;
 export const MoreButton = styled.div`
-
 pointer:cursor;
 width: 50px;
 height:50px;
 margin:auto;
+
 `;
 export const MoreText = styled.div``;
 export const MoreImg = styled.img``;

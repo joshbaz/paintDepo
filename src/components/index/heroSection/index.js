@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import ArrowDown from '../../../assets/images/ArrowDown.png';
+import ArrowDown from '../../../assets/images/ArrowDown.svg';
 import {
   HeroWrapper,
   HeroContainer,
@@ -9,10 +9,6 @@ import {
   HeroImage,
   HeroHead,
   HeroP,
-  SliderButtonRight,
-  SliderButtonLeft,
-  PreviousArrow,
-  NextArrow,
   ButtonWrapper,
   DownButton,
   ButtonImg,
@@ -40,19 +36,7 @@ const HeroSection = ({slides}) => {
             }
         }
  }, [current, length])
- const nextSlide = ()=> {
-     if (timeout.current) {
-       clearTimeout(timeout.current);
-     }
-     setCurrent(current === length - 1 ? 0: current + 1)
- }
 
- const prevSlide = ()=> {
-     if (timeout.current) {
-       clearTimeout(timeout.current);
-     }
-     setCurrent(current === 0 ? length - 1 : current - 1)
- }
 
  if(!Array.isArray(slides) || slides.length <=0) {
      return null
@@ -86,16 +70,17 @@ const HeroSection = ({slides}) => {
           })}
           <CircleButtonWrap>{dotButtons}</CircleButtonWrap>
           <ButtonWrapper>
-            <DownButton to="/">
+            <DownButton
+              to="view"
+              smooth={true}
+              duration={400}
+              spy={true}
+              exact="true"
+              offset={-80}
+            >
               <ButtonImg src={ArrowDown} />
             </DownButton>
           </ButtonWrapper>
-          <SliderButtonLeft>
-            <PreviousArrow onClick={prevSlide} />
-          </SliderButtonLeft>
-          <SliderButtonRight>
-            <NextArrow onClick={nextSlide} />
-          </SliderButtonRight>
         </HeroContainer>
       </HeroWrapper>
     );

@@ -17,7 +17,7 @@ import {
 } from './viewStyle';
 const viewProduct = () => {
     return (
-      <ViewWrapper>
+      <ViewWrapper id="view">
         <ViewContainer>
           <ObjectImageWrapper>
             <ObjectImage src={paintSample} />

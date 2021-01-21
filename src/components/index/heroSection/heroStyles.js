@@ -1,8 +1,7 @@
-import styles, {css} from 'styled-components/macro';
+import styles from 'styled-components/macro';
 
-import {IoArrowBack} from 'react-icons/io5'
-import { IoArrowForward } from "react-icons/io5";
-import { Link } from 'react-router-dom';
+
+import {Link } from 'react-scroll';
 
 export const HeroWrapper = styles.section`
 
@@ -58,16 +57,24 @@ width: calc(100%-100px);
 color: #fff;
 `;
 export const HeroHead = styles.h1`
-font-size: clamp(0.5rem, 8vw, 4rem);
+font-size: 40px;
 font-weight:400;
 text-transform: uppercase;
 text-shadow:0px 0px 20px rgba(0,0,0,0.4);
 margin-bottom:0.8rem;
 text-align:center;
+
+@media all and (min-width: 1000px){
+  font-size: 90px;
+}
 `;
 export const HeroP = styles.p`
-font-weight:400;
-font-size: clamp(0.5rem, 2vw, 2rem);
+font-weight:500;
+font-size: 20px;
+
+@media all and (min-width: 1000px){
+  font-size:28px;
+}
 `;
 
 export const CircleButtonWrap = styles.div`
@@ -101,48 +108,13 @@ z-index:10;
 
 `;
 
-export const DownButton = styles(Link)``;
+export const DownButton = styles(Link)`
+height: 50px;
+width: 50px;
+`;
 
 export const ButtonImg = styles.img`
 width: 30px;
 height:15px;
 `;
-export const SliderButtonRight = styles.div`
-position:absolute;
-top:100;
-right:-10px;
-display:flex;
-z-index:10;
-`;
-export const SliderButtonLeft = styles.div`
-position:absolute;
-top:100;
-left:5px;
-display:flex;
-z-index:10;
-`;
-export const ArrowButtons = css`
-width:50px;
-height: 50px;
-color:#fff;
-cursor: pointer;
-background: transparent;
-border-radius: 50px;
-padding: 10px;
-margin-right: 1rem;
-user-select: none;
-transition:0.3s;
-outline: none;
-&:hover {
-    background: #cd853f;
-    transform:scale(1.05);
-}
 
-`
-export const PreviousArrow = styles(IoArrowBack)`
-${ArrowButtons}
-`;
-
-export const NextArrow = styles(IoArrowForward)`
-${ArrowButtons}
-`;

@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
-import ArrowDown from '../../assets/images/ArrowDown.png';
-import ArrowUp from '../../assets/images/ArrowUp.png';
+import ArrowDown from '../../assets/images/downSmall.svg';
+import ArrowUp from '../../assets/images/Cancel.svg';
 import {
   FooterWrapper,
   FooterContainer,
@@ -44,6 +44,7 @@ import {
   MoreButton,
   MoreText,
   MoreImg,
+  MoreWrapperWeb,
 } from "./footerStyle";
 const Footer = ({detailActive, clickMore}) => {
     return (
@@ -66,6 +67,17 @@ const Footer = ({detailActive, clickMore}) => {
             </SocialIconWrapper>
           </SocialsWrapper>
           <Line />
+          <MoreWrapperWeb>
+            <MoreButton onClick={clickMore}>
+              <MoreText>{detailActive ? "More" : "Less"}</MoreText>
+              {detailActive ? (
+                <MoreImg src={ArrowDown} />
+              ) : (
+                <MoreImg src={ArrowUp} />
+              )}
+            </MoreButton>
+          </MoreWrapperWeb>
+
           <ContentWrapper detailCheck={detailActive}>
             <StoryWrapper>
               <StoryTitle>OUR STORY</StoryTitle>
@@ -106,9 +118,7 @@ const Footer = ({detailActive, clickMore}) => {
 
           <MoreWrapper>
             <MoreButton onClick={clickMore}>
-              <MoreText>
-              {detailActive? 'More' : 'Less'}
-              </MoreText>
+              <MoreText>{detailActive ? "More" : "Less"}</MoreText>
               {detailActive ? (
                 <MoreImg src={ArrowDown} />
               ) : (
@@ -122,10 +132,10 @@ const Footer = ({detailActive, clickMore}) => {
               <LinkItem1>
                 <SiteItem>SITEMAP</SiteItem>
               </LinkItem1>
-              <LinkItem2 to='/policy'>
+              <LinkItem2 to="/policy">
                 <PolicyItem>PRIVACY POLICY</PolicyItem>
               </LinkItem2>
-              <LinkItem3 to ='/faq'>
+              <LinkItem3 to="/faq">
                 <FaqItem>FAQ</FaqItem>
               </LinkItem3>
             </LinkItems>

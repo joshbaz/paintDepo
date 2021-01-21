@@ -25,7 +25,7 @@ const Home = () => {
         <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
         <Navigation toggle={toggle} />
         <HeroSection slides={SliderInfo} />
-        <ViewProduct id="viewProducts"/>
+        <ViewProduct />
         <OfferSection />
         <ChooseSection />
         <Product />

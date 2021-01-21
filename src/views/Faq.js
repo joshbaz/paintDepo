@@ -17,6 +17,7 @@ const Faq = () => {
     return (
       <>
         <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
+  
         <Navigation toggle={toggle} />
         <FaqSection faqData={QuestionData} />
         <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />

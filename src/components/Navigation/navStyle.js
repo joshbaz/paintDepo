@@ -64,4 +64,6 @@ export const NavItem = styles.li`
 
 export const NavLink = styles(Link)`
 text-decoration: none;
+color: #fcfcfc;
+outline:none;
 `;

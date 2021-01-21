@@ -8,12 +8,12 @@ import ProductExterior from "./views/productExterior";
 import Contact from "./views/contact";
 import Faq from "./views/Faq";
 import GlobalStyle from "./globalStyles";
+import ScrollTop from "./components/ScrollToTop";
 function App() {
   return (
-    
-    
     <Router>
-     <GlobalStyle/>
+      <ScrollTop />
+      <GlobalStyle />
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/policy" component={Policy} exact />
@@ -24,7 +24,6 @@ function App() {
         <Route path="/FAQ" component={Faq} exact />
       </Switch>
     </Router>
-    
   );
 }
 

@@ -25,7 +25,7 @@ padding-top: 86px;
 `;
 
 export const OfferText = styled.p`
-  font-weight: 500;
+  font-weight: 400;
   font-size: 20px;
   line-height: 133.2%;
   text-align: justify;
@@ -54,6 +54,7 @@ export const OfferButton = styled(Link)`
   padding-right: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
+  color:black;
 
   @media all and (max-width: 248px) {
     width: 50%;
