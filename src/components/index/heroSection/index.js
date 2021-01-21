@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-
+import ArrowDown from '../../../assets/images/ArrowDown.png';
 import {
   HeroWrapper,
   HeroContainer,
@@ -9,14 +9,21 @@ import {
   HeroImage,
   HeroHead,
   HeroP,
-  SliderButtons,
+  SliderButtonRight,
+  SliderButtonLeft,
   PreviousArrow,
   NextArrow,
+  ButtonWrapper,
+  DownButton,
+  ButtonImg,
+  CircleButtonWrap,
+  CircleButton,
 } from "./heroStyles";
 
 
 const HeroSection = ({slides}) => {
  const [current, setCurrent] =useState(0);
+ 
  const length = slides.length;
  const timeout = useRef(null);
 
@@ -50,33 +57,48 @@ const HeroSection = ({slides}) => {
  if(!Array.isArray(slides) || slides.length <=0) {
      return null
  }
+
+ const getClicked = (event)=> {
+     let theindex= parseInt(event.target.id)
+     setCurrent(theindex)
+ }
+ const dotButtons = slides.map((slide, index)=>{
+     
+     return <CircleButton key={index} circleActive={index} currentActive={current} id={index} onClick={getClicked}></CircleButton>;
+ })
     return (
-        <HeroWrapper id="home">
+      <HeroWrapper id="home">
         <HeroContainer>
-            {slides.map((slide, index)=>{
-                return (
-                    <HeroSlide key={index}>
-                    {index === current && (
-                    <HeroSlider>
-                        <HeroImage src={slide.Image} alt={slide.alt}/>
-                        <HeroContent>
-                            <HeroHead>{slide.title}</HeroHead>
-                            <HeroP>{slide.subText}</HeroP>
-                        </HeroContent>
-                    </HeroSlider>
-                    )}
-                   
-                    </HeroSlide>
-                )
-            })}
-            <SliderButtons>
-                <PreviousArrow onClick={prevSlide}/>
-                <NextArrow onClick={nextSlide}/>
-            </SliderButtons>
+          {slides.map((slide, index) => {
+            return (
+              <HeroSlide key={index}>
+                {index === current && (
+                  <HeroSlider>
+                    <HeroImage src={slide.Image} alt={slide.alt} />
+                    <HeroContent>
+                      <HeroHead>{slide.title}</HeroHead>
+                      <HeroP>{slide.subText}</HeroP>
+                    </HeroContent>
+                  </HeroSlider>
+                )}
+              </HeroSlide>
+            );
+          })}
+          <CircleButtonWrap>{dotButtons}</CircleButtonWrap>
+          <ButtonWrapper>
+            <DownButton to="/">
+              <ButtonImg src={ArrowDown} />
+            </DownButton>
+          </ButtonWrapper>
+          <SliderButtonLeft>
+            <PreviousArrow onClick={prevSlide} />
+          </SliderButtonLeft>
+          <SliderButtonRight>
+            <NextArrow onClick={nextSlide} />
+          </SliderButtonRight>
         </HeroContainer>
-            
-        </HeroWrapper>
-    )
+      </HeroWrapper>
+    );
 }
 
 export default HeroSection

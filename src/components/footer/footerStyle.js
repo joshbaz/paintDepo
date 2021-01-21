@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const FooterWrapper = styled.footer`
@@ -16,18 +17,31 @@ export const FooterContainer = styled.div`
 
 export const SocialsWrapper = styled.div`
   margin-bottom: 15px;
+  @media all and (min-width: 768px) {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
 `;
 
 export const SocialTitle = styled.h1`
-font-size: 23px;
-line-height: 28px;
-font-weight: normal;
-margin-bottom: 15px;
-@media all and (max-width: 321px){
+  font-size: 23px;
+  line-height: 28px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  @media all and (max-width: 321px) {
     font-size: 16px;
-}
-`;
+  }
+  @media all and (min-width: 768px) {
+    margin-bottom:0;
 
+  }
+`;
+export const SocialIconWrapper = styled.div`
+
+`;
 export const Socials = styled.div`
   margin: auto;
   display: flex;
@@ -36,6 +50,12 @@ export const Socials = styled.div`
   height: 25.86px;
   @media all and (max-width: 321px) {
     font-size: 16px;
+  }
+  @media all and (min-width: 768px) {
+    margin-bottom: 0;
+    position: relative;
+    font-size: 19px;
+    align-items:center;
   }
 `;
 export const Icon = styled.div`
@@ -48,12 +68,29 @@ margin: auto;
 `;
 export const ContentWrapper = styled.div`
 height: 422px;
+
+@media all and (min-width:768px){
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 322px;
+  width: 90%;
+  margin:auto;
+}
+
+@media all and (max-width:480px){
+  display: ${({detailCheck})=> detailCheck ? 'none': 'block'};
+}
 `;
 
 export const StoryWrapper = styled.div`
 width: 134px;
 height:92px;
 margin: auto;
+
+@media all and (min-width:768px){
+  width: 100%;
+}
 `;
 
 export const StoryTitle = styled.h1`
@@ -63,6 +100,12 @@ export const StoryTitle = styled.h1`
   @media all and (max-width: 321px) {
     font-size: 16px;
   }
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
+  @media all and (min-width: 322px) {
+    font-size: 19px;
+  }
 `;
 export const StoryAbout = styled.h3`
   font-weight: normal;
@@ -70,6 +113,12 @@ export const StoryAbout = styled.h3`
   line-height: 22px;
   @media all and (max-width: 321px) {
     font-size: 10px;
+  }
+  @media all and (min-width: 768px) {
+    font-size: 15px;
+  }
+  @media all and (min-width: 322px) {
+    font-size: 13px;
   }
 `;
 
@@ -80,13 +129,22 @@ export const StoryService = styled.h3`
   @media all and (max-width: 321px) {
     font-size: 10px;
   }
+  @media all and (min-width: 768px) {
+    font-size: 15px;
+  }
+  @media all and (min-width: 322px) {
+    font-size: 13px;
+  }
 `;
 
 
 export const ProductWrapper = styled.div`
-width: 189px;
-height: 92px;
-margin:auto;
+  width: 189px;
+  height: 92px;
+  margin: auto;
+  @media all and (min-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const ProductTitle = styled.h1`
@@ -96,6 +154,17 @@ export const ProductTitle = styled.h1`
   @media all and (max-width: 321px) {
     font-size: 16px;
   }
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
+  @media all and (min-width: 322px) {
+    font-size: 19px;
+  }
+`;
+
+export const ProductColorLink = styled(Link)`
+  text-decoration: none;
+  color: white;
 `;
 export const ProductColor = styled.h3`
   font-weight: normal;
@@ -104,8 +173,18 @@ export const ProductColor = styled.h3`
   @media all and (max-width: 321px) {
     font-size: 10px;
   }
+  @media all and (min-width: 768px) {
+    font-size: 15px;
+  }
+  @media all and (min-width: 322px) {
+    font-size: 13px;
+  }
 `;
 
+export const ProductViewLink = styled(Link)`
+  text-decoration: none;
+  color: white;
+`;
 export const ProductView = styled.h3`
   font-weight: normal;
   font-size: 19px;
@@ -113,14 +192,26 @@ export const ProductView = styled.h3`
   @media all and (max-width: 321px) {
     font-size: 10px;
   }
+  @media all and (min-width: 768px) {
+    font-size: 15px;
+  }
+  @media all and (min-width: 322px) {
+    font-size: 13px;
+  }
 `;
 
 export const ContactWrapper = styled.div`
   width: 189px;
   height: 92px;
   margin: auto;
+  @media all and (min-width: 768px) {
+    width: 100%;
+  }
 `;
-
+export const ContactLink = styled(Link)`
+text-decoration:none;
+color:white;
+`
 export const Contact = styled.h1`
   font-weight: 500;
   font-size: 25px;
@@ -128,6 +219,17 @@ export const Contact = styled.h1`
   @media all and (max-width: 321px) {
     font-size: 16px;
   }
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
+  @media all and (min-width: 322px) {
+    font-size: 19px;
+  }
+`;
+
+export const FaqLink = styled(Link)`
+  text-decoration: none;
+  color: white;
 `;
 export const Faq = styled.h1`
   font-weight: 500;
@@ -137,14 +239,23 @@ export const Faq = styled.h1`
   @media all and (max-width: 321px) {
     font-size: 16px;
   }
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
+  @media all and (min-width: 322px) {
+    font-size: 19px;
+  }
 `;
 
 
 export const LocationWrapper = styled.div`
-width: 90vw;
-height: 117px;
-margin-bottom: 40px;
-margin: auto;
+  width: 90vw;
+  height: 117px;
+  margin-bottom: 40px;
+  margin: auto;
+  @media all and (min-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const LocationTitle = styled.h1`
@@ -153,6 +264,12 @@ export const LocationTitle = styled.h1`
   line-height: 29px;
   @media all and (max-width: 321px) {
     font-size: 16px;
+  }
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
+  @media all and (min-width: 322px) {
+    font-size: 19px;
   }
 `;
 export const Location = styled.h3`
@@ -163,6 +280,12 @@ export const Location = styled.h3`
   @media all and (max-width: 321px) {
     font-size: 16px;
   }
+  @media all and (min-width: 768px) {
+    font-size: 15px;
+  }
+  @media all and (min-width: 322px) {
+    font-size: 15px;
+  }
 `;
 
 export const PhoneNumber = styled.h3`
@@ -171,6 +294,12 @@ export const PhoneNumber = styled.h3`
   font-weight: normal;
   @media all and (max-width: 321px) {
     font-size: 16px;
+  }
+  @media all and (min-width: 768px) {
+    font-size: 15px;
+  }
+  @media all and (min-width: 322px) {
+    font-size: 15px;
   }
 `;
 
@@ -181,38 +310,66 @@ export const EmailDetails = styled.h3`
   @media all and (max-width: 321px) {
     font-size: 16px;
   }
+  @media all and (min-width: 768px) {
+    font-size: 15px;
+  }
+  @media all and (min-width: 322px) {
+    font-size: 15px;
+  }
 `;
 
+export const MoreWrapper = styled.div`
+display:none;
+
+@media all and (max-width: 480px){
+  display:block;
+}
+`;
+export const MoreButton = styled.div`
+
+pointer:cursor;
+width: 50px;
+height:50px;
+margin:auto;
+`;
+export const MoreText = styled.div``;
+export const MoreImg = styled.img``;
 export const LinkWrapper = styled.div`
   width: 91%;
-  height: 20px;
+  height: 35px;
   margin: auto;
   background: #272727;
 `;
 export const LinkItems = styled.div`
   display: flex;
-  justify-content:center;
-  margin-top:10px;
-  
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom:5px;
+  overflow: hidden;
 `;
-export const LinkItem1 = styled.div`
+export const LinkItem1 = styled(Link)`
   text-align: left;
   width: 30vw;
-  
+  text-decoration: none;
+  color:white;
 `;
-export const LinkItem2 = styled.div`
+export const LinkItem2 = styled(Link)`
   text-align: center;
   width: 40vw;
   border-left: 2px solid white;
   border-right: 2px solid white;
   padding-left: 12px;
   padding-right: 12px;
+  text-decoration: none;
+  color: white;
 `;
-export const LinkItem3 = styled.div`
+export const LinkItem3 = styled(Link)`
+  text-decoration: none;
   text-align: right;
   width: 30vw;
+  color: white;
 `;
-export const LinkItem = styled.div``;
+export const LinkItem = styled(Link)``;
 export const SiteItem = styled.h3`
   font-size: 15px;
   line-height: 20px;
@@ -222,6 +379,12 @@ export const SiteItem = styled.h3`
   }
   @media all and (max-width: 373px) {
     font-size: 10px;
+  }
+  @media all and (min-width: 768px) {
+    font-size: 13px;
+  }
+  @media all and (min-width: 413px) {
+    font-size: 12px;
   }
 `;
 export const PolicyItem = styled.h3`
@@ -235,6 +398,12 @@ export const PolicyItem = styled.h3`
   @media all and (max-width: 373px) {
     font-size: 9px;
   }
+  @media all and (min-width: 768px) {
+    font-size: 13px;
+  }
+  @media all and (min-width: 413px) {
+    font-size: 12px;
+  }
 `;
 export const FaqItem = styled.h3`
   font-size: 15px;
@@ -245,5 +414,11 @@ export const FaqItem = styled.h3`
   }
   @media all and (max-width: 373px) {
     font-size: 10px;
+  }
+  @media all and (min-width: 768px) {
+    font-size: 13px;
+  }
+  @media all and (min-width: 413px) {
+    font-size: 12px;
   }
 `;

@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import ArrowUpImg from '../../assets/images/ArrowUp.png';
-import ArrowDownImg from '../../assets/images/ArrowDown2.png';
+import React, { useEffect, useState } from 'react';
 import {
   FaqWrapper,
   FaqContainer,
@@ -14,16 +12,34 @@ import {
   FaqQuestion,
   Question,
   Button,
-  ArrowUp,
-  ArrowDown,
   FaqAnswer,
+  WrapButton,
 } from "./FaqStyle";
-const FaqSection = () => {
+const FaqSection = ({faqData}) => {
+  const [activeQuestion, setActiveQuestion] = useState([]);
 
-  const [clickState , setclickState] = useState(false);
-
-  const openClick = () => {
-    setclickState(!clickState)
+  useEffect(()=>{
+    
+    let alldata = faqData.map((data, index)=>{
+      
+        if(index === 0){
+            return {id:index, active:true}
+        }else {
+          return {id:index, active:false}
+        }
+    });
+    setActiveQuestion(alldata);
+  },[faqData])
+  const openClick = (e) => {
+    const value = parseInt(e.target.id);
+    let updateData = activeQuestion.map((data, index)=>{
+      if(data.id === value){
+        return {id:value, active:true}
+      }else {
+        return {id:data.id, active:false}
+      }
+    })
+    setActiveQuestion(updateData);
   }
     return (
       <FaqWrapper>
@@ -37,57 +53,29 @@ const FaqSection = () => {
             <FaqText>Then we mignt just have the answer for you ...</FaqText>
 
             <FaqDetailsWrapper>
-              <FaqDetails>
-                <FaqQuestion>
-                  <Question>What range of products do you have?</Question>
-                  <Button onClick={openClick}>
-                    {clickState ? (
-                      <ArrowUp src={ArrowUpImg} />
-                    ) : (
-                      <ArrowDown src={ArrowDownImg} />
-                    )}
-                  </Button>
-                </FaqQuestion>
-                <FaqAnswer>
-                  We have decorative (textured) paints for interior and exterior
-                  as well as normal paints for interior and exterior, primers
-                  and waterproofing.
-                </FaqAnswer>
-              </FaqDetails>
-              <FaqDetails>
-                <FaqQuestion>
-                  <Question>What range of products do you have?</Question>
-                  <Button onClick={openClick}>
-                    {clickState ? (
-                      <ArrowUp src={ArrowUpImg} />
-                    ) : (
-                      <ArrowDown src={ArrowDownImg} />
-                    )}
-                  </Button>
-                </FaqQuestion>
-                <FaqAnswer>
-                  We have decorative (textured) paints for interior and exterior
-                  as well as normal paints for interior and exterior, primers
-                  and waterproofing.
-                </FaqAnswer>
-              </FaqDetails>
-              <FaqDetails>
-                <FaqQuestion>
-                  <Question>What range of products do you have?</Question>
-                  <Button onClick={openClick}>
-                    {clickState ? (
-                      <ArrowUp src={ArrowUpImg} />
-                    ) : (
-                      <ArrowDown src={ArrowDownImg} />
-                    )}
-                  </Button>
-                </FaqQuestion>
-                <FaqAnswer>
-                  We have decorative (textured) paints for interior and exterior
-                  as well as normal paints for interior and exterior, primers
-                  and waterproofing.
-                </FaqAnswer>
-              </FaqDetails>
+            {faqData.map((data, index)=>{
+              return (
+                <FaqDetails key={index}>
+                  <FaqQuestion>
+                    <Question >{data.question}</Question>
+                    <Button onClick={openClick}>
+                      <WrapButton
+                        id={index}
+                        checkId={index}
+                        activeStatus={activeQuestion}
+                      >
+                       
+                      </WrapButton>
+                    </Button>
+                  </FaqQuestion>
+                  <FaqAnswer checkId={index} activeStatus={activeQuestion}>
+                    {data.answer}
+                  </FaqAnswer>
+                </FaqDetails>
+              );
+            })}
+              
+              
             </FaqDetailsWrapper>
           </FaqContent>
         </FaqContainer>

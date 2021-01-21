@@ -11,13 +11,17 @@ import {
   PolicyDetail,
   PolicyDetailTitle,
   PolicyParagraph,
+  PolicyHeadSection
 } from "./policyStyle";
 const PolicySection = () => {
     return (
       <PolicyWrapper>
         <PolicyContainer>
-          <PolicyTitle>Privacy Policy</PolicyTitle>
+        <PolicyHeadSection>
+         <PolicyTitle>Privacy Policy</PolicyTitle>
           <DateUpdated>Last Updated 10-Feb-2020</DateUpdated>
+        </PolicyHeadSection>
+         
           <PolicyIntro>
             <PolicyText>
               Protection of your personal data is important to us. In this

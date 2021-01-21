@@ -1,5 +1,7 @@
 import React from 'react'
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
+import ArrowDown from '../../assets/images/ArrowDown.png';
+import ArrowUp from '../../assets/images/ArrowUp.png';
 import {
   FooterWrapper,
   FooterContainer,
@@ -33,28 +35,38 @@ import {
   LinkItem1,
   LinkItem2,
   LinkItem3,
+  SocialIconWrapper,
+  ContactLink,
+  FaqLink,
+  ProductColorLink,
+  ProductViewLink,
+  MoreWrapper,
+  MoreButton,
+  MoreText,
+  MoreImg,
 } from "./footerStyle";
-const Footer = () => {
+const Footer = ({detailActive, clickMore}) => {
     return (
       <FooterWrapper>
         <FooterContainer>
           <SocialsWrapper>
             <SocialTitle>FOLLOW US</SocialTitle>
-
-            <Socials>
-              <Icon>
-                <FaFacebook />
-              </Icon>
-              <Icon>
-                <FaTwitter />
-              </Icon>
-              <Icon>
-                <FaInstagram />
-              </Icon>
-            </Socials>
+            <SocialIconWrapper>
+              <Socials>
+                <Icon>
+                  <FaFacebook />
+                </Icon>
+                <Icon>
+                  <FaTwitter />
+                </Icon>
+                <Icon>
+                  <FaInstagram />
+                </Icon>
+              </Socials>
+            </SocialIconWrapper>
           </SocialsWrapper>
           <Line />
-          <ContentWrapper>
+          <ContentWrapper detailCheck={detailActive}>
             <StoryWrapper>
               <StoryTitle>OUR STORY</StoryTitle>
               <StoryAbout>ABOUT US</StoryAbout>
@@ -63,13 +75,23 @@ const Footer = () => {
 
             <ProductWrapper>
               <ProductTitle>PRODUCT</ProductTitle>
-              <ProductColor>VIEW BY COLOR</ProductColor>
-              <ProductView>VIEW BY PRODUCT</ProductView>
+              <ProductColorLink>
+                <ProductColor>VIEW BY COLOR</ProductColor>
+              </ProductColorLink>
+
+              <ProductViewLink to="products">
+                <ProductView>VIEW BY PRODUCT</ProductView>
+              </ProductViewLink>
             </ProductWrapper>
 
             <ContactWrapper>
-              <Contact>CONTACT US</Contact>
-              <Faq>FAQ</Faq>
+              <ContactLink to="contact">
+                <Contact>CONTACT US</Contact>
+              </ContactLink>
+
+              <FaqLink to="/faq">
+                <Faq>FAQ</Faq>
+              </FaqLink>
             </ContactWrapper>
 
             <LocationWrapper>
@@ -82,12 +104,30 @@ const Footer = () => {
             </LocationWrapper>
           </ContentWrapper>
 
+          <MoreWrapper>
+            <MoreButton onClick={clickMore}>
+              <MoreText>
+              {detailActive? 'More' : 'Less'}
+              </MoreText>
+              {detailActive ? (
+                <MoreImg src={ArrowDown} />
+              ) : (
+                <MoreImg src={ArrowUp} />
+              )}
+            </MoreButton>
+          </MoreWrapper>
           <Line />
           <LinkWrapper>
             <LinkItems>
-              <LinkItem1> <SiteItem>SITEMAP</SiteItem></LinkItem1>
-              <LinkItem2><PolicyItem>PRIVACY POLICY</PolicyItem></LinkItem2>
-              <LinkItem3><FaqItem>FAQ</FaqItem></LinkItem3>
+              <LinkItem1>
+                <SiteItem>SITEMAP</SiteItem>
+              </LinkItem1>
+              <LinkItem2 to='/policy'>
+                <PolicyItem>PRIVACY POLICY</PolicyItem>
+              </LinkItem2>
+              <LinkItem3 to ='/faq'>
+                <FaqItem>FAQ</FaqItem>
+              </LinkItem3>
             </LinkItems>
           </LinkWrapper>
         </FooterContainer>

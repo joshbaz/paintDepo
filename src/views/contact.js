@@ -9,6 +9,7 @@ const Contact = () => {
 
     const [submitSuccess, setSubmitSuccess] = useState(false);
     const [OpenMobileMenu, setMobileMenu] = useState(false);
+    const [CloseFooterDetail, setFooterDetail] = useState(false);
 
     function submitForm() {
         setSubmitSuccess(true)
@@ -16,6 +17,9 @@ const Contact = () => {
      const toggle = () => {
        setMobileMenu(!OpenMobileMenu);
      };
+      const moreClick = () => {
+        setFooterDetail(!CloseFooterDetail);
+      };
     return (
       <>
         <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
@@ -25,7 +29,7 @@ const Contact = () => {
         ) : (
           <Success />
         )}
-        <Footer />
+        <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
       </>
     );
 }

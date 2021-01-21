@@ -6,16 +6,19 @@ import Product from '../components/product'
 
 const Products = () => {
     const [OpenMobileMenu, setMobileMenu] = useState(false);
-
+    const [CloseFooterDetail, setFooterDetail] = useState(false);
     const toggle = () => {
       setMobileMenu(!OpenMobileMenu);
     };
+     const moreClick = () => {
+       setFooterDetail(!CloseFooterDetail);
+     };
     return (
       <>
         <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
         <Navigation toggle={toggle} />
         <Product />
-        <Footer />
+        <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
       </>
     );
 }

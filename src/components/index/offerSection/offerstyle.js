@@ -8,15 +8,16 @@ export const OfferWrapper = styled.section`
 `;
 
 export const OfferContainer = styled.div`
-  width: 100%;
+  width: 90%;
   height: 100%;
   text-align: center;
   background-color: #fcfcfc;
   overflow: hidden;
+  margin:auto;
 `;
 
 export const OfferTitle = styled.h1`
-font-weight: 300;
+font-weight: 400;
 font-size: 29px;
 text-align: center;
 margin-bottom: 14px;
@@ -30,25 +31,34 @@ export const OfferText = styled.p`
   text-align: justify;
   padding-left: 25px;
   padding-right: 25px;
-    margin-bottom: 72px;
+  margin-bottom: 72px;
+  
 `;
 
 export const OfferButtonWrapper = styled.div`
-width: 100%;
-padding-bottom: 86px;
+  width: 100%;
+  padding-bottom: 86px;
+  
 `;
 
 export const OfferButton = styled(Link)`
-text-decoration: none;
-border: 3px solid black;
-outline: none;
-border-radius: 5px;
-height: 65px;
-width: 295.45px;
-font-size: 20px;
-line-height: 23px;
-padding-left: 20px;
-padding-right:20px;
-padding-top:15px;
-padding-bottom:15px;
+  text-decoration: none;
+  border: 3px solid black;
+  outline: none;
+  border-radius: 5px;
+  height: 65px;
+  width: 295.45px;
+  font-size: 20px;
+  line-height: 23px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  @media all and (max-width: 248px) {
+    width: 50%;
+    height: 50%;
+    font-size: 10px;
+    
+  }
 `;

@@ -5,17 +5,27 @@ width: 100vw;
 height: 100%;
 `;
 
-export const  PolicyContainer = styled.div`
-width: 80%;
-height: 100%;
+export const PolicyContainer = styled.div`
+  width: 80%;
+  height: 100%;
+  
+  
 `;
 
+export const PolicyHeadSection = styled.div`
+  position: relative;
+  width:100%;
+  height: 252px;
+  top: 152px;
+`;
  export const PolicyTitle = styled.h1`
  font-weight: 300;
 font-size: 40px;
 line-height: 47px;
 position: relative;
 left: 35px;
+
+
  `;
 
 export const DateUpdated = styled.p`

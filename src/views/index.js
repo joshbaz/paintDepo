@@ -11,21 +11,25 @@ import {SliderInfo} from '../data/heroSlider'
 import GlobalStyle from '../globalStyles'
 const Home = () => {
     const [OpenMobileMenu, setMobileMenu] = useState(false);
-
+    const [CloseFooterDetail, setFooterDetail] = useState(false);
     const toggle = ()=> {
         setMobileMenu(!OpenMobileMenu)
     }
+
+    const moreClick = ()=> {
+      setFooterDetail(!CloseFooterDetail);
+    }
     return (
       <>
-      <GlobalStyle/>
+        <GlobalStyle />
         <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
         <Navigation toggle={toggle} />
         <HeroSection slides={SliderInfo} />
-        <ViewProduct />
+        <ViewProduct id="viewProducts"/>
         <OfferSection />
         <ChooseSection />
         <Product />
-        <Footer />
+        <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
       </>
     );
 }

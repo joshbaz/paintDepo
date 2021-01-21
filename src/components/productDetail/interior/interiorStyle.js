@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const InteriorWrapper = styled.section`
@@ -50,13 +51,17 @@ export const BackButtonWrapper = styled.div`
   margin-top: 30px;
 `;
 
-export const Button = styled.button`
+export const Button = styled(Link)`
+text-decoration:none;
+color: black;
+
   outline: none;
   border: none;
   background-color: #e6e3de;
  display: flex;
  margin: auto;
   position:relative;
+  justify-content:center;
   align-items: center;
 `;
 
@@ -71,22 +76,40 @@ export const ImageWrapper = styled.div`
   width: 100%;
   height: 376px;
   position: relative;
-  display: none;
+  @media all and (min-width: 768px) {
+   display:none;
+  }
 `;
 export const Image = styled.img`
-  width: 100vw;
+  width: 100%;
   height: 376px;
-  display: none;
+ 
+
+  @media all and (min-width: 768px) {
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    -o-object-fit: cover;
+    height: 100%;
+  }
 `;
-export const ButtonDown = styled.button`
+
+export const ButtonDownWrapper = styled.div`
+  position: absolute;
+  top: 130;
+  left: 50vw;
+  right: 0;
+  bottom: 20px;
+  
+`;
+export const ButtonDown = styled(Link)`
 width: 36px;
 height: 36px;
 background: transparent;
 outline: none;
 border: none;
-position: absolute;
-left: 187px;
-top: 320px;
 `;
 export const ButtonArrow = styled.img`
   width: 15px;
@@ -115,10 +138,10 @@ export const CategoryType = styled.button`
   font-weight: 500;
   font-size: 25px;
   line-height: 30px;
-  &.active {
+  &:active {
     border: 2px solid black;
   }
-  &.hover {
+  &:hover {
     border: 2px solid black;
   }
 `;
@@ -128,6 +151,11 @@ export const CategoryDetails1 = styled.div`
   height: 100%;
   text-align: center;
   margin-top: 20px;
+  display: ${({activeState})=>(activeState ? 'block': 'none')};
+`;
+
+export const CategoryDetailWrapper = styled.div`
+
 `;
 
 export const PaintImage = styled.img`
@@ -150,4 +178,5 @@ export const CategoryDetails2 = styled.div`
   background-color: white;
   text-align: center;
   margin-top: 20px;
+  display: ${({ activeState }) => (activeState ? "block" : "none")};
 `;

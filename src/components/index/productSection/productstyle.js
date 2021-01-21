@@ -15,11 +15,13 @@ overflow:hidden;
 `;
 
 export const ProductTitle = styled.h1`
-font-size: clamp(2rem, 2.5rem, 3rem);
-font-weight: 300;
-line-height: 43.36px;
-margin-bottom: 19px;
-
+  font-size: 29px;
+  font-weight: 300;
+  line-height: 43.36px;
+  margin-bottom: 19px;
+  @media all and (min-width: 768px) {
+    font-size: 29px;
+  }
 `;
 
 export const ProductText = styled.p`
@@ -35,6 +37,12 @@ export const ProductText = styled.p`
     width: 100%;
     margin: auto;
     text-align: center;
+    font-size: 28px;
+  }
+
+  @media all and (min-width: 500px) {
+    width: 90%;
+    font-size: 23px;
   }
 `;
 
@@ -49,9 +57,8 @@ export const ProductContent = styled.ul`
   margin:auto;
   margin-top: 30px;
   grid-gap: 2rem;
-  @media all and (min-width: 768px) {
-  }
-  @media all and (max-width: 768px) {
+  
+  @media all and (max-width: 767px) {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;

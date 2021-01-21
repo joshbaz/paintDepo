@@ -16,9 +16,24 @@ align-items:center;
 background-color: #FCFCFC;
 padding: 126px 0;
 overflow:hidden;
+
+@media all and (min-width: 768px){
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:0px;
+}
 `;
 export const ObjectImageWrapper = styles.div`
 display:none;
+@media all and (min-width: 1018){
+    left:110px;
+}
+@media all and (min-width: 768px){
+    display:block;
+    position:relative;
+    text-align:center;
+   left:10px;
+}
 `;
 
 export const ObjectImage = styles.img`
@@ -28,6 +43,13 @@ export const ObjectImage = styles.img`
 export const ProductWrapper = styles.div`
 position: relative;
 text-align:center;
+@media all and (min-width: 1018) {
+    right:110px;
+}
+@media all and (min-width: 768px){
+    display:block;
+  right:5px;
+}
 `;
 
 export const ImageWrapper = styles.div`

@@ -8,9 +8,7 @@ import {
   ProductText,
   ProductContent,
   ProductItem,
-  ProductItem1,
   TextWrapper,
-  TextWrapper1,
   ItemText,
   ItemImage,
 } from "./productstyle";
@@ -24,14 +22,14 @@ const Product = () => {
             Paints family
           </ProductText>
           <ProductContent>
-            <ProductItem to="/products/interior">
+            <ProductItem to="/interior">
             <ItemImage src={Interior} />
               <TextWrapper>
                 <ItemText>INTERIOR PAINTS & PRIMERS</ItemText>
               </TextWrapper>
             </ProductItem>
 
-            <ProductItem to="/products/exterior">
+            <ProductItem to="/exterior">
             <ItemImage src={Exterior} />
               <TextWrapper>
                 <ItemText>EXTERIOR PAINTS & PRIMERS</ItemText>

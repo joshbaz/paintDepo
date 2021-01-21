@@ -25,23 +25,20 @@ const Product = () => {
 
           <ProductContentContainer>
             <ProductTitle>Paint Samples</ProductTitle>
-            <ProductText>
-              Find the perfect colors for your home.
-            </ProductText>
+            <ProductText>Find the perfect colors for your home.</ProductText>
             <ProductContent>
-              <ProductItem>
+              <ProductItem to="/interior">
+                <ItemImage src={Interior} />
                 <TextWrapper>
                   <ItemText>INTERIOR PAINTS & PRIMERS</ItemText>
                 </TextWrapper>
-
-                <ItemImage src={Interior} />
               </ProductItem>
 
-              <ProductItem>
+              <ProductItem to="/exterior">
+                <ItemImage src={Exterior} />
                 <TextWrapper>
                   <ItemText>EXTERIOR PAINTS & PRIMERS</ItemText>
                 </TextWrapper>
-                <ItemImage src={Exterior} />
               </ProductItem>
             </ProductContent>
           </ProductContentContainer>

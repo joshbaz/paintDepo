@@ -6,16 +6,19 @@ import PolicySection from '../components/policy'
 
 const Policy = () => {
     const [OpenMobileMenu, setMobileMenu] = useState(false);
-
+    const [CloseFooterDetail, setFooterDetail] = useState(false);
     const toggle = () => {
       setMobileMenu(!OpenMobileMenu);
     };
+     const moreClick = () => {
+       setFooterDetail(!CloseFooterDetail);
+     };
     return (
       <>
         <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
         <Navigation toggle={toggle} />
         <PolicySection />
-        <Footer />
+        <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
       </>
     );
 }

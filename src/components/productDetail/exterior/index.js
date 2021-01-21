@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaArrowLeft } from "react-icons/fa";
 import InteriorBg from "../../../assets/images/InteriorImage.png";
 import ArrowDown from "../../../assets/images/ArrowDown.png";
-import Silkomat from "../../../assets/images/silkomat.svg";
-import Velvetto from "../../../assets/images/Velvetto.svg";
+
 import {
   ExteriorWrapper,
   ExteriorContainer,
@@ -26,8 +25,30 @@ import {
   HeadContainer,
   Image,
   ButtonArrow,
+  ButtonDownWrapper,
+  CategoryDetailWrapper,
 } from "./exterior";
-const ExteriorSection = () => {
+const ExteriorSection = ({ Normal, Decorative }) => {
+  const [normalActive, setNormalActive] = useState(true);
+  const [decorativeActive, setDecorativeActive] = useState(false);
+
+  const normalClicked = () => {
+    if (normalActive) {
+      return;
+    } else {
+      setNormalActive(!normalActive);
+      setDecorativeActive(!decorativeActive);
+    }
+  };
+
+  const decorativeClicked = () => {
+    if (decorativeActive) {
+      return;
+    } else {
+      setDecorativeActive(!decorativeActive);
+      setNormalActive(!normalActive);
+    }
+  };
   return (
     <ExteriorWrapper>
       <ExteriorContainer>
@@ -39,9 +60,9 @@ const ExteriorSection = () => {
               complex and beautiful.
             </Headp>
             <BackButtonWrapper>
-              <Button>
+              <Button to="/products">
                 <FaArrowLeft />
-                <BtnText>BACK PRODUCTS</BtnText>{" "}
+                <BtnText>BACK PRODUCTS</BtnText>
               </Button>
             </BackButtonWrapper>
           </HeadContainer>
@@ -49,27 +70,41 @@ const ExteriorSection = () => {
 
         <ImageWrapper>
           <Image src={InteriorBg} />
-          <ButtonDown>
-            <ButtonArrow src={ArrowDown} />
-          </ButtonDown>
+          <ButtonDownWrapper>
+            <ButtonDown>
+              <ButtonArrow src={ArrowDown} />
+            </ButtonDown>
+          </ButtonDownWrapper>
         </ImageWrapper>
 
         <ExteriorPaintsWrapper>
           <CategoryWrapper>
-            <CategoryType>Normal</CategoryType>
-            <CategoryType>Decorative</CategoryType>
+            <CategoryType onClick={normalClicked}>Normal</CategoryType>
+            <CategoryType onClick={decorativeClicked}>Decorative</CategoryType>
           </CategoryWrapper>
 
-          <CategoryDetails1>
-            <PaintImage src={Silkomat} />
-            <PaintTitle>Silkomat</PaintTitle>
-            <PaintType>silk Finish</PaintType>
+          <CategoryDetails1 activeState={normalActive}>
+            {Normal.map((product, index) => {
+              return (
+                <CategoryDetailWrapper key={index}>
+                  <PaintImage src={product.image} />
+                  <PaintTitle>{product.title}</PaintTitle>
+                  <PaintType>{product.type}</PaintType>
+                </CategoryDetailWrapper>
+              );
+            })}
           </CategoryDetails1>
 
-          <CategoryDetails2>
-            <PaintImage src={Velvetto} />
-            <PaintTitle>Velvetto</PaintTitle>
-            <PaintType>Smooth Fine Texture</PaintType>
+          <CategoryDetails2 activeState={decorativeActive}>
+            {Decorative.map((product, index) => {
+              return (
+                <CategoryDetailWrapper key={index}>
+                  <PaintImage src={product.image} />
+                  <PaintTitle>{product.title}</PaintTitle>
+                  <PaintType>{product.type}</PaintType>
+                </CategoryDetailWrapper>
+              );
+            })}
           </CategoryDetails2>
         </ExteriorPaintsWrapper>
       </ExteriorContainer>
