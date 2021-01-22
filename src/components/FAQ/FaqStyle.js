@@ -14,7 +14,11 @@ height: 100%;
 export const HeadWrapper = styled.div`
   height: 252px;
   width: 100%;
-  background: rgba(165, 26, 93, 0.3);
+  background: rgba(228, 6, 19, 0.3);
+
+  @media all and (min-width: 768px) {
+    height: 400px;
+  }
 `;
 
 export const HeadText = styled.h1`
@@ -24,11 +28,25 @@ line-hight: 47px;
 text-align: center;
 position: relative;
 top: 117px;
+
+@media all and (min-width: 768px){
+  position:relative;
+  text-align: left;
+  left: 5vw;
+}
 `;
 
 export const FaqContent = styled.div`
   width: 100%;
   margin-top: 30px;
+  background-color:#fcfcfc;
+  @media all and (min-width: 768px){
+    width: 90%;
+    margin: auto;
+    position:relative;
+    top:-180px;
+    min-height: 600px;
+  }
 `;
 
 export const FaqTitle = styled.h3`
