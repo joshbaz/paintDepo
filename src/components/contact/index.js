@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import {
   ContactWrapper,
   ContactContainer,
@@ -21,20 +21,26 @@ import {
   FormButton,
   FormTextArea,
   FormError,
+  ContactDetailsContent,
+  FormContent,
 } from "./contactStyle";
 
-import FormDetails from './form';
-import validate from '../../validation'
-const ContactSection = ({submitForm}) => {
-  const {handleChange,values,handleSubmit,errors}= FormDetails(submitForm,validate);
-    return (
-      <ContactWrapper>
-        <ContactContainer>
-          <HeadWrapper>
-            <HeadText>Contact Us</HeadText>
-          </HeadWrapper>
+import FormDetails from "./form";
+import validate from "../../validation";
+const ContactSection = ({ submitForm }) => {
+  const { handleChange, values, handleSubmit, errors } = FormDetails(
+    submitForm,
+    validate
+  );
+  return (
+    <ContactWrapper>
+      <ContactContainer>
+        <HeadWrapper>
+          <HeadText>Contact Us</HeadText>
+        </HeadWrapper>
 
-          <ContactContent>
+        <ContactContent>
+          <ContactDetailsContent>
             <CallWrapper>
               <CallTitle>CALL US</CallTitle>
               <CallText>For Customer Service & Product Advice</CallText>
@@ -45,21 +51,25 @@ const ContactSection = ({submitForm}) => {
               <EmailTitle>WRITE TO US</EmailTitle>
               <EmailDetails>info@thepaintdepo.co.ke</EmailDetails>
             </EmailWrapper>
+          </ContactDetailsContent>
 
-            <FormWrapper>
-              <Form onSubmit={handleSubmit}>
-                <FormH1>GET IN TOUCH</FormH1>
-                <FormP>SEND US A MESSAGE</FormP>
+          <FormWrapper>
+            <Form onSubmit={handleSubmit}>
+              <FormH1>GET IN TOUCH</FormH1>
+              <FormP>SEND US A MESSAGE</FormP>
+              <FormContent>
                 <FormLabel htmlFor="unames">NAME*</FormLabel>
                 <FormInput
                   id="unames"
                   type="text"
                   name="unames"
-                  placeholder="Enter your username"
                   value={values.unames}
                   onChange={handleChange}
                 />
-                {errors.unames && <FormError>{errors.unames}</FormError>}
+              </FormContent>
+              {errors.unames && <FormError>{errors.unames}</FormError>}
+
+              <FormContent>
                 <FormLabel htmlFor="email">EMAIL ADDRESS*</FormLabel>
                 <FormInput
                   type="email"
@@ -67,7 +77,10 @@ const ContactSection = ({submitForm}) => {
                   value={values.email}
                   onChange={handleChange}
                 />
-                {errors.email && <FormError>{errors.email}</FormError>}
+              </FormContent>
+              {errors.email && <FormError>{errors.email}</FormError>}
+
+              <FormContent>
                 <FormLabel htmlFor="phoneNumber">PHONE NUMBER*</FormLabel>
                 <FormInput
                   type="text"
@@ -75,9 +88,12 @@ const ContactSection = ({submitForm}) => {
                   value={values.phoneNumber}
                   onChange={handleChange}
                 />
-                {errors.phoneNumber && (
-                  <FormError>{errors.phoneNumber}</FormError>
-                )}
+              </FormContent>
+              {errors.phoneNumber && (
+                <FormError>{errors.phoneNumber}</FormError>
+              )}
+
+              <FormContent>
                 <FormLabel htmlFor="location">LOCATION*</FormLabel>
                 <FormInput
                   type="text"
@@ -85,21 +101,28 @@ const ContactSection = ({submitForm}) => {
                   value={values.location}
                   onChange={handleChange}
                 />
-                {errors.location && <FormError>{errors.location}</FormError>}
+              </FormContent>
+              {errors.location && <FormError>{errors.location}</FormError>}
+
+              <FormContent>
                 <FormLabel htmlFor="message">MESSAGE*</FormLabel>
                 <FormTextArea
                   name="message"
+                  placeholder="REASON FOR CONTACTING US"
+                  
                   value={values.message}
                   onChange={handleChange}
                 />
-                {errors.message && <FormError>{errors.message}</FormError>}
-                <FormButton type="submit">SEND</FormButton>
-              </Form>
-            </FormWrapper>
-          </ContactContent>
-        </ContactContainer>
-      </ContactWrapper>
-    );
-}
+              </FormContent>
+              {errors.message && <FormError>{errors.message}</FormError>}
 
-export default ContactSection
+              <FormButton type="submit">SEND</FormButton>
+            </Form>
+          </FormWrapper>
+        </ContactContent>
+      </ContactContainer>
+    </ContactWrapper>
+  );
+};
+
+export default ContactSection;
