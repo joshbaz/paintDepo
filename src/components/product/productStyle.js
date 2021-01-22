@@ -8,13 +8,14 @@ height: 100%;
 
 `;
 export const ProductContainer = styled.div`
-width:100vw;
+width:100%;
 height: 100%;
+
+
 `;
 
 export const ProductHeadSection = styled.div`
-
-width: 100%;
+  width: 100%;
   background: rgba(50, 186, 0, 0.3);
   height: 252px;
 `;
@@ -26,12 +27,24 @@ export const ProductHeadTitle = styled.h1`
   text-align: center;
   position: relative;
   top: 152px;
+  @media all and (min-width: 768px){
+    top:110px;
+    text-align:left;
+left: 10vw;
+  }
 `;
 
 export const ProductContentContainer = styled.div`
   text-align: center;
   height: 100%;
   width: 100%;
+  @media all and (min-width: 768px){
+    background-color: #fcfcfc;
+    width: 80%;
+    margin:auto;
+    position:relative;
+    top: -130px;
+  }
 `;
 
 export const ProductTitle = styled.h1`

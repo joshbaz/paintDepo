@@ -91,11 +91,11 @@ export const ContentWrapper = styled.div`
     height: 322px;
     width: 90%;
     margin: auto;
-    margin-left: 190px;
+    margin-left: 170px;
     display: ${({ detailCheck }) => (detailCheck ? "none" : "grid")};
   }
 
-  @media all and (max-width: 480px) {
+  @media all and (max-width: 767px) {
     display: ${({ detailCheck }) => (detailCheck ? "none" : "block")};
   }
 `;
@@ -303,6 +303,7 @@ export const Location = styled.h3`
   }
   @media all and (min-width: 768px) {
     font-size: 15px;
+    margin-bottom:20px;
   }
   @media all and (min-width: 322px) {
     font-size: 15px;
@@ -340,15 +341,19 @@ export const EmailDetails = styled.h3`
 `;
 
 export const MoreWrapperWeb = styled.div`
-display:none;
-@media all and (min-width:768px){
-  display:block;
-}
-`
+  display: none;
+  @media all and (min-width: 768px) {
+    display: block;
+   
+    position:relative;
+   margin-top:20px;
+  }
+`;
 export const MoreWrapper = styled.div`
   display: none;
   @media all and (max-width: 767px) {
-  display: block;
+    display: block;
+    margin-top: 20px;
   }
   @media all and (max-width: 480px) {
     display: block;
@@ -368,6 +373,9 @@ export const LinkWrapper = styled.div`
   height: 35px;
   margin: auto;
   background: #272727;
+  @media all and (min-width:768px){
+    width: 41%;
+  }
 `;
 export const LinkItems = styled.div`
   display: flex;
@@ -380,7 +388,10 @@ export const LinkItem1 = styled(Link)`
   text-align: left;
   width: 30vw;
   text-decoration: none;
-  color:white;
+  color: white;
+  @media all and (min-width: 768px) {
+    text-align: center;
+  }
 `;
 export const LinkItem2 = styled(Link)`
   text-align: center;
@@ -391,12 +402,18 @@ export const LinkItem2 = styled(Link)`
   padding-right: 12px;
   text-decoration: none;
   color: white;
+  @media all and (min-width: 768px) {
+    text-align: center;
+  }
 `;
 export const LinkItem3 = styled(Link)`
   text-decoration: none;
   text-align: right;
   width: 30vw;
   color: white;
+  @media all and (min-width: 768px) {
+    text-align: center;
+  }
 `;
 export const LinkItem = styled(Link)``;
 export const SiteItem = styled.h3`
