@@ -27,6 +27,7 @@ import {
   ButtonArrow,
   ButtonDownWrapper,
   CategoryDetailWrapper,
+  HeadContentWrapper,
 } from "./interiorStyle";
 const InteriorSection = ({Normal, Decorative}) => {
   const [normalActive, setNormalActive] = useState(true);
@@ -53,30 +54,33 @@ const InteriorSection = ({Normal, Decorative}) => {
     return (
       <InteriorWrapper>
         <InteriorContainer>
-          <HeadWrapper>
-            <HeadContainer>
-              <TextHead>Interior Paints & Premiers</TextHead>
-              <Headp>
-                From warm taupes to a soft beige with a hint of purple, these
-                are complex and beautiful.
-              </Headp>
-              <BackButtonWrapper>
-                <Button to="/products">
-                  <FaArrowLeft />
-                  <BtnText>BACK PRODUCTS</BtnText>
-                </Button>
-              </BackButtonWrapper>
-            </HeadContainer>
-          </HeadWrapper>
+          <HeadContentWrapper>
+            <HeadWrapper>
+              <HeadContainer>
+                <TextHead>Interior Paints & Premiers</TextHead>
+                <Headp>
+                  From warm taupes to a soft beige with a hint of purple, these
+                  are complex and beautiful.
+                </Headp>
+                <BackButtonWrapper>
+                  <Button to="/products">
+                    <FaArrowLeft />
+                    <BtnText>BACK PRODUCTS</BtnText>
+                  </Button>
+                </BackButtonWrapper>
+              </HeadContainer>
+            </HeadWrapper>
 
-          <ImageWrapper>
-            <Image src={InteriorBg} />
-            <ButtonDownWrapper>
-              <ButtonDown>
-                <ButtonArrow src={ArrowDown} />
-              </ButtonDown>
-            </ButtonDownWrapper>
-          </ImageWrapper>
+            <ImageWrapper>
+              <Image src={InteriorBg} />
+              <ButtonDownWrapper>
+                <ButtonDown>
+                  <ButtonArrow src={ArrowDown} />
+                </ButtonDown>
+              </ButtonDownWrapper>
+            </ImageWrapper>
+          </HeadContentWrapper>
+
 
           <InteriorPaintsWrapper>
             <CategoryWrapper>
