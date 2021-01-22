@@ -54,6 +54,13 @@ text-align:center;
 font-weight: 700;
 font-size: 30px;
 line-height: 34px;
+@media all and (min-width: 768px){
+  padding-top: 20px;
+  text-align: left;
+  margin-left:auto;
+  width: 95%;
+}
+
 `;
 
 export const FaqText = styled.p`
