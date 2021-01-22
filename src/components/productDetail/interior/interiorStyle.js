@@ -158,6 +158,7 @@ export const InteriorPaintsWrapper = styled.div`
   width: 100%;
   height: 100%;
   background-color: white;
+  
  @media all and (min-width:768px){
    width:90%;
    margin:auto;

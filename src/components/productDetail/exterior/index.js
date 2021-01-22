@@ -27,6 +27,7 @@ import {
   ButtonArrow,
   ButtonDownWrapper,
   CategoryDetailWrapper,
+  HeadContentWrapper,
 } from "./exterior";
 const ExteriorSection = ({ Normal, Decorative }) => {
   const [normalActive, setNormalActive] = useState(true);
@@ -52,30 +53,32 @@ const ExteriorSection = ({ Normal, Decorative }) => {
   return (
     <ExteriorWrapper>
       <ExteriorContainer>
-        <HeadWrapper>
-          <HeadContainer>
-            <TextHead>Exterior Paints & Premiers</TextHead>
-            <Headp>
-              From warm taupes to a soft beige with a hint of purple, these are
-              complex and beautiful.
-            </Headp>
-            <BackButtonWrapper>
-              <Button to="/products">
-                <FaArrowLeft />
-                <BtnText>BACK PRODUCTS</BtnText>
-              </Button>
-            </BackButtonWrapper>
-          </HeadContainer>
-        </HeadWrapper>
+        <HeadContentWrapper>
+          <HeadWrapper>
+            <HeadContainer>
+              <TextHead>Exterior Paints & Premiers</TextHead>
+              <Headp>
+                From warm taupes to a soft beige with a hint of purple, these
+                are complex and beautiful.
+              </Headp>
+              <BackButtonWrapper>
+                <Button to="/products">
+                  <FaArrowLeft />
+                  <BtnText>BACK PRODUCTS</BtnText>
+                </Button>
+              </BackButtonWrapper>
+            </HeadContainer>
+          </HeadWrapper>
 
-        <ImageWrapper>
-          <Image src={InteriorBg} />
-          <ButtonDownWrapper>
-            <ButtonDown>
-              <ButtonArrow src={ArrowDown} />
-            </ButtonDown>
-          </ButtonDownWrapper>
-        </ImageWrapper>
+          <ImageWrapper>
+            <Image src={InteriorBg} />
+            <ButtonDownWrapper>
+              <ButtonDown>
+                <ButtonArrow src={ArrowDown} />
+              </ButtonDown>
+            </ButtonDownWrapper>
+          </ImageWrapper>
+        </HeadContentWrapper>
 
         <ExteriorPaintsWrapper>
           <CategoryWrapper>
