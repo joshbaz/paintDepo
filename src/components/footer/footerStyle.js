@@ -73,9 +73,10 @@ export const Socials = styled.div`
     align-items:center;
   }
 `;
-export const Icon = styled.div`
+export const Icon = styled.a`
 list-style: none;
-
+text-decoration:none;
+color:#fcfcfc;
 `
 export const Line = styled.hr`
 width: 90vw;

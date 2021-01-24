@@ -54,13 +54,13 @@ const Footer = ({detailActive, clickMore}) => {
             <SocialTitle>FOLLOW US</SocialTitle>
             <SocialIconWrapper>
               <Socials>
-                <Icon>
+                <Icon href="https://facebook.com">
                   <FaFacebook />
                 </Icon>
-                <Icon>
+                <Icon href="https://twitter.com">
                   <FaTwitter />
                 </Icon>
-                <Icon>
+                <Icon href="https://instagram.com">
                   <FaInstagram />
                 </Icon>
               </Socials>
