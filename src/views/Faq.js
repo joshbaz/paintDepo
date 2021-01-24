@@ -7,6 +7,8 @@ import {QuestionData} from '../data/faqData';
 const Faq = () => {
     const [OpenMobileMenu, setMobileMenu] = useState(false);
     const [CloseFooterDetail, setFooterDetail] = useState(false);
+      // eslint-disable-next-line no-unused-vars
+      const [switchNavColor, setSwitchNavColor] = useState(false);
     const toggle = () => {
       setMobileMenu(!OpenMobileMenu);
     };
@@ -17,8 +19,13 @@ const Faq = () => {
     return (
       <>
         <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
-  
-        <Navigation toggle={toggle} />
+
+        <Navigation
+          toggle={toggle}
+          navColor="white"
+          navigationChange={switchNavColor}
+          changeColor="#662583"
+        />
         <FaqSection faqData={QuestionData} />
         <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
       </>

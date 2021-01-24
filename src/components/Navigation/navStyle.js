@@ -64,6 +64,6 @@ export const NavItem = styles.li`
 
 export const NavLink = styles(Link)`
 text-decoration: none;
-color: #fcfcfc;
+color: ${({navigationChange, changeColor, navColor})=>(navigationChange ? changeColor : navColor)};
 outline:none;
 `;

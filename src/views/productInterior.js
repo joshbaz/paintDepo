@@ -8,6 +8,8 @@ import {InteriorDataNormal, InteriorDataDecorative} from '../data/InteriorData';
 const ProductInterior = () => {
  const [OpenMobileMenu, setMobileMenu] = useState(false);
  const [CloseFooterDetail, setFooterDetail] = useState(false);
+   // eslint-disable-next-line no-unused-vars
+   const [switchNavColor, setSwitchNavColor] = useState(false);
   const toggle = () => {
     setMobileMenu(!OpenMobileMenu);
   };
@@ -17,7 +19,12 @@ const ProductInterior = () => {
     return (
       <>
         <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
-        <Navigation toggle={toggle} />
+        <Navigation
+          toggle={toggle}
+          navColor="#662583"
+          navigationChange={switchNavColor}
+          changeColor="#662583"
+        />
         <InteriorSection
           Normal={InteriorDataNormal}
           Decorative={InteriorDataDecorative}

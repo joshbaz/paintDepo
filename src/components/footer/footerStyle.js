@@ -93,6 +93,7 @@ export const ContentWrapper = styled.div`
     margin: auto;
     margin-left: 170px;
     display: ${({ detailCheck }) => (detailCheck ? "none" : "grid")};
+    height: 182px;
   }
 
   @media all and (max-width: 767px) {

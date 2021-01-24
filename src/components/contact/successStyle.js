@@ -25,11 +25,14 @@ justify-content:center;
 
 
 `;
-
+export const SuccessImg = styled.img`
+  margin-bottom: 30px;
+`;
 export const SuccessText = styled.h1`
   top: 100px;
   font-weight: bold;
   color: white;
+
   margin-bottom:30px;
   width: 80%;
 `;

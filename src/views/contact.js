@@ -10,6 +10,8 @@ const Contact = () => {
     const [submitSuccess, setSubmitSuccess] = useState(false);
     const [OpenMobileMenu, setMobileMenu] = useState(false);
     const [CloseFooterDetail, setFooterDetail] = useState(false);
+    // eslint-disable-next-line no-unused-vars
+    const [switchNavColor, setSwitchNavColor] = useState(false);
 
     function submitForm() {
         setSubmitSuccess(true)
@@ -23,7 +25,12 @@ const Contact = () => {
     return (
       <>
         <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
-        <Navigation toggle={toggle} />
+        <Navigation
+          toggle={toggle}
+          navColor="#662583"
+          navigationChange={switchNavColor}
+          changeColor="#662583"
+        />
         {!submitSuccess ? (
           <ContactSection submitForm={submitForm} />
         ) : (

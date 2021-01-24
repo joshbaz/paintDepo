@@ -1,6 +1,6 @@
-import {useState, useEffect} from 'react';
-
-const FormDetails=(Formsubmit ,validate)=>{
+import { useState, useEffect } from "react";
+import axios from "axios";
+const FormDetails = (Formsubmit, validate) => {
   const [values, setValues] = useState({
     unames: "",
     email: "",
@@ -8,7 +8,7 @@ const FormDetails=(Formsubmit ,validate)=>{
     location: "",
     message: "",
   });
-
+  const [submitError, setSubmitError] = useState({});
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmit] = useState(false);
 
@@ -25,17 +25,22 @@ const FormDetails=(Formsubmit ,validate)=>{
     setIsSubmit(true);
   };
 
-  useEffect(
-    () => {
-      if (Object.keys(errors).length === 0 && isSubmitting) {
-        Formsubmit();
-      }
-    },
-    // eslint-disable-next-line
-    [errors]
-  );
+  useEffect(() => {
+    if (Object.keys(errors).length === 0 && isSubmitting) {
+      axios
+        .post("/send", values)
+        .then((success) => {
+          Formsubmit();
+        })
+        .catch((error) => {
+          setSubmitError({
+            submiterror: "message not sent",
+          });
+        });
+    }
+  }, [errors, isSubmitting, Formsubmit, setSubmitError, values]);
 
-  return { handleChange, values, handleSubmit, errors };
-}
+  return { handleChange, values, handleSubmit, errors, submitError };
+};
 
 export default FormDetails;

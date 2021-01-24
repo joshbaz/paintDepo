@@ -7,6 +7,8 @@ import PolicySection from '../components/policy'
 const Policy = () => {
     const [OpenMobileMenu, setMobileMenu] = useState(false);
     const [CloseFooterDetail, setFooterDetail] = useState(false);
+    // eslint-disable-next-line no-unused-vars
+    const [switchNavColor, setSwitchNavColor] = useState(false);
     const toggle = () => {
       setMobileMenu(!OpenMobileMenu);
     };
@@ -16,7 +18,12 @@ const Policy = () => {
     return (
       <>
         <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
-        <Navigation toggle={toggle} />
+        <Navigation
+          toggle={toggle}
+          navColor="white"
+          navigationChange={switchNavColor}
+          changeColor="#662583"
+        />
         <PolicySection />
         <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
       </>

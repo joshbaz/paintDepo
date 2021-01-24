@@ -28,7 +28,7 @@ import {
 import FormDetails from "./form";
 import validate from "../../validation";
 const ContactSection = ({ submitForm }) => {
-  const { handleChange, values, handleSubmit, errors } = FormDetails(
+  const { handleChange, values, handleSubmit, errors, submitError } = FormDetails(
     submitForm,
     validate
   );
@@ -57,6 +57,9 @@ const ContactSection = ({ submitForm }) => {
             <Form onSubmit={handleSubmit}>
               <FormH1>GET IN TOUCH</FormH1>
               <FormP>SEND US A MESSAGE</FormP>
+              {submitError.submiterror && (
+                <FormError>{submitError.submiterror}</FormError>
+              )}
               <FormContent>
                 <FormLabel htmlFor="unames">NAME*</FormLabel>
                 <FormInput
@@ -109,7 +112,6 @@ const ContactSection = ({ submitForm }) => {
                 <FormTextArea
                   name="message"
                   placeholder="REASON FOR CONTACTING US"
-                  
                   value={values.message}
                   onChange={handleChange}
                 />
