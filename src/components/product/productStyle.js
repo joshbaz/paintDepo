@@ -18,6 +18,10 @@ export const ProductHeadSection = styled.div`
   width: 100%;
   background: rgba(50, 186, 0, 0.3);
   height: 252px;
+
+  @media all and (min-width: 768px) {
+    height: 400px;
+  }
 `;
 export const ProductHeadTitle = styled.h1`
   font-weight: 300;
@@ -38,12 +42,14 @@ export const ProductContentContainer = styled.div`
   text-align: center;
   height: 100%;
   width: 100%;
-  @media all and (min-width: 768px){
+  @media all and (min-width: 768px) {
     background-color: #fcfcfc;
     width: 80%;
-    margin:auto;
-    position:relative;
-    top: -130px;
+    margin: auto;
+    min-height: 635px;
+    position: relative;
+    top: -180px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.12);
   }
 `;
 

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import btnBack from '../../assets/images/btnBack.svg';
 import {
   FaqWrapper,
   FaqContainer,
@@ -14,6 +15,9 @@ import {
   Button,
   FaqAnswer,
   WrapButton,
+  BackButton,
+  BackImg,
+  BackText
 } from "./FaqStyle";
 const FaqSection = ({faqData}) => {
   const [activeQuestion, setActiveQuestion] = useState([]);
@@ -77,6 +81,10 @@ const FaqSection = ({faqData}) => {
               
               
             </FaqDetailsWrapper>
+            <BackButton to='/'>
+            <BackImg src={btnBack}/>
+            <BackText>GO BACK HOME</BackText>
+            </BackButton>
           </FaqContent>
         </FaqContainer>
       </FaqWrapper>

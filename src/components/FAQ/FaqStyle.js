@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import ArrowUpImg from '../../assets/images/ArrowUp.png';
 import ArrowDownImg from '../../assets/images/ArrowDown2.png';
+import { Link } from 'react-router-dom';
 export const FaqWrapper = styled.section`
 width: 100%;
 height: 100%;
@@ -39,13 +40,14 @@ top: 117px;
 export const FaqContent = styled.div`
   width: 100%;
   margin-top: 30px;
-  background-color:#fcfcfc;
-  @media all and (min-width: 768px){
+  background-color: #fcfcfc;
+  @media all and (min-width: 768px) {
     width: 90%;
     margin: auto;
-    position:relative;
-    top:-180px;
+    position: relative;
+    top: -180px;
     min-height: 600px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.12);
   }
 `;
 
@@ -168,4 +170,24 @@ export const FaqAnswer = styled.p`
       return "none";
     }
   }}
+`;
+
+export const BackButton = styled(Link)`
+display:none;
+@media all and (min-width: 768px){
+  display: flex;
+  text-decoration:none;
+  margin-top: 40px;
+  margin-left: 4vw;
+}
+`;
+
+export const BackImg = styled.img``;
+
+export const BackText = styled.p`
+  margin-left: 10px;
+  color: #272727;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
 `;

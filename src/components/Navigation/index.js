@@ -47,7 +47,7 @@ const Navigation = ({ toggle, navColor, navigationChange, changeColor }) => {
 
         <NavItem>
           <NavLink
-            to="ourstory"
+            to="#"
             navColor={navColor}
             navigationChange={navigationChange}
             changeColor={changeColor}

@@ -22,7 +22,7 @@ const Faq = () => {
 
         <Navigation
           toggle={toggle}
-          navColor="white"
+          navColor="#662583"
           navigationChange={switchNavColor}
           changeColor="#662583"
         />

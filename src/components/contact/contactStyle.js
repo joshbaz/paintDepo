@@ -55,6 +55,7 @@ export const ContactContent = styled.div`
     top: -180px;
     width: 90%;
     margin: auto;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.12);
   }
 `;
 export const ContactDetailsContent = styled.div`
