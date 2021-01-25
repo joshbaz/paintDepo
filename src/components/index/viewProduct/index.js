@@ -1,5 +1,5 @@
 import React from 'react';
-import paintSample from '../../../assets/images/paintSample.png';
+import paintSample from '../../../assets/images/Productbypaint.png';
 import paintImage from '../../../assets/images/paintImage.png'
 import {
     ViewWrapper,

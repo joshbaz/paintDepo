@@ -46,7 +46,7 @@ export const FaqContent = styled.div`
     margin: auto;
     position: relative;
     top: -180px;
-    min-height: 600px;
+    min-height: 630px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.12);
   }
 `;
@@ -151,7 +151,7 @@ export const FaqAnswer = styled.p`
   padding-bottom:20px;
   padding-left: 20px;
   font-size:20px;
-  font-weight:530;
+  font-weight:400;
   transition: all 0.2s ease-out;
   display:${({activeStatus, checkId})=>{
     let status;

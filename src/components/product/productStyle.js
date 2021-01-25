@@ -59,6 +59,7 @@ export const ProductTitle = styled.h1`
   line-height: 40px;
   margin-bottom: 19px;
   margin-top: 30px;
+  padding-top: 40px;
 `;
 
 export const ProductText = styled.p`

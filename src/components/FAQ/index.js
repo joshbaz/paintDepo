@@ -54,22 +54,27 @@ const FaqSection = ({faqData}) => {
 
           <FaqContent>
             <FaqTitle>GOT A QUESTION?</FaqTitle>
-            <FaqText>Then we mignt just have the answer for you ...</FaqText>
+            <FaqText>Then we might just have the answer for you ...</FaqText>
 
             <FaqDetailsWrapper>
             {faqData.map((data, index)=>{
               return (
                 <FaqDetails key={index}>
                   <FaqQuestion>
-                    <Question >{data.question}</Question>
+                    <Question
+                      onClick={openClick}
+                      id={index}
+                      checkId={index}
+                      activeStatus={activeQuestion}
+                    >
+                      {data.question}
+                    </Question>
                     <Button onClick={openClick}>
                       <WrapButton
-                        id={index}
+                        
                         checkId={index}
                         activeStatus={activeQuestion}
-                      >
-                       
-                      </WrapButton>
+                      ></WrapButton>
                     </Button>
                   </FaqQuestion>
                   <FaqAnswer checkId={index} activeStatus={activeQuestion}>

@@ -11,9 +11,9 @@ import {
   NavLink,
   LogoImage,
 } from "./navStyle";
-const Navigation = ({ toggle, navColor, navigationChange, changeColor }) => {
+const Navigation = ({ toggle, navColor, navigationChange, changeColor, navSolid }) => {
   return (
-    <Nav>
+    <Nav change={navSolid}>
       <NavLogo to="/">
         <LogoImage src={Logo} />
       </NavLogo>

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import {Base} from '../../utils/baseUrl'
+
 const FormDetails = (Formsubmit, validate) => {
   const [values, setValues] = useState({
     unames: "",
@@ -29,7 +29,7 @@ const FormDetails = (Formsubmit, validate) => {
   useEffect(() => {
     if (Object.keys(errors).length === 0 && isSubmitting) {
       axios
-        .post('https://paintdepo.herokuapp.com/send', values)
+        .post('https://paintdepo.herokuapp.com/send/', values)
         .then((success) => {
           Formsubmit();
         })

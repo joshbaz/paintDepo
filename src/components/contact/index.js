@@ -118,9 +118,7 @@ const ContactSection = ({ submitForm }) => {
               </FormContent>
               {errors.message && <FormError>{errors.message}</FormError>}
 
-              <FormButton  onClick={handleSubmit}>
-                SEND
-              </FormButton>
+              <FormButton type="submit">SEND</FormButton>
             </Form>
           </FormWrapper>
         </ContactContent>

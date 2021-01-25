@@ -9,16 +9,22 @@ align-items: center;
 height: 80px;
 justify-content: space-between;
 overflow: hidden;
-background-color: rgba(255, 255, 255, 0.37);
+background-color: ${({ change }) =>
+  change ? "#fcfcfc" : "rgba(255, 255, 255, 0.37)"};
+box-shadow:  ${({ change }) =>
+  change ? "0px 4px 20px rgba(0, 0, 0, 0.04)" : "0px"};
 z-index:2;
 overflow:hidden;
+
 `;
 
 export const NavLogo = styles(Link)`
 justify-self: flex-start;
 cursor: pointer;
 padding-left: 5px;
-
+@media all and (min-width: 768px){
+    padding-left: 5vw;
+}
 `;
 
 export const LogoImage = styles.img`

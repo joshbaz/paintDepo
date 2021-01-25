@@ -34,17 +34,19 @@ export const SocialTitle = styled.h1`
   line-height: 28px;
   font-weight: normal;
   margin-bottom: 15px;
+  padding-top: 20px;
+
   @media all and (max-width: 321px) {
     font-size: 16px;
   }
-  @media all and (min-width: 1000px){
-    position:relative;
+  @media all and (min-width: 1000px) {
+    position: relative;
     left: 75px;
   }
   @media all and (min-width: 768px) {
-  
     margin-top: 40px;
     margin-bottom: 20px;
+    padding-top:0px;
   }
 `;
 export const SocialIconWrapper = styled.div`
@@ -386,7 +388,7 @@ export const LinkItems = styled.div`
   margin-bottom:5px;
   overflow: hidden;
 `;
-export const LinkItem1 = styled(Link)`
+export const LinkItem1 = styled.a`
   text-align: left;
   width: 30vw;
   text-decoration: none;
@@ -468,5 +470,41 @@ export const FaqItem = styled.h3`
   }
   @media all and (min-width: 413px) {
     font-size: 12px;
+  }
+`;
+
+export const CopyRightWrapper = styled.div`
+width: 90%;
+margin:auto;
+height: 30px;
+@media all and (max-width:295px){
+  height: 40px;
+}
+`;
+
+export const CopyRightItems = styled.div`
+display: flex;
+justify-content: space-between;
+`;
+
+export const CopyRight = styled.p`
+@media all and (max-width:365px){
+  font-size: 13px;
+}
+`;
+
+export const CreatedBy = styled.p`
+  a {
+    color: green;
+    text-decoration: none;
+  }
+  @media all and (min-width: 768px) {
+    a {
+      color: #39d400;
+      text-decoration: none;
+    }
+  }
+  @media all and (max-width: 365px) {
+    font-size: 13px;
   }
 `;

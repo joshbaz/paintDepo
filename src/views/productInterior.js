@@ -10,12 +10,22 @@ const ProductInterior = () => {
  const [CloseFooterDetail, setFooterDetail] = useState(false);
    // eslint-disable-next-line no-unused-vars
    const [switchNavColor, setSwitchNavColor] = useState(false);
+   const [navSolid, setNavSolid] = useState(false);
   const toggle = () => {
     setMobileMenu(!OpenMobileMenu);
   };
    const moreClick = () => {
      setFooterDetail(!CloseFooterDetail);
    };
+
+    const navSolidChange = () => {
+      if (window.scrollY >= 100) {
+        setNavSolid(true);
+      } else {
+        setNavSolid(false);
+      }
+    };
+    window.addEventListener("scroll", navSolidChange);
     return (
       <>
         <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
@@ -24,6 +34,7 @@ const ProductInterior = () => {
           navColor="#662583"
           navigationChange={switchNavColor}
           changeColor="#662583"
+          navSolid={navSolid}
         />
         <InteriorSection
           Normal={InteriorDataNormal}

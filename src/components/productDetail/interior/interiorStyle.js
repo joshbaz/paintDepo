@@ -52,6 +52,9 @@ export const TextHead = styled.h1`
   position: relative;
   width: 80%;
   margin: auto;
+  @media all and (min-width:768px){
+    text-align: left;
+  }
   @media all and (max-width: 286px) {
     font-size: 30px;
   }
@@ -77,6 +80,7 @@ export const BackButtonWrapper = styled.div`
   bottom: 0;
   left: -45vw;
   margin-top: 0;
+  display:none;
 }
   
 `;
@@ -179,29 +183,43 @@ export const CategoryType = styled.button`
   background-color: white;
   border-radius: 3px;
   outline: none;
-  border: 2px solid white;
+  border: ${({ active }) => (active ? "2px solid black" : "2px solid white")};
   font-weight: 500;
   font-size: 25px;
   line-height: 30px;
-  &:active {
-    border: 2px solid black;
-  }
+
   &:hover {
     border: 2px solid black;
   }
 `;
 
+export const CategoryType2 = styled.button`
+  width: 172px;
+  height: 55px;
+  background-color: white;
+  border-radius: 3px;
+  outline: none;
+  border: ${({active})=>(active ? '2px solid black' : '2px solid white')};
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  
+  &:hover {
+    border: 2px solid black;
+  }
+`;
 export const CategoryDetails1 = styled.div`
   background-color: white;
   height: 100%;
   text-align: center;
   margin-top: 20px;
   display: ${({ activeState }) => (activeState ? "block" : "none")};
-
+  @media all and (min-width: 788px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
   @media all and (min-width: 768px) {
     display: ${({ activeState }) => (activeState ? "grid" : "none")};
     grid-template-columns: 1fr 1fr 1fr;
-
   }
 `;
 
@@ -230,7 +248,9 @@ export const CategoryDetails2 = styled.div`
   text-align: center;
   margin-top: 20px;
   display: ${({ activeState }) => (activeState ? "block" : "none")};
-
+  @media all and (min-width: 788px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
   @media all and (min-width: 768px) {
     display: ${({ activeState }) => (activeState ? "grid" : "none")};
     grid-template-columns: 1fr 1fr 1fr;

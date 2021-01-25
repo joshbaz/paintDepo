@@ -18,6 +18,7 @@ const Home = () => {
   const [switchNavColor, setSwitchNavColor] = useState(false);
   const [cookieScroll, setCookieScroll] = useState(0);
   const [checkCookies, setCheckCookies] = useState();
+  const [navSolid, setNavSolid] = useState(false);
 
   useEffect(() => {
     const cookieAccepted = Cookies.get("AcceptedCookies");
@@ -30,7 +31,7 @@ const Home = () => {
 
   const clickCookies = () => {
     Cookies.set("AcceptedCookies", "true");
-    setCheckCookies(true)
+    setCheckCookies(true);
   };
 
   const toggle = () => {
@@ -55,6 +56,16 @@ const Home = () => {
     setCookieScroll(window.scrollY);
   };
   window.addEventListener("scroll", scrollChange);
+
+  const navSolidChange = () => {
+    if (window.scrollY >= 700) {
+      setNavSolid(true);
+    } else {
+      setNavSolid(false);
+    }
+  };
+  window.addEventListener("scroll", navSolidChange);
+
   return (
     <>
       <GlobalStyle />
@@ -64,8 +75,13 @@ const Home = () => {
         navColor="white"
         navigationChange={switchNavColor}
         changeColor="#662583"
+        navSolid={navSolid}
       />
-      <CookieAccept scroll={cookieScroll} checkCookies={checkCookies} click={clickCookies}/>
+      <CookieAccept
+        scroll={cookieScroll}
+        checkCookies={checkCookies}
+        click={clickCookies}
+      />
       <HeroSection slides={SliderInfo} />
       <ViewProduct />
       <OfferSection />

@@ -1,6 +1,6 @@
 import React from 'react';
-import Interior from '../../assets/images/interior.png';
-import Exterior from '../../assets/images/exterior.png';
+import Interior from '../../assets/images/interior2.png';
+import Exterior from '../../assets/images/exterior2.png';
 import {
   ProductWrapper,
   ProductContainer,

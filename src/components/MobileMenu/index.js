@@ -38,7 +38,7 @@ const MobileMenu = ({mobileActive, toggle}) => {
           </MenuItem>
 
           <MenuItem>
-            <MenuLink to="ourstory" onClick={toggle}>
+            <MenuLink to="#" onClick={toggle}>
               OUR STORY
             </MenuLink>
           </MenuItem>

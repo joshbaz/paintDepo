@@ -45,6 +45,10 @@ import {
   MoreText,
   MoreImg,
   MoreWrapperWeb,
+  CopyRightWrapper,
+  CopyRightItems,
+  CopyRight,
+  CreatedBy,
 } from "./footerStyle";
 const Footer = ({detailActive, clickMore}) => {
     return (
@@ -54,13 +58,13 @@ const Footer = ({detailActive, clickMore}) => {
             <SocialTitle>FOLLOW US</SocialTitle>
             <SocialIconWrapper>
               <Socials>
-                <Icon href="https://facebook.com">
+                <Icon href="https://web.facebook.com/The-paint-Depo-109482480559373">
                   <FaFacebook />
                 </Icon>
                 <Icon href="https://twitter.com">
                   <FaTwitter />
                 </Icon>
-                <Icon href="https://instagram.com">
+                <Icon href="https://www.instagram.com/thepaintdepo_ke/">
                   <FaInstagram />
                 </Icon>
               </Socials>
@@ -129,7 +133,7 @@ const Footer = ({detailActive, clickMore}) => {
           <Line />
           <LinkWrapper>
             <LinkItems>
-              <LinkItem1>
+              <LinkItem1 href="https://paintdepo.alero.co.ke/sitemap.xml">
                 <SiteItem>SITEMAP</SiteItem>
               </LinkItem1>
               <LinkItem2 to="/policy">
@@ -140,6 +144,13 @@ const Footer = ({detailActive, clickMore}) => {
               </LinkItem3>
             </LinkItems>
           </LinkWrapper>
+
+          <CopyRightWrapper>
+            <CopyRightItems>
+              <CopyRight>© 2019 The Paint Depo</CopyRight>
+              <CreatedBy>Created by <a href="https://alero.co.ke">Alero Group</a></CreatedBy>
+            </CopyRightItems>
+          </CopyRightWrapper>
         </FooterContainer>
       </FooterWrapper>
     );

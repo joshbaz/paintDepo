@@ -1,33 +1,45 @@
-import React, { useState } from 'react'
-import Footer from '../components/footer'
-import MobileMenu from '../components/MobileMenu'
-import Navigation from '../components/Navigation'
-import Product from '../components/product'
+import React, { useState } from "react";
+import Footer from "../components/footer";
+import MobileMenu from "../components/MobileMenu";
+import Navigation from "../components/Navigation";
+import Product from "../components/product";
 
 const Products = () => {
-    const [OpenMobileMenu, setMobileMenu] = useState(false);
-    const [CloseFooterDetail, setFooterDetail] = useState(false);
-    // eslint-disable-next-line no-unused-vars
-    const [switchNavColor, setSwitchNavColor] = useState(false);
-    const toggle = () => {
-      setMobileMenu(!OpenMobileMenu);
-    };
-     const moreClick = () => {
-       setFooterDetail(!CloseFooterDetail);
-     };
-    return (
-      <>
-        <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
-        <Navigation
-          toggle={toggle}
-          navColor="#662583"
-          navigationChange={switchNavColor}
-          changeColor="#662583"
-        />
-        <Product />
-        <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
-      </>
-    );
-}
+  const [OpenMobileMenu, setMobileMenu] = useState(false);
+  const [CloseFooterDetail, setFooterDetail] = useState(false);
+  // eslint-disable-next-line no-unused-vars
+  const [switchNavColor, setSwitchNavColor] = useState(false);
+  const [navSolid, setNavSolid] = useState(false);
 
-export default Products
+  const toggle = () => {
+    setMobileMenu(!OpenMobileMenu);
+  };
+  const moreClick = () => {
+    setFooterDetail(!CloseFooterDetail);
+  };
+
+  const navSolidChange = () => {
+    if (window.scrollY >= 100) {
+      setNavSolid(true);
+    } else {
+      setNavSolid(false);
+    }
+  };
+  window.addEventListener("scroll", navSolidChange);
+  return (
+    <>
+      <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
+      <Navigation
+        toggle={toggle}
+        navColor="#662583"
+        navigationChange={switchNavColor}
+        changeColor="#662583"
+        navSolid={navSolid}
+      />
+      <Product />
+      <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
+    </>
+  );
+};
+
+export default Products;

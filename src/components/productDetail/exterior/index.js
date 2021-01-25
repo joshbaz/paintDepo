@@ -28,6 +28,7 @@ import {
   ButtonDownWrapper,
   CategoryDetailWrapper,
   HeadContentWrapper,
+  CategoryType2,
 } from "./exterior";
 const ExteriorSection = ({ Normal, Decorative }) => {
   const [normalActive, setNormalActive] = useState(true);
@@ -58,7 +59,7 @@ const ExteriorSection = ({ Normal, Decorative }) => {
             <HeadContainer>
               <TextHead>Exterior Paints & Premiers</TextHead>
               <Headp>
-                From warm taupes to a soft beige with a hint of purple, these
+                From warm taupes to a soft beige with a hint of purple,<br/> these
                 are complex and beautiful.
               </Headp>
               <BackButtonWrapper>
@@ -82,8 +83,15 @@ const ExteriorSection = ({ Normal, Decorative }) => {
 
         <ExteriorPaintsWrapper>
           <CategoryWrapper>
-            <CategoryType onClick={normalClicked}>Normal</CategoryType>
-            <CategoryType onClick={decorativeClicked}>Decorative</CategoryType>
+            <CategoryType active={normalActive} onClick={normalClicked}>
+              Normal
+            </CategoryType>
+            <CategoryType2
+              active={decorativeActive}
+              onClick={decorativeClicked}
+            >
+              Decorative
+            </CategoryType2>
           </CategoryWrapper>
 
           <CategoryDetails1 activeState={normalActive}>
