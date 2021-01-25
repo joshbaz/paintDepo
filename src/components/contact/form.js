@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import {Base} from '../../utils/baseUrl'
 const FormDetails = (Formsubmit, validate) => {
   const [values, setValues] = useState({
     unames: "",
@@ -28,7 +29,7 @@ const FormDetails = (Formsubmit, validate) => {
   useEffect(() => {
     if (Object.keys(errors).length === 0 && isSubmitting) {
       axios
-        .post("/send", values)
+        .post(`${Base}/send`, values)
         .then((success) => {
           Formsubmit();
         })
