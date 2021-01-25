@@ -29,7 +29,7 @@ const FormDetails = (Formsubmit, validate) => {
   useEffect(() => {
     if (Object.keys(errors).length === 0 && isSubmitting) {
       axios
-        .post(`${Base}/send`, values)
+        .post('https://paintdepo.herokuapp.com/send', values)
         .then((success) => {
           Formsubmit();
         })
