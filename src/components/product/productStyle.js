@@ -124,7 +124,7 @@ export const TextWrapper = styled.div`
   background: #fcfcfc;
   text-align: center;
   opacity: 0.7;
-  z-index: 200;
+  z-index: 20;
 `;
 
 export const ItemText = styled.h3`

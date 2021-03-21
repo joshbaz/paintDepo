@@ -2,45 +2,47 @@ import React from 'react';
 import paintSample from '../../../assets/images/Productbypaint.png';
 import paintImage from '../../../assets/images/paintImage.png'
 import {
-    ViewWrapper,
-    ObjectImageWrapper,
-    ObjectImage,
-    ProductWrapper,
-    ImageWrapper,
-    ProductImage,
-    ProductContent,
-    ContentTitle,
-    ContentText,
-    ContentButton,
-    ContentButtonWrapper,
-    ViewContainer
-} from './viewStyle';
-const viewProduct = () => {
-    return (
-      <ViewWrapper id="view">
-        <ViewContainer>
-          <ObjectImageWrapper>
-            <ObjectImage src={paintSample} />
-          </ObjectImageWrapper>
-
-          <ProductWrapper>
-            <ImageWrapper>
-              <ProductImage src={paintImage} />
-            </ImageWrapper>
-
-            <ProductContent>
-              <ContentTitle>VIEW BY PRODUCT</ContentTitle>
-              <ContentText>
-                Whatever the room,we have a product for you.
-              </ContentText>
-              <ContentButtonWrapper>
-                <ContentButton to="/products">VIEW PRODUCTS</ContentButton>
-              </ContentButtonWrapper>
-            </ProductContent>
-          </ProductWrapper>
-        </ViewContainer>
-      </ViewWrapper>
-    );
-}
+  ViewWrapper,
+  ViewContent,
+  ViewContainer,
+  ViewItem,
+  ViewImage,
+  ViewTextWrapper,
+  ViewText,
+  ViewWrap,
+  ViewHeadWrap,
+  ViewHeadTitle,
+  ViewHeadText,
+} from "./viewStyle";
+import { categoryData } from '../../../data/categoryData';
+const viewProduct = ({ categorydata }) => {
+  return (
+    <ViewWrapper id="view">
+      <ViewHeadWrap>
+        <ViewHeadTitle>Welcome to The Paint depo</ViewHeadTitle>
+        <ViewHeadText>
+          Choose from our selection of paints, primers & decorative products
+          from the Silkcoat Paints family
+        </ViewHeadText>
+      </ViewHeadWrap>
+      <ViewWrap>
+        {categoryData.map((data, index) => {
+          return (
+            <ViewContainer key={index} to={data.path}>
+              <ViewContent>
+                <ViewItem>
+                  <ViewImage src={data.image} alt="" />
+                </ViewItem>
+              </ViewContent>
+              <ViewTextWrapper>
+                <ViewText>{data.title}</ViewText>
+              </ViewTextWrapper>
+            </ViewContainer>
+          );
+        })}
+      </ViewWrap>
+    </ViewWrapper>
+  );
+};
 
 export default viewProduct

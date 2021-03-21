@@ -9,8 +9,8 @@ align-items: center;
 height: 80px;
 justify-content: space-between;
 overflow: hidden;
-background-color: ${({ change }) =>
-  change ? "#fcfcfc" : "rgba(255, 255, 255, 0.37)"};
+background-color: ${({ change, bgcolor }) =>
+  change ? "#fcfcfc" : bgcolor};
 box-shadow:  ${({ change }) =>
   change ? "0px 4px 20px rgba(0, 0, 0, 0.04)" : "0px"};
 z-index:2;

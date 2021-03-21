@@ -1,6 +1,4 @@
 import styles from 'styled-components/macro';
-
-
 import {Link } from 'react-scroll';
 
 export const HeroWrapper = styles.section`

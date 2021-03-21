@@ -34,6 +34,7 @@ const FaqSection = ({faqData}) => {
     });
     setActiveQuestion(alldata);
   },[faqData])
+  
   const openClick = (e) => {
     const value = parseInt(e.target.id);
     let updateData = activeQuestion.map((data, index)=>{

@@ -55,7 +55,7 @@ const HeroSection = ({slides}) => {
         <HeroContainer>
           {slides.map((slide, index) => {
             return (
-              <HeroSlide key={index}>
+              <HeroSlide key={index} id={index} onTouchMove={getClicked}>
                 {index === current && (
                   <HeroSlider>
                     <HeroImage src={slide.Image} alt={slide.alt} />
