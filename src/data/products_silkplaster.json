@@ -1,0 +1,157 @@
+{
+  "ProductList": {
+     "id": 4,
+      "shortName": "Silk Plaster",
+      "productName": "Liquid wall paper Paints",
+      "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Liquid_wall_paper_75GCXw1GM.png",
+      "hex":"#4578A8",
+      "color":"#000000"
+      },
+  "PaintProducts" : [
+    {
+      "id": 1,
+      "productName": "Prestige 100",
+      "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/New_Prestige_26SEpt6xZ.png",
+      "description":  "Prestige Series Silk Plaster, which contributes to heat and sound insulation, is anti static, does not hold dust. Besides its easy application, it does not harm human health and environment due to its water-based structure. It is odorless, it can be inhaled."
+      ,
+      "characteristic":  [
+         
+        ]
+      ,
+      "application": 
+      {
+        "title":"APPLICATION",
+        "text": "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly smoothing the blistered and old painted surfaces. For new plastered surfaces, firstly Silkcoat Primer should be applied. Old painted, dirty, damp surfaces, paint dirt, soot and other residues on the surface should be thoroughly cleaned. Silkcoat Primer is applied after the application of SX 2000. After the primer application is dry, the application of silk plaster can be started. The material in the bag is kneaded thoroughly by pouring into approximately 6 liters of water. Depending on climate and application conditions, some more water can be added if necessary. After the prepared material has waited for at least 20 minutes, it is applied to the surface with a plastic trowel by a plaster technique so that it obtains an average thickness of 1 mm. Tools should be cleaned immediately after application. When applied to places where the deformation is excessive; It is advisable to add a glass of water for each pouch of Silkcoat SX 2000 to the material before it is kneaded. The surface should not be left halfway during application. Application can be done with plastic trowel and spray gun. . For new coated surfaces, at least 28 days must be waited for the application of paint to the surface. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying."      
+      },
+      "technical":
+      {
+        "title": "TECHNICAL INFORMATION",
+        "list": [
+           {"id":1,"text":"Structure: Powder polymer"},
+           {"id":2,"text":"Consumption: 220-300 (g / m²)"},
+           {"id":3,"text":"Thinning ratio: Ready to use"},
+           {"id":4,"text":"Drying Time: 24 hours"},
+           {"id":5,"text":"Application Thickness: 1 mm"}
+        ]
+      },
+      "caustion": {
+        "title": " CAUTION",
+        "list": [
+          {"id":1,"text":"Preserve in a tightly closed container." },
+          {"id":2,"text":"Do not dump into sewer system." },
+          {"id":3, "text":"Keep above  the reach of children" }
+        ]
+      },
+      "storage": {
+        "title":"STORAGE",
+        "text":"In a cool, clean and dry environment, the product can be stored for a minimum of 1 year without opening the door of the cabinet, without exposure to direct sunlight."
+      },
+      "packaging": {
+        "list": [
+          {"id":1,"text": "Bag"}
+        ]
+     },
+     "datasheet": {
+      "list": []
+     }
+    },
+    {
+      "id": 2,
+      "productName": "Silk Plaster",
+      "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Liquid_Wall__Paper_Series_GwMhq2W5c.png",
+      "description":  "Powder polymer based, healthy and decorative interior wall covering material."
+      ,
+      "characteristic":  [
+         
+        ]
+      ,
+      "application": 
+      {
+        "title":"APPLICATION",
+        "text": "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly smoothing the blistered and old painted surfaces. For new plastered surfaces, firstly Silkcoat Primer should be applied. Old painted, dirty, damp surfaces, paint dirt, soot and other residues on the surface are thoroughly cleaned. Silkcoat Primer is applied after SX 2000 Polishing. After the primer application is dry, the application of silk plaster can be started. The material in the bag is kneaded thoroughly by pouring into approximately 6 liters of water. Depending on climate and application conditions, some more water can be added if necessary. After the prepared material has waited for at least 20 minutes, it is applied to the surface with a plastic trowel by a plaster technique so that it obtains an average thickness of 1 mm. Tools should be cleaned immediately after application. When applied to places where the deformation is excessive; It is advisable to add a glass of water for each pouch of Silkcoat SX 2000 to the material before the material is kneaded. The surface should not be left halfway during application. Application can be done with plastic trowel and spray gun. . For new coated surfaces, at least 28 days must be waited for the application of paint to the surface. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying."      
+      },
+      "technical":
+      {
+        "title": "TECHNICAL INFORMATION",
+        "list": [
+           {"id":1,"text":"Structure: Powder polymer"},
+           {"id":2,"text":"Consumption: 220-300 (g / m²)"},
+           {"id":3,"text":"Thinning ratio: Ready to use"},
+           {"id":4,"text":"Drying Time: 24 hours"},
+           {"id":5,"text":"Application Thickness: 1 mm"}
+        ]
+      },
+      "caustion": {
+        "title": " CAUTION",
+        "list": [
+          {"id":1,"text":"Preserve in a tightly closed container." },
+          {"id":2,"text":"Do not dump into sewer system." },
+          {"id":3, "text":"Keep above  the reach of children" }
+        ]
+      },
+      "storage": {
+        "title":"STORAGE",
+        "text":"In a cool, clean and dry environment, the product can be stored for a minimum of 1 year without opening the door of the cabinet, without exposure to direct sunlight."
+      },
+      "packaging": {
+        "list": [
+          {"id":1,"text": "Bag"}
+        ]
+     },
+     "datasheet": {
+      "list": []
+     }
+    },
+    {
+      "id": 3,
+      "productName": "Prestige 100",
+      "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Smart_Colurs_Series_ZamxPFse9E.png",
+      "description":  "Prestige Series Silk Plaster, which contributes to heat and sound insulation, is anti static, does not hold dust. Besides its easy application, it does not harm human health and environment due to its water-based structure. It is odorless, it can be inhaled."
+      ,
+      "characteristic":  [
+          {"id":1,"text":"Healthy and environmental friendly."},
+          {"id":2,"text":"Leaves no cracks. Easily appliable."},
+          {"id":3,"text":"High covering ability."},
+          {"id":4,"text":"Breathable."},
+          {"id":6, "text":"Matt smooth outward looking, colourfast for years."}
+        ]
+      ,
+      "application": 
+      {
+        "title":"APPLICATION",
+        "text": "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly smoothing the blistered and old painted surfaces. For new plastered surfaces, firstly Silkcoat Primer should be applied. Old painted, dirty, damp surfaces, paint dirt, soot and other residues on the surface should be thoroughly cleaned. Silkcoat Primer is applied after the application of SX 2000. After the primer application is dry, the application of silk plaster can be started. The material in the bag is kneaded thoroughly by pouring into approximately 6 liters of water. Depending on climate and application conditions, some more water can be added if necessary. After the prepared material has waited for at least 20 minutes, it is applied to the surface with a plastic trowel by a plaster technique so that it obtains an average thickness of 1 mm. Tools should be cleaned immediately after application. When applied to places where the deformation is excessive; It is advisable to add a glass of water for each pouch of Silkcoat SX 2000 to the material before it is kneaded. The surface should not be left halfway during application. Application can be done with plastic trowel and spray gun. . For new coated surfaces, at least 28 days must be waited for the application of paint to the surface. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying."      
+      },
+      "technical":
+      {
+        "title": "TECHNICAL INFORMATION",
+        "list": [
+           {"id":1,"text":"Structure: Powder polymer"},
+           {"id":2,"text":"Consumption: 220-300 (g / m²)"},
+           {"id":3,"text":"Thinning ratio: Ready to use"},
+           {"id":4,"text":"Drying Time: 24 hours"},
+           {"id":5,"text":"Application Thickness: 1 mm"}
+        ]
+      },
+      "caustion": {
+        "title": " CAUTION",
+        "list": [
+          {"id":1,"text":"Preserve in a tightly closed container." },
+          {"id":2,"text":"Do not dump into sewer system." },
+          {"id":3, "text":"Keep above  the reach of children" }
+        ]
+      },
+      "storage": {
+        "title":"STORAGE",
+        "text":"In a cool, clean and dry environment, the product can be stored for a minimum of 1 year without opening the door of the cabinet, without exposure to direct sunlight."
+      },
+      "packaging": {
+        "list": [
+          {"id":1,"text": "Bag"}
+        ]
+     },
+     "datasheet": {
+      "list": []
+     }
+    }
+  ]
+}

@@ -1,10 +1,18 @@
 import React, { useState } from "react";
 import Footer from "../components/footer";
-import MobileMenu from "../components/MobileMenu";
-import Navigation from "../components/Navigation";
-import Product from "../components/product";
+
+import ViewProduct from "../components/index/viewProduct";
 import { CommonHero } from "../components/common";
 import { SliderProductChart } from "../data/heroSlider";
+import { categoryData } from "../data/categoryData";
+import Navigation2 from "../components/common/Navigation2";
+import MobileMenu2 from "../components/common/MobileMenu2";
+import {
+  
+  useRouteMatch,
+} from "react-router";
+
+
 
 const Products = () => {
   const [OpenMobileMenu, setMobileMenu] = useState(false);
@@ -13,6 +21,8 @@ const Products = () => {
   const [switchNavColor, setSwitchNavColor] = useState(false);
   const [navSolid, setNavSolid] = useState(false);
 
+  //route match
+  const {url, path} = useRouteMatch();
   const toggle = () => {
     setMobileMenu(!OpenMobileMenu);
   };
@@ -32,8 +42,8 @@ const Products = () => {
   window.addEventListener("scroll", navSolidChange);
   return (
     <>
-      <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
-      <Navigation
+      <MobileMenu2 mobileActive={OpenMobileMenu} toggle={toggle} />
+      <Navigation2
         toggle={toggle}
         navColor="white"
         navigationChange={switchNavColor}
@@ -43,7 +53,14 @@ const Products = () => {
 opacity: 0.9"
       />
       <CommonHero slides={SliderProductChart} />
-      <Product />
+      <ViewProduct
+        url={url}
+        categorydata={categoryData}
+        head={"Find the Perfect Colors For Your Home"}
+        text={
+          "Our catalogue will help you navigate the product list, like a pro so that you can choose the perfect finish for your rooms"
+        }
+      />
       <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
     </>
   );

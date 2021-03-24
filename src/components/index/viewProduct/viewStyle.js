@@ -5,8 +5,8 @@ export const ViewWrapper = styles.section`
 width: 100%;
 height: 100%;
 background-color: #FCFCFC;
-margin-top:65px;
-margin-bottom:65px;
+padding-top:65px;
+margin-bottom:75px;
 overflow:hidden;
 `;
 
@@ -14,8 +14,9 @@ export const ViewHeadWrap = styles.div`
 display:flex;
 flex-direction:column;
 align-items:center;
-
-margin-top: 27px;
+width:90%;
+margin:auto;
+padding-top: 27px;
 margin-bottom:35px;
 @media all and (min-width:1366px){
     width:1090px;
@@ -26,24 +27,50 @@ margin-bottom:35px;
 `;
 
 export const ViewHeadTitle = styles.h1`
-height: 47px;
+font-weight: 400;
+font-size: 29px;
+text-align: center;
+text-transform: uppercase;
+@media all and (min-width: 1366px){
+  height: 47px;
 font-size: 40px;
 font-weight: 300;
 line-height: 47px;
 text-transform: uppercase;
+}
+
 `;
 
-export const ViewHeadText = styles.p``;
-export const ViewWrap = styles.div`
-
+export const ViewHeadText = styles.p`
+font-weight: 400;
+  font-size: 20px;
+  line-height: 133.2%;
+  text-align: justify;
+@media all and (min-width:1366px){
+  width:65%;
 height: 100%;
+font-size: 20px;
+line-height: 23px;
+text-align:center;
+color:#838386;
+margin:auto;
+margin-top:20px;
+}
+
+`;
+export const ViewWrap = styles.div`
+display:grid;
+grid-template-columns:1fr ;
+grid-gap:1rem;
+margin:auto;
+width:70%;
+@media all and (min-width:1366px){
+    width: 1090px;
+    height: 100%;
 display:grid;
 grid-template-columns:1fr 1fr 1fr 1fr;
 grid-gap:1rem;
 margin:auto;
-
-@media all and (min-width:1366px){
-    width: 1090px;
 }
 
 `;
@@ -53,6 +80,7 @@ height:100%;
 width:100%;
 margin:auto;
 text-decoration:none;
+
 `;
 
 export const ViewContent = styles.div`

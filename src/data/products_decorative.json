@@ -1,0 +1,660 @@
+{
+  "ProductList": {
+      "id": 3,
+      "shortName": "Decorative",
+      "productName": "Decorative Paints",
+      "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Decorative_paint_38myFyuAhk.png",
+      "hex":"#D7E0DF",
+      "color":"#000000"
+      },
+    "PaintProducts" : [
+      {
+        "id": 1,
+        "productName": "Arteco",
+        "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Arteco_7dGhH_eW6.png",
+        "description":  "Pure Acrylic binder based, interior painted decorative interior design.",
+        "characteristic": [{
+         
+          "text": "Arteco, which allows for facade designs, creates antique and serene spaces thanks to antique designs. It allows multiple colors to be processed on top of each other. Due to its water-based nature, it does not harm human health and environment."
+        }],
+        "application": 
+        {
+          "title":"APPLICATION",
+          "text": "Arteco can be applied on a wide range of  interior old painted surfaces such as as concrete, plaster, black plaster, betopan, glass textured and paintable wallpaper"
+        },
+        "technical":
+        {
+          "title": "TECHNICAL INFORMATION",
+          "list": [
+             {"id":1,"text":"Structure: Pure acrylic"},
+             {"id":2,"text":"Consumption:  12–18 m²/ kg, 70-110 (g/m2)"},
+             {"id":3,"text":"Thinning Ratio: Ready-to-use, No thinning."},
+             {"id":4,"text":"Drying: Touch dry: after 15-20 minutes, Dust repulsive: after 1 hour, Hard dry: after 24 hours."},
+             {"id":5, "text":"pH: 4- 4,5"}
+          ]
+        },
+        "surfacePreparation":  "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly smoothing the entire surface of the blistered and old painted surfaces. Cracos is applied to the surface with a brush or roller by thinning it with 5% water on average to facilitate roll movement. It finishes drying in 6 hours depending on the air temperature. The desired color Silk is painted (brilliant or matte) with vertical movement (up-down) with brush as topcoat. After a short time, the paint starts cracking. Tools should be cleaned immediately after application. Silkobase (Gloss-mat) is applied by diluting the floor with 10% water. Silkobase (Gloss-mat) is applied by thinning with 10% water in top coat application. As the patterns change according to the scan, careful and homogeneous scanning should be done. If overscanning is done, the cracking will be thinner. The paint should be mixed until it is completely homogenous before use. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying.",
+        "caustion": {
+          "title": " CAUTION",
+          "list": [
+            {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+            {"id":2,"text": "Preserve in a tightly closed container." },
+            {"id":3,"text": "Keep above  the reach of children." },
+            {"id":4,"text": "Do not dump into sewer system." }
+            ]
+        },
+        "storage": {
+          "title":"STORAGE",
+          "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+        },
+        "packaging": {
+          "list": [
+            {"id":1,"text": "2kg"},
+            {"id":2,"text": "4kg"}
+          ]
+       },
+       "datasheet": {
+        "list": [
+          {"id":1,"title":"Arteco TDS", "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Products/Data_Sheets/arteco_TDS_1hIMplLjQ.pdf"},
+          {"id":2,"title":"Arteco MSDS", "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Products/Data_Sheets/arteco_MSDS_ob0BPdezyO.pdf"}
+        ]
+       }
+      },
+      {
+        "id": 2,
+        "productName": "Cracos",
+        "class":"adjust",
+        "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Cracos_1T-2igAC8E.png",
+        "description":  "Silkcoat Cracos is a copolymer binder based, cracking fluid for cracking pattern. It creates antique looking spaces through its cracking pattern.",
+        "characteristic":  [
+          {"id":1,"text":"Healthy and environmental friendly."},
+          {"id":2,"text":"Creates antique looking places through its cracked patterns."}
+         
+       ],
+        "application": 
+        {
+          "title":"APPLICATION",
+          "text": "Cracos can be applied on a wide range of surfaces such as concrete, plaster, black plaster, betopan, glass textured and paintable wallpaper."
+        },
+        "technical":
+        {
+          "title": "TECHNICAL INFORMATION",
+          "list": [
+             {"id":1,"text":"Structure: Stirene acrylique"},
+             {"id":2,"text":"Consumption: 12 – 18 m²/ lt, 70-110 (g/m2)"},
+             {"id":3,"text":"Thinning Ratio: Ready-to-use"},
+             {"id":4,"text":"Density: 1,02 ± 0,02 (gr / ml)"},
+             {"id":5,"text":"Hard dry: after 6 hours"}
+          ]
+        },
+        "surfacePreparation":  "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly smoothing the entire surface of the blistered and old painted surfaces. If the surface is not flat, a smooth surface should be obtained with Silkcoat Dahili Acrylic Paste for application of Arteco. If the surface to be applied is flattened with gypsum plaster, Silkcoat İzolac should be used on the surface before application of Arteco, Silkcoat Universal Primer should be used on smooth, old painted, dirty or synthetic painted surfaces, and Silkcoat Putty Primer should be applied on surfaces with putty application. Once the primer application is dry, Arteco is applied in two layers on the floor. Wait at least 2 hours between coats. Arteco is applied to the area of 10-20 m2 with the help of roller or brush and then the sponge is patterned and different tools can be used for different textures and designs. In the same way, the other surfaces finish gradually. To obtain a nebulous image, the patterned Arteco is done over the application surface with a clean sponge close to the foundation. Tools should be cleaned immediately after application. Before using Arteco it should be mixed until it becomes completely homogenous. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying. If applied on very bright and glassy surfaces, a solid surface should be formed by smoothing the surface first to ensure better adhesion."
+        ,
+        "caustion": {
+          "title": " CAUTION",
+          "list": [
+            {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+            {"id":2,"text": "Preserve in a tightly closed container." },
+            {"id":3,"text": "Keep above  the reach of children." },
+            {"id":4,"text": "Do not dump into sewer system." }
+            ]
+        },
+        "storage": {
+          "title":"STORAGE",
+          "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+        },
+        "packaging": {
+          "list": [
+            {"id":1,"text": "2kg"},
+            {"id":2,"text": "4kg"}
+          ]
+       },
+       "datasheet": {
+        "list": [
+          {"id":1,"title":"Cracos TDS", "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Products/Data_Sheets/cracos_TDS_wbCxXZLYK.pdf"},
+          {"id":2,"title":"Cracos MSDS", "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Products/Data_Sheets/cracos_MSDS_H1ZhoJqeTR.pdf"}
+        ]
+       }
+      },
+      {
+        "id": 3,
+        "productName": "Decortivo",
+        "class":"adjust",
+        "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Decortivo_GRlhRIdwJI.png",
+        "description":  "Pure Acrylic based, white particle texture decorative paint.",
+        "characteristic": [{
+          
+          "text": "With its granular structure and its ability to add a unique richness to your wall, Decortivo does not harm human health and environment thanks to its water-based structure."
+        }],
+        "application": 
+        {
+          "title":"APPLICATION",
+          "text": "All pre-painted surfaces with floor preparation can be applied to interior surfaces such as concrete, plaster, black plaster, betopan."
+        },
+        "technical":
+        {
+          "title": "TECHNICAL INFORMATION",
+          "list": [
+             {"id":1,"text":"Consumption: 4-5 (m² / lt), 200-250 (g / m2)"},
+             {"id":2,"text":"Density: 0.99 ± 0.02 (g / ml)"},
+             {"id":3,"text":"Thinning Ratio: Ready-to-use."},
+             {"id":4,"text":"Drying Time: Full drying 5-6 hours."}
+          ]
+        },
+        "surfacePreparation":  "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly smoothing the blistered and old painted surfaces. If necessary, defects and cracks on the surface should be repaired with Silkcoat Internal Acrylic Putty. The last coat of Decortivo is applied as the same color with the Class Plastic Primer. Decortivo is applied crosswise to the surface with the aid of a brush and then smoothed with a plastic trowel when it is about to dry. Decortivo is applied in single layer. The paint should be mixed until it is completely homogenous before use. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying. If applied on very bright and glassy surfaces, a solid surface should be formed by smoothing the surface first to ensure better adhesion.",
+        "caustion": {
+          "title": " CAUTION",
+          "list": [
+            {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+            {"id":2,"text": "Preserve in a tightly closed container." },
+            {"id":3,"text": "Do not dump into sewer system." },
+            {"id": 4, "text": "Keep above  the reach of children" }
+            ]
+        },
+        "storage": {
+          "title":"STORAGE",
+          "text":"In a cool, clean and dry environment, the product can be stored for a minimum of 1 year without opening the door of the cabinet, without exposure to direct sunlight."
+        },
+        "packaging": {
+          "list": [
+            {"id":1,"text": "2kg"},
+            {"id":2,"text": "4kg"}
+          ]
+       },
+       "datasheet": {
+        "list": [
+          {"id":1,"title":"Decortivo TDS", "link": ""},
+          {"id":2,"title":"Decortivo MSDS", "link": ""}
+        ]
+       }
+      },
+      {
+        "id": 4,
+        "productName": "Magico",
+        "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Magico_AYBg06BAM.png",
+        "description": "Silkcoat Magico is an acrylic emulsion adhesive based decorative paint with simple light play. It allows different pattern combinations as well as allowing different color combinations at the same time."
+        ,
+        "characteristic": [{
+          
+          "text": "Due to its color-changing structure, Magico creates a highly dynamic space, creating color fluctuations depending on light and motion. It allows different pattern combinations as well as allowing different color combinations at the same time. It has a high degree of scraping ability. Its water-based structure does not harm human health and environment."
+        }],
+        "application": 
+        {
+          "title":"APPLICATION",
+          "text": "Magico can be applied on a wide range of interior old painted surfaces such as as concrete, plaster, black plaster, betopan, glass textured and paintable wallpaper."
+        },
+        "technical":
+        {
+          "title": "TECHNICAL INFORMATION",
+          "list": [
+             {"id":1,"text":"Structure: Pure acrylic"},
+             {"id":2,"text":"Consumption:  6-8 m² / kg, 125-170 (g/m2)"},
+             {"id":3,"text":"Thinner: Water"},
+             {"id":4,"text":"Thinning Ratio: Ready-to-use."},
+             {"id":5,"text":"Density: 1,03 ± 0,02 (g/ ml)"},
+             {"id":5,"text":"Drying: Touch dry: after 15-20 min, Dust repulsive: after 1 hour, Hard dry: after 24 hours"}
+          ]
+        },
+        "surfacePreparation":  "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly smoothing the blistered and old painted surfaces. If the surface is not smooth, a smooth surface should be obtained with Silkcoat Dahili Acrylic Paste for Magico application. If the surface to be applied is flattened with gypsum plaster, Silkcoat İzolac should be used on the surface before Magico application, Silkcoat Universal Primer should be used on smooth old painted surfaces, dirty or synthetic painted surfaces, and Silkcoat Putty Primer should be used on surfaces with putty application. Once the primer application is dry, the floor is applied as two layers of Magico. Wait at least 2 hours between coats. Magico is applied to the area of ​​10 – 20 m2 with the aid of roller or brush and is then given a special effect hand tools (sponge, buffer etc.). In the same way, the other surfaces finish gradually. Tools should be cleaned immediately after application. Magico should be mixed until completely homogenous before use. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying. If applied on very bright and glassy surfaces, a solid surface should be formed by smoothing the surface first to ensure better adhesion."
+        ,
+        "caustion": {
+          "title": " CAUTION",
+          "list": [
+            {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+            {"id":2,"text": "Preserve in a tightly closed container"},
+            {"id":3,"text": "Do not dump into sewer system." },
+            {"id": 4, "text": "Keep above  the reach of children" }
+            ]
+        },
+        "storage": {
+          "title":"STORAGE",
+          "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+        },
+        "packaging": {
+          "list": [
+            {"id":1,"text": "2kg"},
+            {"id":2,"text": "4kg"}
+          ]
+       },
+       "datasheet": {
+        "list": [
+          {"id":1,"title":"Magico TDS", "link": ""},
+          {"id":2,"title":"Magico MSDS", "link": ""}
+        ]
+       }
+      },
+      {
+        "id": 5,
+        "productName": "Marmarito",
+        "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Marmarito_H2g3FblWeY.png",
+        "description":  "Silkcoat Mamarito is a water based interior decorative coating manufactured from acrylic copolymer and special fillers which give an excellent marble effect."
+        ,
+        "characteristic": [{
+          
+          "text": "Silkcoat Mamarito is harmless to people and environmental friendly through its water based content. It suits your personal pleasure with its marble pattern, and velvety structure; High covering ability ;Leaves no cracks and Easy cleanable through glassy surface."
+        }],
+        "application": 
+        {
+          "title":"APPLICATION",
+          "text": "After surface preparation, Marmarito can be applied on a wide range of interior surfaces such as old painted surfaces, concrete, plaster, rendering, cement board, wallpaper, glass textile etc."
+        },
+        "technical":
+        {
+          "title": "TECHNICAL INFORMATION",
+          "list": [
+             {"id":1,"text":"Structure: Styrene Acrylic"},
+             {"id":2,"text":"Consumption:  4,5- 5,5  (m²/ kg), 250-300 (g/m2)"},
+             {"id":3,"text":"Density: 1,57 ± 0,02 ( g / ml )"},
+             {"id":4,"text":"Solids Content: %65±2"},
+             {"id":5,"text":"Thinner: No thinning, ready to-use"},
+             {"id":6,"text":"Drying: Touch dry: after 30-45 min, Dust repulsive: after 1-1.5 hour, Hard dry: after 24 hours"}
+          ]
+        },
+        "surfacePreparation": "The surface must be free of any oil, dirt or dust. Swollen and old paintings must be scraped off. Surface must be clean, dry and solid, defects ,hoillows and cracks should be fixed with Silkcoat Acrylic putty."
+        ,
+        "caustion": {
+          "title": " CAUTION",
+          "list": [
+            {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+            {"id":2,"text": "Preserve in a tightly closed container." },
+            {"id":3,"text": "Do not dump into sewer system." },
+            {"id":4, "text": "Keep above  the reach of children." }
+            ]
+        },
+        "storage": {
+          "title":"STORAGE",
+          "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+        },
+        "packaging": {
+          "list": [
+            {"id":1,"text": "2kg"},
+            {"id":2,"text": "4kg"}
+          ]
+       },
+       "datasheet": {
+        "list": [
+          {"id":1,"title":"Marmarito TDS", "link": ""},
+          {"id":2,"title":"Marmarito MSDS", "link": ""}
+        ]
+       }
+      },
+      {
+        "id": 6,
+        "productName": "Palace",
+        "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Palace_OOavKRCpf6.png",
+        "description":  "Silkcoat Palace is a pure acrylic emulsion based, nacre additives, decorative interior wall paint grained structure with pearl effect."
+        ,
+        "characteristic": [{
+          "title": "CHARACTERISTIC",
+          "text": "Thanks to its nacre structure, bright as pearl and matt, Palace offers a special image of texture, allowing for different pattern applications. Due to it being water-based sandy and having a metallic appearance, it gives the possibility to reflect your wall with coolness and splendor."
+        }],
+        "application": 
+        {
+          "title":"APPLICATION",
+          "text": "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly smoothing the blistered and old painted surfaces. If necessary, defects and cracks on the surface should be repaired with Silkcoat Internal Acrylic Putty. If the surface to be applied is flattened with gypsum plaster, Silkcoat Izolac should be used on the surface before Silkomatt application, Silkcoat Universal Primer on old painted, dirty or synthetic painted surfaces; Silkcoat Putty Primer should be used on surfaces with putty application. Silkomatt is applied as a single layer in the final coat as the same color with Palace. Silkcoat Palace is applied, according to the desired pattern, with the help of a brush by taking a little amount of product with the brush’s edge. When the product is about to dry, the liquid on the sand is removed with a clean, thick brush by slightly pressure. Thus, while the sand is taking its matte appearence, the subfloor will be gaining a glossy image. Tools should be cleaned immediately after application. The paint should be mixed until it is completely homogenous before use. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying. If applied on very bright and glassy surfaces, a solid surface should be formed by smoothing the surface first to ensure better adhesion."
+        },
+        "technical":
+        {
+          "title": "TECHNICAL INFORMATION",
+          "list": [
+             {"id":1,"text":"Density: 1,31 ± 0,02 (g / ml)"},
+             {"id":2,"text":"Consumption: 3-4 (m² / lt), 250-350 (g / m2)"},
+             {"id":3,"text":"Solid Matter: 60% ± 2"},
+             {"id":4,"text":"Thinning ratio: Ready to use."},
+             {"id":4,"text":"Drying Time: Touch 15 – 20 min; Dust retention 1 hour; Full drying 24 hours"}
+          ]
+        },
+        "surfacePreparation":  "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly sanding the blistered and old painted surfaces. Defects and cracks on the surface should be repaired with Silkcoat Internal Acrylic Putty or prime with Silkcoat universal primer. Silkomatt  in the same colour is applied as a single layer in the final coat with the primer."
+        ,
+        "caustion": {
+          "title": " CAUTION",
+          "list": [
+            {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+            {"id":2,"text": "Preserve in a tightly closed container." },
+            {"id":3,"text": "Do not dump into sewer system." },
+            {"id": 4, "text": "Keep above  the reach of children" }
+            ]
+        },
+        "storage": {
+          "title":"STORAGE",
+          "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+        },
+        "packaging": {
+          "list": [
+            {"id":1,"text": "2kg"},
+            {"id":2,"text": "4kg"}
+          ]
+       },
+       "datasheet": {
+        "list": [
+          {"id":1,"title":"Palace TDS", "link": ""},
+          {"id":2,"title":"Palace MSDS", "link": ""}
+        ]
+       }
+      },
+      {
+        "id": 7,
+        "productName": "Pearl",
+        "class":"adjust",
+        "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Pearl_zHIMWBKe5.png",
+        "description": "Pure Acrylic binder based, nacre additives, pearl-appearence, water-based, first-class, decorative, final coat interior coating."
+        ,
+        "characteristic": [{
+          "text": "Silkcoat Pearl, with a pearl texture, lined or curvy interior coating, has a high covering ability. In addition to being cleanable, it is water based and does not harm human health and environment."
+        }],
+        "application": 
+        {
+          "title":"APPLICATION",
+          "text": "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly smoothing the blistered and old painted surfaces. If necessary, defects and cracks on the surface should be repaired with Silkcoat Internal Acrylic Putty. Silkcoat Universal Primer should be used on new painted and absorbent surfaces, Silkcoat Paste Primer should be used on surfaces that are old painted, dirty or synthetic painted surfaces and putty applied surfaces. Silkcoat Pearl is applied on a single layer with glass trowel without being thinned. With the help of the glass trowel, the line or fold pattern is obtained. Application tools should be cleaned with water after application. For new coated surfaces, at least 28 days must be waited for the application of paint to the surface. The paint should be mixed until it is completely homogenous before use. The Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying. If applied on very bright and glassy surfaces, a solid surface should be formed by smoothing the surface first to ensure better adhesion."
+        },
+        "technical":
+        {
+          "title": "TECHNICAL INFORMATION",
+          "list": [
+             {"id":1,"text":"Structure: Pure acrylic"},
+             {"id":2,"text":"Consumption:  6-8 m² / kg, 125-170 (g/m2)"},
+             {"id":3,"text":"Thinner: Water"},
+             {"id":4,"text":"Thinning Ratio: Ready-to-use."},
+             {"id":5,"text":"Density: 1,03 ± 0,02 (g/ ml)"},
+             {"id":6,"text":"Drying: Touch dry: after 15-20 min, Dust repulsive: after 1 hour, Hard dry: after 24 hours"}
+          ]
+        },
+        "surfacePreparation":"Can be applied to all pre-painted interior surfaces such as concrete, plaster, black plaster, betopan, glass textured and paintable wallpaper."
+        ,
+        "caustion": {
+          "title": " CAUTION",
+          "list": [
+            {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+            {"id":2,"text":"Preserve in a tightly closed container." },
+            {"id":3,"text":"Do not dump into sewer system." },
+            {"id":4, "text":"Keep above  the reach of children" }
+          ]
+        },
+        "storage": {
+          "title":"STORAGE",
+          "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+        },
+        "packaging": {
+          "list": [
+            {"id":1,"text": "2kg"},
+            {"id":2,"text": "4kg"}
+          ]
+       },
+       "datasheet": {
+        "list": [
+          {"id":2,"title":"Pearl MSDS", "link": ""}
+        ]
+       }
+      },
+      {
+        "id": 8,
+        "productName": "Velvetto",
+        "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Velvetto_tZSLksDJR.png",
+        "description": {
+          "title": "DESCRIPTION",
+          "text": "The Velvetto Silkcoat Efects Group is a series of nacre-additives, velvet-patterned, glossy appearance, pure acrylic based, creating fun and moving spaces."
+        },
+        "characteristic": [{
+          
+          "text": "Thanks to its nacre structure, Velvetto offers a semi-gloss and matte velvety special image like pearls, allowing for different pattern applications. Due to its water-based structure, it does not harm human health and environment."
+        }],
+        "application": 
+        {
+          "title":"APPLICATION",
+          "text": "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly sanding the blistered and old painted surfaces. If necessary, defects and cracks on the surface should be repaired with Silkcoat Internal Acrylic Putty. If the surface to be applied is flattened with gypsum plaster, Silkcoat İzolac should be used on the surface before Silkomatt application, Silkcoat Universal Primer on old painted, dirty or synthetic painted surfaces, Silkcoat Putty Primer should be used on surfaces with putty application. Silkomatt is applied as a single layer in the last layer of Velvetto. Velvetto is applied to the surface with the help of roller. The pattern is given to the product by circular movements with the help of special goods, without complete drying on the surface. The surface is left to dry for 4-6 hours depending on weather conditions. After the first layer application is applied, the second layer is applied with the help of Velvetto decorative trowel or roller to form a thin layer on the surface. After application, the surface is patterned with circular motions with the help of a special trowel. Tools should be cleaned immediately after application. The paint should be mixed until it becomes completely homogenous before use. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying. If applied on very bright and glassy surfaces, a solid surface should be formed by smoothing the surface first to ensure better adhesion."
+        },
+        "technical":
+        {
+          "title": "TECHNICAL INFORMATION",
+          "list": [
+             {"id":1,"text":"Density: 1,16 ± 0,02 (g / ml)"},
+             {"id":2,"text":"Consumption: 3,5-4 (m² / lt), 250-350 (g / m2)"},
+             {"id":3,"text":"Thinning ratio: Ready to use."},
+             {"id":4,"text":"Drying Time: Touch 30-45 min; Dust repulsive 1 hour; Full drying 24 hours"}
+          ]
+        },
+        "surfacePreparation": "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained by lightly sanding the blistered and old painted surfaces.  Defects and cracks on the surface should be repaired with Silkcoat Internal Acrylic Putty.  Silkomat of the same color is applied as a single layer with the primer."
+        ,
+        "caustion": {
+          "title": " CAUTION",
+          "list": [
+            {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+            {"id":2,"text":"Preserve in a tightly closed container." },
+            {"id":3,"text":"Do not dump into sewer system." },
+            {"id":4, "text":"Keep above  the reach of children" }
+          ]
+        },
+        "storage": {
+          "title":"STORAGE",
+          "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+        },
+        "packaging": {
+          "list": [
+            {"id":1,"text": "2kg"},
+            {"id":2,"text": "4kg"}
+          ]
+       },
+       "datasheet": {
+        "list": [
+          {"id":1,"title":"velveto/velveto Soft TDS", "link": ""},
+          {"id":2,"title":"Velvetto MSDS", "link": ""}
+        ]
+       }
+      },
+      {
+        "id": 9,
+        "productName": "Velvetto Soft",
+        "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Velvetto_Soft_F3fU5yGwbk.png",
+        "description": "The Velvetto Soft Silkcoat Efects Group is a series of psoriasis-added, velvet-patterned, shiny appearance, pure acrylic-based, creating fun and moving spaces."
+        ,
+        "characteristic": [{
+          
+          "text": "Velvetto Soft, which allows different pattern applications, offers a nacre semi-gloss and matt-like pearl special appearence. Due to its water-based structure, it does not harm human health or the environment."
+        }],
+        "application": 
+        {
+          "title":"APPLICATION",
+          "text": "All pre-painted surfaces can be applied to interior surfaces such as concrete, plaster, black plaster, betopan, glass textured and paintable wallpaper. The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly smoothing the blistered and old painted surfaces. If necessary, defects and cracks on the surface should be repaired with Silkcoat Internal Acrylic Putty. If the surface to be applied is flattened with gypsum plaster, Silkcoat İzolac should be used on the surface before Silkomatt application, Silkcoat Universal Primer on old painted, dirty or synthetic painted surfaces, Silkcoat Putty Primer should be used on surfaces with putty application. Silkomatt is applied as a single layer on the last layer of the same color of Velvetto Soft. Velvetto is applied to the surface with the help of roller. The pattern is given to the product by circular movements with the help of a special trowel, without complete drying on the surface. The surface is left to dry for 4-6 hours depending on weather conditions. After the first layer application is applied, the second layer is applied with the help of a Velvetto decorative trowel or roller to form a thin layer on the surface. After application, the surface is patterned with circular motions with the help of special trowel. Tools should be cleaned immediately after application. The paint should be mixed until it becomes completely homogenous before use. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying. If applied on very bright and glassy surfaces, a solid surface should be formed by smoothing the surface first to ensure better adhesion."
+        },
+        "technical":
+        {
+          "title": "TECHNICAL INFORMATION",
+          "list": [
+             {"id":1,"text":"Structure: Pure acrylic"},
+             {"id":2,"text":"Consumption:  6-8 m² / kg, 125-170 (g/m2)"},
+             {"id":3,"text":"Thinner: Water"},
+             {"id":4,"text":"Thinning Ratio: Ready-to-use."},
+             {"id":5,"text":"Density: 1,03 ± 0,02 (g/ ml)"},
+             {"id":6,"text":"Drying: Touch dry: after 15-20 min, Dust repulsive: after 1 hour, Hard dry: after 24 hours"}
+          ]
+        },
+        "surfacePreparation":  "Can be applied to all pre-painted interior surfaces such as concrete, plaster, black plaster, betopan, glass textured and paintable wallpaper."
+        ,
+        "caustion": {
+          "title": " CAUTION",
+          "list": [
+            {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+            {"id":2,"text":"Preserve in a tightly closed container." },
+            {"id":3,"text":"Do not dump into sewer system." },
+            {"id":4, "text":"Keep above  the reach of children" }
+          ]
+        },
+        "storage": {
+          "title":"STORAGE",
+          "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+        },
+        "packaging": {
+          "list": [
+            {"id":1,"text": "2kg"},
+            {"id":2,"text": "4kg"}
+          ]
+       },
+       "datasheet": {
+        "list": [
+            {"id":1,"title":"velveto/velveto Soft TDS", "link": ""}
+        ]
+       }
+      },
+      {
+        "id": 10,
+        "productName": "Travertino",
+        "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Travertino_2TDGTmpcFy.png",
+        "description":  "Silkcoat Travertino is an acrylic cement based  ,decorative coating suitable for interior and exterior use. It very easy to apply and suitable to create a natural stone effect.‎"
+        ,
+        "characteristic": [{
+         
+          "text": "Travertino, which offers a stone appearence, presents the quality of an aged, modern and live stone wall, also allows for different pattern applications. Because it is water-based, it does not harm human health and environment."
+        }],
+        "application": 
+        {
+          "title":"APPLICATION",
+          "text": "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly smoothing the blistered and old painted surfaces. If necessary, defects and cracks on the surface should be repaired with Silkcoat Internal Acrylic Putty. Travertino is mixed with 20-25% water until the first layer is flattened and mixed until it becomes homogenous. Travertino is applied to the entire surface with trowel. To make the surface smooth, the first coat is left to dry for 1 day after it has been smoothened with a trowel. Prior to the application of the second layer, the surface is soaked with a roll of water. When the dry surface is obtained, the second layer is again applied to the surface with a trowel. When the second coat surface is about to dry, the patterns are created with the help of the backside of the trowel. After enough lines have been formed, they are again smoothed with the trowel and left to dry for another day. On the third day, The final surface is again wetted with water by means of a roller. Without full drying, Silkcoat Arteco, which is the last layer, is diluted with 25-30% and applied with the help of a special tool. Travertino should be mixed until completely homogenous before use. Dilute Travertino as much as you can on each floor. Since the product is cement based, it can be dried. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying. If applied on very bright and glassy surfaces, a solid surface should be formed by smoothing the surface first to ensure better adhesion."
+        },
+        "technical":
+        {
+          "title": "TECHNICAL INFORMATION",
+          "list": [
+             {"id":1,"text":"Structure: Styrene Acrylic"},
+             {"id":2,"text":"Consumption: 1-1,5 m2 / lt, 1500-2500 (g / m²)"},
+             {"id":3,"text":"Density: 1.95 ± 0.02 (g / ml)"},
+             {"id":4,"text":"Thinning Ratio: Ready-to-use."},
+             {"id":5,"text":"Thinning ratio: Ready to use."},
+             {"id":6,"text":"Drying Time: It takes 1 day to hard dry. İf applied in 2 coats, the first coat dries in 24 hours."}
+          ]
+        },
+        "surfacePreparation": "Can be applied to all pre-painted interior surfaces such as concrete, plaster, black plaster, betopan, glass textured and paintable wallpaper."
+      ,
+        "caustion": {
+          "title": " CAUTION",
+          "list": [
+            {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+            {"id":2,"text":"Preserve in a tightly closed container." },
+            {"id":3,"text":"Do not dump into sewer system." },
+            {"id":4, "text":"Keep above  the reach of children" }
+          ]
+        },
+        "storage": {
+          "title":"STORAGE",
+          "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+        },
+        "packaging": {
+          "list": [
+            {"id":1,"text": "2kg"},
+            {"id":2,"text": "4kg"}
+          ]
+       },
+       "datasheet": {
+        "list": [
+             {"id":1,"title":"Travertino MSDS", "link": ""}
+        ]
+       }
+      },
+      {
+        "id": 11,
+        "productName": "Metalico",
+        "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Metalico_foeuuUeqW.png",
+        "description": "Silkcoat Metalico is it’s an interior decorative paint with a bright appearance, it helps to cast a beautiful glow, and features different patterns of applications"
+        ,
+        "characteristic": [{
+          
+          "text": "Thanks to its pearl-like structure, Metalico offers a bright and special look like pearls, allowing for different pattern applications. It has a high degree of scraping ability. The water-based structure does not harm human health or the environment."
+        }],
+        "application": 
+        {
+          "title":"APPLICATION",
+          "text": "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly smoothing the blistered and old painted surfaces. If the surface is not flat, a smooth surface should be obtained with Silkcoat Dahili Acrylic Paste for Metalico application. If the surface to be applied is flattened with gypsum plaster, Silkcoat İzolac should be used on the surface before Metalico application, Silkcoat Universal Primer should be used on smooth old painted surfaces, dirty or synthetic painted surfaces, and Silkcoat Putty Primer should be used on surfaces with putty application. After the primer application is dry, the floor is applied as two layers of Metalico. Wait at least 2 hours between coats. The Silkcoat Metalico is thinned with water according to the desired pattern and applied uniformly with the aid of a roller or brush. Metalico is applied up to 10 – 20 m2 and is then given a special effect with hand tools (bumper, brush, spatula, chamois etc). In the same way, the other surfaces finish gradually. The spatula can work on top of different colors. Tools should be cleaned immediately after application. Metalico should be mixed until completely homogenous before use. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying. If applied on very bright and glassy surfaces, a solid surface should be formed by smoothing the surface first to ensure better adhesion."
+        },
+        "technical":
+        {
+          "title": "TECHNICAL INFORMATION",
+          "list": [
+             {"id":1,"text":"Structure: Pure Acrylic"},
+             {"id":2,"text":"Density: 1,04 ± 0,02 (gr / ml)"},
+             {"id":3,"text":"Consumption: 6 -8 m² / kg (Wood pattern and similar), 20- 30 m2/kg (Leopard pattern and similar), 125-170 (g/m2)."},
+             {"id":4,"text":"Thinner: Water"},
+             {"id":5,"text":"Thinning Ratio: %10 max.(with clean water)"},
+             {"id":6,"text":"Drying: Touch dry: after 15-20 minutes,Dust repulsive: after 1 hour, Hard dry: after 24 hours"}
+          ]
+        },
+        "surfacePreparation":  "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained by lightly sanding the blistered and old painted surfaces. If the surface is not flat, a smooth surface should be obtained with Silkcoat  Acrylic Primer for Metalico application.  Silkcoat Universal Primer should be used on old painted surfaces, dirty or synthetic painted surfaces."
+        ,
+        "caustion": {
+          "title": " CAUTION",
+          "list": [
+            {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+            {"id":2,"text":"Preserve in a tightly closed container." },
+            {"id":3,"text":"Do not dump into sewer system." },
+            {"id":4, "text":"Keep above  the reach of children" }
+          ]
+        },
+        "storage": {
+          "title":"STORAGE",
+          "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+        },
+        "packaging": {
+          "list": [
+            {"id":1,"text": "2kg"},
+            {"id":2,"text": "4kg"}
+          ]
+       },
+       "datasheet": {
+        "list": [
+            {"id":1,"title":"metalico TDS", "link": ""},
+            {"id":2,"title":"metalico MSDS", "link": ""}
+        ]
+       }
+      },
+      {
+        "id": 12,
+        "productName": "Metalico Soft",
+        "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Metalico_Soft_pXWRm21XCs.png",
+        "description":  "Silkcoat Metalico Soft is an interior decorative paint with a bright appearance, it helps to cast a beautiful glow, and features different patterns of applications"
+        ,
+        "characteristic": [{
+          
+          "text": "Thanks to its pearl-like structure, Metalico offers a bright and special look like pearls, allowing for different pattern applications. It has a high degree of scraping ability. The water-based structure does not harm human health or the environment."
+        }],
+        "application": 
+        {
+          "title":"APPLICATION",
+          "text": "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly smoothing the blistered and old painted surfaces. If necessary, defects and cracks on the surface should be repaired with Silkcoat Internal Acrylic Putty. If the surface to be applied is flattened with gypsum plaster, Silkcoat İzolac should be used on the surface before Metalico Soft application, Silkcoat Universal Primer should be used on old painted, dirty or synthetic painted surfaces and Silkcoat Paste Primer should be used on surfaces with putty application. In the last layer of the Metalico Soft color, Silkomatt is applied in one coat. After the primer is dry, Metalico Soft is diluted with 5% and applied with the help of roller or brush. After the first layer is dry, the second layer is applied with the help of a roller or brush. Patterns are given with special effect tools (bumper, brush, spatula, chamois) before the full drying takes place. Tools should be cleaned immediately after application. The paint should be mixed until it becomes completely homogenous before use. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying. If applied on very bright and glassy surfaces, a solid surface should be formed by smoothing the surface first to ensure better adhesion."
+        },
+        "technical":
+        {
+          "title": "TECHNICAL INFORMATION",
+          "list": [
+             {"id":1,"text":"Structure: Pure Acrylic"},
+             {"id":2,"text":"Density: 1,12 ± 0,02 (g / ml)"},
+             {"id":3,"text":"Consumption: 10-16 (m² / lt), 180-250 (g / m2)"},
+             {"id":4,"text":"Thinning ratio: Ready to use."},
+             {"id":5,"text":"Drying Time: Touch 15 – 20 min; Dust repulsive 1 hour; Full drying 24 hours"}
+          ]
+        },
+        "surfacePreparation":  "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained by lightly sanding the blistered and old painted surfaces, defects and cracks on the surface should be repaired with Silkcoat  Acrylic Putty. Silkcoat Universal Primer should be used on old painted, dirty surfaces .",
+        "caustion": {
+          "title": " CAUTION",
+          "list": [
+            {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+            {"id":2,"text":"Preserve in a tightly closed container." },
+            {"id":3,"text":"Do not dump into sewer system." },
+            {"id":4, "text":"Keep above  the reach of children" }
+          ]
+        },
+        "storage": {
+          "title":"STORAGE",
+          "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+        },
+        "packaging": {
+          "list": [
+            {"id":1,"text": "2kg"},
+            {"id":2,"text": "4kg"}
+          ]
+       },
+       "datasheet": {
+        "list": [
+            {"id":1,"title":"metalico soft TDS", "link": ""}
+        ]
+       }
+      }        
+    ]
+  }
+ 

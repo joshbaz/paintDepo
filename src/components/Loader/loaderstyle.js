@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const LoaderWrapper = styled.div`
   width: 100%;
   height: 100vh;
+  position:fixed;
   background: #322783;
 `;
 

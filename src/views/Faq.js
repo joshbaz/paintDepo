@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import FaqSection from '../components/FAQ'
 import Footer from '../components/footer'
-import MobileMenu from '../components/MobileMenu'
-import Navigation from '../components/Navigation'
+
+import Navigation2 from "../components/common/Navigation2";
+import MobileMenu2 from "../components/common/MobileMenu2";
 import {QuestionData} from '../data/faqData';
 const Faq = () => {
     const [OpenMobileMenu, setMobileMenu] = useState(false);
@@ -28,9 +29,9 @@ const Faq = () => {
        window.addEventListener("scroll", navSolidChange);
     return (
       <>
-        <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
+        <MobileMenu2 mobileActive={OpenMobileMenu} toggle={toggle} />
 
-        <Navigation
+        <Navigation2
           toggle={toggle}
           navColor="#662583"
           navigationChange={switchNavColor}

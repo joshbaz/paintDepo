@@ -11,6 +11,8 @@ import {
   NavLink,
   LogoImage,
 } from "./navStyle";
+
+import { NavData } from "../../data/navigationData";
 const Navigation = ({ toggle, navColor, navigationChange, changeColor, navSolid, bgColor }) => {
   return (
     <Nav change={navSolid} bgcolor={bgColor}>
@@ -53,6 +55,17 @@ const Navigation = ({ toggle, navColor, navigationChange, changeColor, navSolid,
             changeColor={changeColor}
           >
             OUR STORY
+          </NavLink>
+        </NavItem>
+
+        <NavItem>
+          <NavLink
+            to="/gallery"
+            navColor={navColor}
+            navigationChange={navigationChange}
+            changeColor={changeColor}
+          >
+            GALLERY
           </NavLink>
         </NavItem>
 

@@ -1,19 +1,12 @@
 import React from 'react';
-import Interior from '../../assets/images/interior2.png';
-import Exterior from '../../assets/images/exterior2.png';
+import ViewProduct from "../components/index/viewProduct";
+import { categoryData } from "../data/categoryData";
 import {
   ProductWrapper,
   ProductContainer,
   ProductHeadSection,
   ProductHeadTitle,
   ProductContentContainer,
-  ProductTitle,
-  ProductText,
-  ProductContent,
-  ProductItem,
-  TextWrapper,
-  ItemText,
-  ItemImage,
 } from "./productStyle";
 const Product = () => {
     return (
@@ -24,23 +17,7 @@ const Product = () => {
           </ProductHeadSection>
 
           <ProductContentContainer>
-            <ProductTitle>Paint Samples</ProductTitle>
-            <ProductText>Find the perfect colors for your home.</ProductText>
-            <ProductContent>
-              <ProductItem to="/interior">
-                <ItemImage src={Interior} />
-                <TextWrapper>
-                  <ItemText>INTERIOR PAINTS & PRIMERS</ItemText>
-                </TextWrapper>
-              </ProductItem>
-
-              <ProductItem to="/exterior">
-                <ItemImage src={Exterior} />
-                <TextWrapper>
-                  <ItemText>EXTERIOR PAINTS & PRIMERS</ItemText>
-                </TextWrapper>
-              </ProductItem>
-            </ProductContent>
+            <ViewProduct categorydata={categoryData} />
           </ProductContentContainer>
         </ProductContainer>
       </ProductWrapper>

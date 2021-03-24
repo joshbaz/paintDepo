@@ -1,4 +1,5 @@
 import React from "react";
+import { RiWhatsappFill } from "react-icons/ri";
 import {
   ContactWrapper,
   ContactContainer,
@@ -23,6 +24,11 @@ import {
   FormError,
   ContactDetailsContent,
   FormContent,
+  WhatsWrapper,
+  WhatsTitle,
+  WhatsDetail,
+  WhatsText,
+  WhatsIcon,
 } from "./contactStyle";
 
 import FormDetails from "./form";
@@ -51,6 +57,17 @@ const ContactSection = ({ submitForm }) => {
               <EmailTitle>WRITE TO US</EmailTitle>
               <EmailDetails>info@thepaintdepo.co.ke</EmailDetails>
             </EmailWrapper>
+
+            <WhatsWrapper>
+              <WhatsTitle>SEND US A MESSAGE</WhatsTitle>
+              <WhatsDetail>
+                <WhatsIcon>
+                  <RiWhatsappFill />
+                </WhatsIcon>
+              
+                <WhatsText> WhatsApp</WhatsText>
+              </WhatsDetail>
+            </WhatsWrapper>
           </ContactDetailsContent>
 
           <FormWrapper>

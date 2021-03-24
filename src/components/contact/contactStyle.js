@@ -59,19 +59,20 @@ export const ContactContent = styled.div`
   }
 `;
 export const ContactDetailsContent = styled.div`
-@media all and (min-width:1000px){
-  grid-area:col2;
-}
+  @media all and (min-width: 1000px) {
+    grid-area: col1;
+    
+  }
 
-@media all and (min-width: 1000px){
-  margin-top: 32px;
-}
-@media all and (min-width: 768px){
-  text-align:left;
-  width:90%;
-  margin-left:auto;
- padding-top: 40px;
-}
+  @media all and (min-width: 1000px) {
+    margin-top: 32px;
+  }
+  @media all and (min-width: 768px) {
+    text-align: left;
+    width: 90%;
+    margin-left: auto;
+    padding-top: 40px;
+  }
 `;
 export const CallWrapper = styled.div`
   text-align: center;
@@ -79,6 +80,9 @@ export const CallWrapper = styled.div`
   @media all and (min-width: 768px) {
     text-align: left;
     
+  }
+  @media all and (min-width: 1000px){
+    margin-top: 30px;
   }
 `;
 
@@ -168,13 +172,58 @@ export const EmailDetails = styled.p`
   }
 `;
 
+export const WhatsWrapper = styled.div`
+  text-align: center;
+  margin-top: 30px;
+  @media all and (min-width: 768px) {
+    text-align: left;
+  }
+`;
+
+export const WhatsTitle = styled.div`
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+
+  @media all and (min-width: 1000px) {
+    font-size: 16px;
+  }
+  @media all and (min-width: 768px) {
+    font-size: 19px;
+  }
+`;
+
+export const WhatsDetail = styled.div`
+  display: flex;
+  @media all and (max-width: 767px){
+    justify-content:center;
+  }
+`;
+
+export const WhatsText = styled.div`
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #5b5b5b;
+  margin-top: 10px;
+  margin-left:5px;
+`;
+
+export const WhatsIcon = styled.div`
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #5b5b5b;
+  margin-top: 10px;
+`;
+
 export const FormWrapper = styled.div`
   width: 100%;
   text-align: center;
   margin-top: 30px;
 
   @media all and (min-width: 1000px) {
-    grid-area: col1;
+    grid-area: col2;
   }
 `;
 
@@ -194,12 +243,15 @@ export const FormH1 = styled.h1`
   @media all and (min-width: 1000px){
     position: relative !important;
     top:0 !important;
+    left: -45vw;
   }
   @media all and (min-width: 768px) {
     text-align: left;
     position: absolute;
     top: 9px;
   }
+
+  
 `;
 
 export const FormP = styled.p`
@@ -209,7 +261,9 @@ export const FormP = styled.p`
   margin-bottom: 21px;
 
   @media all and (min-width: 1000px) {
+    position: relative;
     font-size: 16px;
+    
   }
   @media all and (min-width: 768px) {
     text-align: left;
@@ -276,7 +330,7 @@ export const FormButton = styled.button`
   @media all and (min-width: 1000px) {
     margin-top: 140px !important;
     position: relative;
-    right: -50vw;
+    
   }
   @media all and (min-width: 768px) {
     margin-top: 16vw;

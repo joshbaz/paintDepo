@@ -1,0 +1,437 @@
+{
+   "ProductList": {
+      "id": 1,
+      "shortName": "Interior",
+      "productName": "Interior Paints",
+      "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Interior_paints_tRbFd6TlE.png",
+      "hex":"#E6E3DE",
+      "color":"#000000"
+      },
+  "PaintProducts":[
+    {
+      "id": 1,
+      "productName": "Silkosil",
+      "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Silkosil_JikYXDKdcn.png",
+      "description": "Acrylic copolymer binder-based, silicone additives, silk-matt outward looking, water-based, first class, interior final coat paint.",
+      "characteristic":  [
+          {"id":1,"text":"Healthy and environmental friendly."},
+          {"id":2,"text":"Leaves no cracks. Easily appliable."},
+          {"id":3,"text":"High covering ability."},
+          {"id":4,"text":"Breathable."},
+          {"id":5,"text":"Easy cleanable through silicone technology."},
+          {"id":6, "text":"Silk-matt outward look, colourfast for years."}
+        ],
+      "application": 
+      {
+        "title":"APPLICATION",
+        "list": [
+          {"id":1,"text":"The paint should be thinned 10-15% with clean water and applied with roller, brush or spraying in two coats."},
+          {"id":2,"text":"Leave 2 hours between coats depending on weather conditions."},
+          {"id":3,"text":"After application tools should be cleaned with water."}
+        ],
+        "text": "On new painted surfaces, make Sure that Surface has waited about 28 days before application; Paint should be completely mixed so that it is homogenous; Ambient and surface temperature should be between +5 and +35 degrees during the application and product drying season; Gloss and glasslike Surfaces should be rubbed before application to obtain better adhesive and a healthy Surface."
+      },
+      "technical":
+      {
+        "title": "TECHNICAL INFORMATION",
+        "list": [
+           {"id":1,"text":"Content: Styrene Acrylic"},
+           {"id":2,"text":"Consumption: Single coat: 13- 18  (m²/ lt), 75-110 (gr/m²)"},
+           {"id":3,"text":"Thinning Ratio: %10-15"},
+           {"id":4,"text":"Drying: Touch Dry: after 15-20 min, Dust repulsive: after 1 hour, Hard dry: after 24 hours"},
+           {"id":5,"text":"Viscosity: 125 KU ± 10   (  23 º C )"},
+           {"id":6,"text":"pH: 8 – 9 (25 º C)"},
+           {"id":7,"text":"Density: 1,21 ± 0,02 (gr / ml)"},
+           {"id":8,"text":"Solids Content: %50±2"},
+           {"id":9,"text":"Wet Rubbing Power: Class 1"},
+           {"id":10,"text":"Covering Power: Class 2 ( 8 m²/tl )"},
+           {"id":11,"text":"Grain Size: Class S1"},
+           {"id":12,"text":"Brilliance: Class G2"},
+           {"id":13,"text":"Thickness of dry coat: ( 30 ± 5 ) micron"},
+           {"id":14,"text":"Resistant to mold growth: K1"}
+        ]
+      },
+      "surfacePreparation":  "The surface must be cleared of any oil, dirt or dust. Swollen and old paintings must be scraped off. The surface must be clean, dry and solid. The Hollows and cracks should be filled with Silkcoat Dâhili Akrilik Macun in case of necessity.Ensure that the surfaces which are absorbent or were not painted before should be obtained by applying Silkcoat Izolac. Old and synthetic painted or dirty surfaces should be obtained by applying Silkcoat Universal Astar, On the surfaces which has been puttied should be obtained by applying Silkcoat Macun Astarı(Putty Primer).",
+      "caustion": {
+        "title": " CAUTION",
+        "list": [
+          {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+          {"id":2,"text":"Preserve in a tightly closed container." },
+          {"id":3,"text":"Do not dump into sewer system." },
+          {"id":4, "text":"Keep above  the reach of children" }
+        ]
+      },
+      "storage": {
+        "title":"STORAGE",
+        "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+      },
+      "packaging": {
+        "list": [
+          {"id":1,"text": "1lt"},
+          {"id":2,"text": "4lt"},
+          {"id":2,"text": "20lt"}
+        ]
+     },
+      "certificate": {
+        "title": "QUALITY CERTIFICATE",
+        "text": "Found complying as per TSE 5808 Conditions."
+      },
+     "datasheet": {
+      "list": [
+          {"id":1,"title":"Silkosil MSDS", "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/Data_Sheets/Silkosil_MSDS_VQ4InpFzPh.pdf"},
+          {"id":1,"title":"Silkosil TDS", "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/Data_Sheets/Silkosil_TDS_gEecx9tWIA.pdf"}
+      ]
+     }
+    },
+    {
+      "id": 2,
+      "productName": "Silkomatt",
+      "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Silkomatt_RlX9AnN4F.png",
+      "description":  " Acrylic copolymer binder-based, water based, antibacterial, matt outward looks, silicone additives, first class, interior final coat paint.",
+      "characteristic":  [
+          {"id":1,"text":"Healthy and environmental friendly"},
+          {"id":2,"text":"Leaves no cracks. Easily appliable."},
+          {"id":3,"text":"High covering ability."},
+          {"id":4,"text":"Breathable."},
+          {"id":5,"text":"Easy cleanable through silicone technology."},
+          {"id":6, "text":"Silk-matt outward look, colourfast for years."}
+        ],
+      "application": 
+      {
+        "title":"APPLICATION",
+        "list": [
+          {"id":1,"text":"The paint should be thinned 10-15% with clean water and applied with roller, brush or spraying in two coats."},
+          {"id":2,"text":"Leave 2 hours between coats depending on weather conditions."},
+          {"id":3,"text":"After application tools should be cleaned with water."}
+        ],
+        "text": "On new painted surfaces, make Sure that Surface has waited about 28 days before application; Paint should be completely mixed so that it is homogenous; Ambient and surface temperature should be between +5 and +35 degrees during the application and product drying season; Gloss and glasslike Surfaces should be rubbed before application to obtain better adhesive and a healthy Surface."
+      },
+      "technical":
+      {
+        "title": "TECHNICAL INFORMATION",
+        "list": [
+           {"id":1,"text":"Content: Styrene Acrylic"},
+           {"id":2,"text":"Consumption: Single coat: 13- 18  (m²/ lt), 80-115 (gr/m²)"},
+           {"id":3,"text":"Thinner: Water"},
+           {"id":4,"text":"Thinning Ratio: %10-15"},
+           {"id":5,"text":"Drying: Touch Dry: after 15-20 min, Dust repulsive: after 1 hour, Hard dry: after 24 hours"},
+           {"id":6,"text":"Viscosity: 125 KU ± 10   (  23 º C )"},
+           {"id":7,"text":"pH: 8 – 9 (25 º C)"},
+           {"id":8,"text":"Solids Content: %65±2"},
+           {"id":9,"text":"Wet Rubbing Power: Class 1"},
+           {"id":10,"text":"Covering Power: Class 2 ( 8 m²/tl )"},
+           {"id":11,"text":"Grain Size: Class S1"},
+           {"id":12,"text":"Brilliance: Class G2"},
+           {"id":13,"text":"Thickness of dry coat: ( 30 ± 5 ) micron"},
+           {"id":14,"text":"Thickness of wet coat: ( 60 ± 5 ) micron"},
+           {"id":15,"text":"Resistant to mold growth: K1"}
+        ]
+      },
+      "surfacePreparation": "The surface must be cleared of any oil, dirt or dust. Swollen and old paintings must be scraped off. The surface must be clean, dry and solid. The Hollows and cracks should be filled with Silkcoat Dâhili Akrilik Macun in case of necessity.Ensure that the surfaces which are absorbent or were not painted before should be obtained by applying Silkcoat Izolac. Old and synthetic painted or dirty surfaces should be obtained by applying Silkcoat Universal Astar, On the surfaces which has been puttied should be obtained by applying Silkcoat Macun Astarı(Putty Primer).",
+      "caustion": {
+        "title": " CAUTION",
+        "list": [
+          {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+          {"id":2,"text":"Preserve in a tightly closed container." },
+          {"id":3,"text":"Do not dump into sewer system." },
+          {"id":4, "text":"Keep above  the reach of children" }
+        ]
+      },
+      "storage": {
+        "title":"STORAGE",
+        "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+      },
+      "packaging": {
+        "list": [
+          {"id":1,"text": "1lt"},
+          {"id":2,"text": "4lt"},
+          {"id":2,"text": "20lt"}
+        ]
+     },
+      "certificate": {
+        "title": "QUALITY CERTIFICATE",
+        "text": "Found complying as per TSE 5808 Conditions."
+      },
+     "datasheet": {
+      "list": [
+          {"id":1,"title":"Silkosil MSDS", "link": ""},
+          {"id":1,"title":"Silkosil TDS", "link": ""}
+      ]
+     }
+    },
+    {
+      "id": 3,
+      "productName": "Natural Soft",
+      "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Latex_N6vPGxreg.png",
+      "description":  "Acrylic copolymer binder-based, silk-matt outward looks, water based, first class, satin interior final coat paint.",
+      "characteristic":  [
+          {"id":1,"text":"Healthy and environmental friendly."},
+          {"id":2,"text":"High covering ability."},
+          {"id":3,"text":"Easy cleanable."},
+          {"id":4,"text":"Satin and silk-matt appearance, colourfast for years."}
+        ],
+      "application": 
+      {
+        "title":"APPLICATION",
+        "list": [
+          {"id":1,"text":"The paint should be thinned 10-15% with clean water and applied with roller, brush or spraying in two coats. "},
+          {"id":2,"text":"Leave 2 hours between coats depending on weather conditions. "},
+          {"id":3,"text":"After application tools should be cleaned with water."}
+        ],
+        "text": "On new painted surfaces, make Sure that Surface has waited about 28 days before application; Paint should be completely mixed so that it is homogenous; Ambient and surface temperature should be between +5 and +35 degrees during the application and product drying season; Gloss and glasslike Surfaces should be rubbed before application to obtain better adhesive and a healthy Surface."
+      },
+      "technical":
+      {
+        "title": "TECHNICAL INFORMATION",
+        "list": [
+           {"id":1,"text":"Content: Styrene Acrylic"},
+           {"id":2,"text":"Consumption: Single coat: 13- 18  (m²/ lt), 80-115 (gr/m²)"},
+           {"id":3,"text":"Thinner: Water"},
+           {"id":4,"text":"Thinning Ratio: %10-15"},
+           {"id":5,"text":"Drying: Touch Dry: after 15-20 min, Dust repulsive: after 1 hour, Hard dry: after 24 hours"},
+           {"id":6,"text":"Viscosity: 125 KU ± 10 (23ºC)"},
+           {"id":7,"text":"pH: 8 – 9 (25ºC)"},
+           {"id":8,"text":"Density: 1,55 ± 0,02 (gr/ml)"},
+           {"id":9,"text":"Solids Content: %65±2"},
+           {"id":10,"text":"Wet Rubbing Power: Class 1"},
+           {"id":11,"text":"Covering Power: Class 2 ( 8 m²/tl )"},
+           {"id":12,"text":"Grain Size: Class S1"},
+           {"id":13,"text":"Brilliance: Class G2"},
+           {"id":14,"text":"Thickness of dry coat: ( 30 ± 5 ) micron"},
+           {"id":15,"text":"Thickness of wet coat: ( 60 ± 5 ) micron"}
+        ]
+      },
+      "surfacePreparation":  "The surface must be cleared of any oil, dirt or dust. Swollen and old paintings must be scraped off. The surface must be clean, dry and solid. The Hollows and cracks should be filled with Silkcoat Dâhili Akrilik Macun in case of necessity.Ensure that the surfaces which are absorbent or were not painted before should be obtained by applying Silkcoat Izolac. Old and synthetic painted or dirty surfaces should be obtained by applying Silkcoat Universal Astar, On the surfaces which has been puttied should be obtained by applying Silkcoat Macun Astarı(Putty Primer).",
+      "caustion": {
+        "title": " CAUTION",
+        "list": [
+          {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+          {"id":2,"text":"Preserve in a tightly closed container." },
+          {"id":3,"text":"Do not dump into sewer system." },
+          {"id":4, "text":"Keep above  the reach of children" }
+        ]
+      },
+      "storage": {
+        "title":"STORAGE",
+        "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+      },
+      "packaging": {
+        "list": []
+     },
+      "certificate": {
+        "title": "QUALITY CERTIFICATE",
+        "text": "Found complying as per TSE 5808 Conditions."
+      },
+     "datasheet": {
+      "list": [
+          {"id":1,"title":"Natural Soft MSDS", "link": ""},
+          {"id":1,"title":"Natural Soft TDS", "link": ""}
+      ]
+     }
+    },
+   
+    {
+      "id": 5,
+      "productName": "Natural",
+      "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Natural_ZJbuAsykLp.png",
+      "description": "Acrylic copolymer binder based, silk-mat appearance, water-based, first-class, satin interior topcoat paint.",
+      "characteristic":  [
+          {"id":1,"text":"Healthy and environmental friendly."},
+          {"id":2,"text":"Leaves no cracks. Easily appliable."},
+          {"id":3,"text":"High covering ability."},
+          {"id":4,"text":"Breathable."},
+          {"id":5,"text":"Easy cleanable through silicone technology."},
+          {"id":6, "text":"Silk-matt outward look, colourfast for years."}
+        ],
+      "application": 
+      {
+        "title":"APPLICATION",
+        "text": "Can be applied to all pre-painted interior surfaces such as concrete, plaster, black plaster, betopan, glass textured and paintable wallpaper."
+      },
+      "technical":
+      {
+        "title": "TECHNICAL INFORMATION",
+        "list": [
+           {"id":1,"text":"Content: Styrene Acrylic"},
+           {"id":2,"text":"Consumption: Single coat: 13-18 (m² / lt), 80-115 (g / m2)"},
+           {"id":3,"text":"Thinner: Water"},
+           {"id":4,"text":"Thinning Ratio: 10-15%"},
+           {"id":5,"text":"Drying Time: Touch 15 – 20 min; Dust retention 1 hour; Full drying 24 hours"},
+           {"id":6,"text":"Viscosity: 125 KU ± 10 (23 º C)"},
+           {"id":7,"text":"PH (25 ° C): 8 – 9"},
+           {"id":8,"text":"Density: 1,25 ± 0,02 (g / ml)"},
+           {"id":9,"text":"Solid Matter: 53 ± 2%"},
+           {"id":10,"text":"Wet Scrub Resistance: Class 1 (TS EN 13300)"},
+           {"id":11,"text":"Covering force: Class 2 (8m2 / lt) (TS EN 13300)"},
+           {"id":12,"text":"Grain size: Class S1 (TS EN 13300)"},
+           {"id":13,"text":"Brightness: Class G2 (TS EN 13300)"},
+           {"id":14,"text":"Resistant to mold growth: K1"}
+        ]
+      },
+      "surfacePreparation":  "The application surface should be free from all kinds of dust, dirt and oil. A clean, dry and solid surface should be obtained after lightly smoothing the blistered and old painted surfaces. If necessary, defects and cracks on the surface should be repaired with Silkcoat Internal Acrylic Putty. Silkcoat Universal Primer should be used on new painted and absorbent surfaces, Silkcoat Paste Primer should be used on surfaces that are old painted, dirty or synthetic painted surfaces and putty applied surfaces. Silkcoat Natural Satin is applied in 2 coats by roller, brush or spray method after being thinned with 10-15% of clean water. Wait at least 2 hours between coats depending on the air temperature. Application tools should be cleaned with water after application. For new coated surfaces, at least 28 days must be waited for the application of paint to the surface. The paint should be mixed until it is completely homogenous before use. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying. If applied on very bright and glassy surfaces, a solid surface should be formed by smoothing the surface first to ensure better adhesion.",
+      "caustion": {
+        "title": " CAUTION",
+        "list": [
+          {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+          {"id":2,"text":"Preserve in a tightly closed container." },
+          {"id":3,"text":"Do not dump into sewer system." },
+          {"id":4, "text":"Keep above  the reach of children" }
+        ]
+      },
+      "storage": {
+        "title":"STORAGE",
+        "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+      },
+      "packaging": {
+        "list": [
+          {"id":1,"text": "2kg"},
+          {"id":2,"text": "4kg"}
+        ]
+     },
+      "certificate": {
+        "title": "QUALITY CERTIFICATE",
+        "text": "Found complying as per TSE 5808 Conditions."
+      },
+     "datasheet": {
+      "list": []
+     }
+    },
+    {
+      "id": 6,
+      "productName": "Class Plastic",
+      "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Class_Plastic_mt30k-RB1H.png",
+      "description": "Acrylic copolymer binder-based, matt outward looks, water based, interior final coat paint.",
+      "characteristic":  [
+          {"id":1,"text":"Healthy and environmental friendly."},
+          {"id":2,"text":"Leaves no cracks. Easily appliable."},
+          {"id":3,"text":"High covering ability."},
+          {"id":4,"text":"Breathable."},
+          {"id":6, "text":"Matt smooth outward looking, colourfast for years."}
+        ],
+      "application": 
+      {
+        "title":"APPLICATION",
+        "list": [
+          {"id":1,"text":"The paint should be thinned 10-15% with clean water and applied with roller, brush or spraying in two coats."},
+          {"id":2,"text":"Leave 2 hours between coats depending on weather conditions."},
+          {"id":3,"text":"After application tools should be cleaned with water."}
+        ]      
+      },
+      "technical":
+      {
+        "title": "TECHNICAL INFORMATION",
+        "list": [
+           {"id":1,"text":"Content: Styrene Acrylic"},
+           {"id":2,"text":"Consumption: Single coat: 13- 16  (m²/ lt), 90-130 (gr/m²)"},
+           {"id":3,"text":"Thinning Ratio: %10-15"},
+           {"id":4,"text":"Thinner: Water"},
+           {"id":5,"text":"Thinning Ratio: %10-15"},
+           {"id":6,"text":"Drying: Touch Dry: after 15-20 min, Dust repulsive: after 1 hour, Hard dry: after 24 hours"},
+           {"id":7,"text":"Viscosity: 125 KU ± 10   (  23 º C )"},
+           {"id":8,"text":"pH: 8 – 9 (25 º C)"},
+           {"id":9,"text":"Density: 1,56 ± 0,02 (gr / ml)"},
+           {"id":10,"text":"Solids Content: %67±2"},
+           {"id":11,"text":"Wet Rubbing Power: Class 2"},
+           {"id":12,"text":"Covering Power: Class 2 ( 8 m²/tl )"},
+           {"id":13,"text":"Grain Size: Class S1 thin"},
+           {"id":14,"text":"Brilliance: Class G3 matt"},
+           {"id":14,"text":"Thickness of dry coat: ( 30 ± 5 ) micron"},
+           {"id":14,"text":"Thickness of wet coat: ( 60 ± 5 ) micron"}
+        ]
+      },
+      "surfacePreparation": "The surface must be cleared of any oil, dirt or dust. Swollen and old paintings must be scraped off. The surface must be clean, dry and solid. The Hollows and cracks should be filled with Silkcoat Dâhili Akrilik Macun in case of necessity.Ensure that the surfaces which are absorbent or were not painted before should be obtained by applying Silkcoat Izolac. Old and synthetic painted or dirty surfaces should be obtained by applying Silkcoat Universal Astar, On the surfaces which has been puttied should be obtained by applying Silkcoat Macun Astarı(Putty Primer).",
+      "caustion": {
+        "title": " CAUTION",
+        "list": [
+          {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+          {"id":2,"text":"Preserve in a tightly closed container." },
+          {"id":3,"text":"Do not dump into sewer system." },
+          {"id":4, "text":"Keep above  the reach of children" }
+        ]
+      },
+      "storage": {
+        "title":"STORAGE",
+        "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+      },
+      "packaging": {
+        "list": [
+          {"id":1,"text": "2kg"},
+          {"id":2,"text": "4kg"}
+        ]
+     },
+      "certificate": {
+        "title": "QUALITY CERTIFICATE",
+        "text": "Found complying as per TSE 5808 Conditions."
+      },
+     "datasheet": {
+      "list": [
+          {"id":1,"title":"metalico soft TDS", "link": ""}
+      ]
+     }
+    },
+    {
+      "id": 7,
+      "productName": "Latex",
+      "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Latex-1_4TEhtrv6Q6.png",
+      "description":  "Acrylic copolymer binder based, matt appearance, economic interior paint.",
+      "characteristic":  [
+          {"id":1,"text":"Breathable and adhesive."},
+          {"id":2,"text":"High covering ability."},
+          {"id":3,"text":"Dries quickly."},
+          {"id":4,"text":"Breathable."},
+          {"id":5,"text":"Has water removal feature."}
+        ],
+      "application": 
+      {
+        "title":"APPLICATION",
+        "text": "The application surface should be free from all kinds of dust, dirt and oil. The blistered and old painted surfaces are scraped, the surface defects and cracks are filled with suitable paste and smoothed for a clean, dry and solid surface to be obtained. Latex Plastic is applied 8-12 hours after having applied the primer to the prepared surface. Latex Plastic is diluted with 10-15% of clean water and applied in two layers by roller, brush or spray method. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying."
+      },
+      "technical":
+      {
+        "title": "TECHNICAL INFORMATION",
+        "list": [
+           {"id":1,"text":"Content: Styrene Acrylic"},
+           {"id":2,"text":"Consumption: 6 – 10 (m² / lt), 100-150 (g / m2)"},
+           {"id":3,"text":"Thinning ratio: 10-15%"},
+           {"id":4,"text":"Suitable primer: Silkcoat Universal primer, Silkcoat Izolac"},
+           {"id":5,"text":"Suitable paste: Silkcoat Acrylic Putty"},
+           {"id":6,"text":"Application tools: Brush, Roller."},
+           {"id":7,"text":"Drying: Touch 15-20 min, hard dry for 2 hours."},
+           {"id":8,"text":"Viscosity: 125 KU ± 10 (23 º C)"},
+           {"id":9,"text":"PH (25 ° C): 8 – 9"},
+           {"id":10,"text":"Density: 1,67 ± 0,02 g / ml"},
+           {"id":11,"text":"Amount of solid matter: (64 ± 2)%"},
+           {"id":12,"text":"Grain size: Class S1 (TS EN 13300)"},
+           {"id":13,"text":"Brightness: Class G2 (TS EN 13300)"},
+           {"id":14,"text":"Dry film thickness: (50 ± 5) microns"},
+           {"id":14,"text":"Wet film thickness: (120 ± 5) microns"}
+        ]
+      },
+      "surfacePreparation": "The surface must be cleared of any oil, dirt or dust. Swollen and old paintings must be scraped off. The surface must be clean, dry and solid. The Hollows and cracks should be filled with Silkcoat Dâhili Akrilik Macun in case of necessity.Ensure that the surfaces which are absorbent or were not painted before should be obtained by applying Silkcoat Izolac. Old and synthetic painted or dirty surfaces should be obtained by applying Silkcoat Universal Astar, On the surfaces which has been puttied should be obtained by applying Silkcoat Macun Astarı(Putty Primer)."
+      ,
+      "caustion": {
+        "title": " CAUTION",
+        "list": [
+          {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water." },
+          {"id":2,"text":"Preserve in a tightly closed container." },
+          {"id":3,"text":"Do not dump into sewer system." },
+          {"id":4, "text":"Keep above  the reach of children" }
+        ]
+      },
+      "storage": {
+        "title":"STORAGE",
+        "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+      },
+      "packaging": {
+        "list": [
+          {"id":1,"text": "2kg"},
+          {"id":2,"text": "4kg"}
+        ]
+     },
+     "datasheet": {
+      "list": []
+     }
+    }
+  ]
+}
+ 

@@ -1,0 +1,32 @@
+{
+  "products_list" : [
+    {
+      "id": 1,
+      "shortName": "Interior",
+      "productName": "interior Paints",
+      "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Interior_paints_tRbFd6TlE.png",
+      "hex":"#E6E3DE"
+    },
+    {
+      "id": 2,
+      "shortName": "Exterior",
+      "productName": "Exterior Paints",
+      "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Exterior_paints_1X9ltbj-bk.png",
+      "hex":"#EEC17E"
+    },
+    {
+      "id": 3,
+      "shortName": "Decorative",
+      "productName": "Decorative Paints",
+      "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Decorative_paint_38myFyuAhk.png",
+      "hex":"#DDBFA8"
+    },
+    {
+      "id": 4,
+      "shortName": "Silk Plaster",
+      "productName": "Liquid wall paper Paints",
+      "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Liquid_wall_paper_75GCXw1GM.png",
+      "hex":"#4578A8"
+    }
+  ]
+}

@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import ContactSection from '../components/contact'
 import Footer from '../components/footer'
-import Navigation from '../components/Navigation'
+
+import Navigation2 from "../components/common/Navigation2";
+import MobileMenu2 from "../components/common/MobileMenu2";
 import Success from '../components/contact/sucess';
-import MobileMenu from '../components/MobileMenu';
+
 
 const Contact = () => {
 
@@ -34,8 +36,8 @@ const Contact = () => {
       window.addEventListener("scroll", navSolidChange);
     return (
       <>
-        <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
-        <Navigation
+        <MobileMenu2 mobileActive={OpenMobileMenu} toggle={toggle} />
+        <Navigation2
           toggle={toggle}
           navColor="#662583"
           navigationChange={switchNavColor}

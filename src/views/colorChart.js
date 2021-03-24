@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 import Footer from "../components/footer";
-import {CommonHero} from '../components/common'
-import MobileMenu from "../components/MobileMenu";
-import Navigation from "../components/Navigation";
+import {CommonHero, Lists} from '../components/common'
+
 import { SliderColorChart } from "../data/heroSlider";
+import colorchart from '../data/color_chart.json'
 import CookieAccept from "../components/Cookies";
 import Cookies from "js-cookie";
 import Loader from "../components/Loader";
+import Navigation2 from "../components/common/Navigation2";
+import MobileMenu2 from "../components/common/MobileMenu2";
 
 const ColorChart = () => {
      const [OpenMobileMenu, setMobileMenu] = useState(false);
@@ -81,8 +83,8 @@ const ColorChart = () => {
       <>
         {windowloading && <Loader />}
 
-        <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
-        <Navigation
+        <MobileMenu2 mobileActive={OpenMobileMenu} toggle={toggle} />
+        <Navigation2
           toggle={toggle}
           navColor="white"
           navigationChange={switchNavColor}
@@ -97,10 +99,9 @@ opacity: 0.9"
           click={clickCookies}
         />
         <CommonHero slides={SliderColorChart} />
-        
-        
-        
-        
+
+        <Lists Colordata={colorchart} />
+
         <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
       </>
     );

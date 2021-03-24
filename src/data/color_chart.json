@@ -8,6 +8,8 @@
       "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/interior_J3zHfzyYf.png",
       "description": "",
       "hex":"#C4CCCF",
+      "color": "#000000",
+      "area": "IN",
       "list": [
         {"id":1, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Interior/Interior-29__AFBLmDhN.png"},
         {"id":2, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Interior/Interior-28_l-J1uJUJAJ.png"},
@@ -49,6 +51,8 @@
       "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Exterior_S1cg42nj7K.png",
       "description": "",
       "hex":"#EEC17E",
+      "color": "#000000",
+      "area": "EX",
       "list": [
         {"id":1, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Exterior/Exterior-1_gpBUlMoIm.png"},
         {"id":2, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Exterior/Exterior-2_Lzn52fw9t0.png"},
@@ -95,6 +99,8 @@
       "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Magico_MdyJcvedgD.png",
       "description": "",
       "hex":"#324043",
+      "color": "#ffffff",
+      "area": "MG",
       "list": [
         {"id":1, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Magico/Magico-1_JdxCaFQmS.png"},
         {"id":2, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Magico/Magico-2_n2AghAMuuz.png"},
@@ -122,6 +128,8 @@
       "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Pearl__w2lRt343.png",
       "description": "",
       "hex":"#EEE5C7",
+      "color": "#000000",
+      "area": "PL",
       "list": [
         {"id":1, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Pearl/Pearl-1_3cCckhycr.png"},
         {"id":2, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Pearl/Pearl-2_N4SAZ6u9GV.png"},
@@ -152,6 +160,8 @@
       "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Arteco_GwFJUI4iH.png",
       "description": "",
       "hex":"#888671",
+      "color": "#ffffff",
+      "area":"AR",
       "list": [
         {"id":1, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Arteco/Arteco-1-1_yunNRsrY5.png"},
         {"id":2, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Arteco/Arteco-1-2_NbX8I6_sQD.png"},
@@ -179,6 +189,8 @@
       "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Velvetto_OEwoFG8hdK.png",
       "description": "",
       "hex":"#CCCCCC",
+      "color": "#000000",
+      "area": "VL",
       "list": [
         {"id":1, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Velvetto/Velvetto-1_t5s73NB7K.png"},
         {"id":2, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Velvetto/Velvetto-2_HUTiVbpdC.png"},
@@ -205,6 +217,8 @@
       "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Velvetto_Soft_sW_Ha6TSYF.png",
       "description": "",
       "hex":"#837AAF",
+      "color": "#ffffff",
+      "area": "VS",
       "list": [
         {"id":1, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Velvetto_Soft/Velvetto_Soft-1_RDaGj7PMj.png"},
         {"id":2, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Velvetto_Soft/Velvetto_Soft-2_PXEjX0YHfX.png"},
@@ -229,6 +243,8 @@
       "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Decortivo_P6S6vmtSH6.png",
       "description": "",
       "hex":"#6F5B42",
+      "color": "#ffffff",
+      "area": "DE",
       "list": [
         {"id":1, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Decortivo/Decortivo-1_D-g9mre3C.png"},
         {"id":2, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Decortivo/Decortivo-2_y3Q_f0SXH.png"},
@@ -250,6 +266,8 @@
       "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Metalico_a6TeFR0FXL.png",
       "description": "",
       "hex":"#A19FA2",
+      "color": "#ffffff",
+      "area": "ME",
       "list": [
         {"id":1, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Metalico/Metalico-1_O9MfWNggZ.png"},
         {"id":2, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Metalico/Metalico-2_nENZnoPrhP.png"},
@@ -278,6 +296,8 @@
       "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Metalico_Soft_31ekKAwt-H.png",
       "description": "",
       "hex":"#B9BABE",
+      "color": "#000000",
+      "area": "MS",
       "list": [
         {"id":1, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Metalico_Soft/Metalico_Soft-1_7WZumcnwx0.png"},
         {"id":2, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Metalico_Soft/Metalico_Soft-2_rBFreI6R5f.png"},
@@ -306,6 +326,8 @@
       "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Palace_l9sLtSK4DK.png",
       "description": "",
       "hex":"#B9AC9C",
+      "color": "#000000",
+      "area":"PA",
       "list": [
         {"id":1, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Pearl/Pearl-1_3cCckhycr.png"},
         {"id":2, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Pearl/Pearl-2_N4SAZ6u9GV.png"},
@@ -336,6 +358,8 @@
       "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Marmarito_IPgpatwR0p.png",
       "description": "",
       "hex":"#747877",
+      "color": "#ffffff",
+      "area":"MA",
       "list": [
         {"id":1, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Marmarito/Marmarito-1_mKb8iYUkM.png"},
         {"id":1, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Marmarito/Marmarito-2_P5FQRlP2g.png"},
@@ -366,6 +390,8 @@
       "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Travertino_aPnHfz1chc.png",
       "description": "",
       "hex":"#947759",
+      "color": "#ffffff",
+      "area":"TR",
       "list": [
         {"id":1, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Travertino/Travertino-1_2vjoMEhNM.png"},
         {"id":2, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Travertino/Travertino-2_NkcOQryjmx.png"},
@@ -396,6 +422,8 @@
       "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Cracos_Paints_Mp5Tfapi8s.png",
       "description": "",
       "hex":"#B3402E",
+      "color": "#ffffff",
+      "area":"CR",
       "list": [
         {"id":1, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Cracos/cracos-1_OqK1z8HMH.png"},
         {"id":2, "link": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/Color_Chart/Color_Charts/Cracos/cracos-2_2ROmAwKnFm.png"},

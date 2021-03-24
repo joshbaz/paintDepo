@@ -1,6 +1,5 @@
 import React from 'react';
-import paintSample from '../../../assets/images/Productbypaint.png';
-import paintImage from '../../../assets/images/paintImage.png'
+
 import {
   ViewWrapper,
   ViewContent,
@@ -14,19 +13,19 @@ import {
   ViewHeadTitle,
   ViewHeadText,
 } from "./viewStyle";
-import { categoryData } from '../../../data/categoryData';
-const viewProduct = ({ categorydata }) => {
+
+const viewProduct = ({ categorydata, head, text, url }) => {
+
   return (
     <ViewWrapper id="view">
       <ViewHeadWrap>
-        <ViewHeadTitle>Welcome to The Paint depo</ViewHeadTitle>
+        <ViewHeadTitle>{head}</ViewHeadTitle>
         <ViewHeadText>
-          Choose from our selection of paints, primers & decorative products
-          from the Silkcoat Paints family
+          {text}
         </ViewHeadText>
       </ViewHeadWrap>
       <ViewWrap>
-        {categoryData.map((data, index) => {
+        {categorydata.map((data, index) => {
           return (
             <ViewContainer key={index} to={data.path}>
               <ViewContent>

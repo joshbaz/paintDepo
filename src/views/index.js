@@ -3,10 +3,12 @@ import Footer from "../components/footer";
 import ChooseSection from "../components/index/choose";
 import HeroSection2 from "../components/index/Hero2";
 import OfferSection from "../components/index/offerSection";
-import Product from "../components/index/productSection";
+import colorchart from "../data/color_chart.json";
+import ColorSection from '../components/index/ColorSection';
 import ViewProduct from "../components/index/viewProduct";
-import MobileMenu from "../components/MobileMenu";
-import Navigation from "../components/Navigation";
+
+import Navigation2 from '../components/common/Navigation2'
+import MobileMenu2 from '../components/common/MobileMenu2';
 import { SliderInfo } from "../data/heroSlider";
 import { categoryData } from "../data/categoryData";
 
@@ -96,9 +98,9 @@ const Home = () => {
   return (
     <>
       {windowloading && <Loader />}
-      
-      <MobileMenu mobileActive={OpenMobileMenu} toggle={toggle} />
-      <Navigation
+
+      <MobileMenu2 mobileActive={OpenMobileMenu} toggle={toggle} />
+      <Navigation2
         toggle={toggle}
         navColor="white"
         navigationChange={switchNavColor}
@@ -113,10 +115,22 @@ opacity: 0.9"
         click={clickCookies}
       />
       <HeroSection2 slides={SliderInfo} />
-      <ViewProduct categorydata={categoryData}/>
+      <ViewProduct
+        categorydata={categoryData}
+        head={"Welcome to The Paint depo"}
+        text={
+          "Choose from our selection of paints, primers & decorative products from the Silkcoat Paints family"
+        }
+      />
       <OfferSection />
       <ChooseSection />
-      <Product />
+      <ColorSection
+        Colordata={colorchart}
+        head={"CHOOSE A COLOR FAMILY"}
+        text={
+          "Choose from our selection of decorative products from the Silkcoat Paints family"
+        }
+      />
       <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
     </>
   );

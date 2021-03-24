@@ -1,0 +1,905 @@
+
+    {
+      "ProductList": {
+     "id": 2,
+      "shortName": "Exterior",
+      "productName": "Exterior Paints",
+      "coverphoto": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Exterior_paints_1X9ltbj-bk.png",
+      "hex":"#EEC17E",
+      "color":"#000000"
+      },
+      "ExteriorPaint" : [
+        {
+          "id": 1,
+          "productName": "Silicone",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Silikon_Primer__Astar_UcphIpWqKo.png",
+          "description":  "Pure Acrylic binder based matt appearance water based first class exterior paint."
+          ,
+          "characteristic": [{
+            "text": "Silicone modified top coat with superior adhesion and water repellent power. Due to the silicone content, Silicone Paint does not swell or spill on the surface which makes the surfaces less wet and dry quickly. In addition to being resistant to the harmful effects of rain water, snow water and sun rays, it has high resistance to abrasive effect of sea water near the sea."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": " It can easily be applied on exterior facades of buildings, fine plaster, gypsum plate, gross concrete, concrete plate and similar building elements."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Acrylic pur"},
+               {"id":2,"text":"Consumption: Single coat: 6- 10  (m²/lt), 100-170 (g/m2)"},
+               {"id":3,"text":"Thinner: Water"},
+               {"id":4,"text":"Thinning Ratio: % 10-15"},
+               {"id":3,"text":"Density: 1,57 ± 0,02 ( g / ml )"},
+               {"id":4,"text":"Drying: Touch dry: after 15-20 minutes, Dust repulsive : after 1 hour, Hard dry: after 24 hours"},
+               {"id":3,"text":"Viscosity: 115 KU ± 10   (  23 º C )"},
+               {"id":4,"text":"pH: 8 – 9"},
+               {"id":3,"text":"Brightness: Class G3 Mat (TS EN 1062-1)"},
+               {"id":4,"text":"Thinning Ratio: % 10-15"},
+               {"id":4,"text":"Dry Film Thickness: Class E2 (TS EN 1062-1)"},
+               {"id":4,"text":"Grain size: Class S1 (TS EN 1062-1)"},
+               {"id":4,"text":"Water Water Transfer Rate: Class V1 (TS EN 1062-1)"},
+               {"id":4,"text":"Cracked Covering Specification: Class A0 (TS EN 1062-1)"}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,
+                "text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above the reach of children -Do not dump into sewer system.." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "15 lt"},
+              {"id":2,"text": "7.5 lt"},
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },
+        {
+          "id": 2,
+          "productName": "Acrylic",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Acrylic_9rwOPlUS4m.png",
+          "description":  "Pure Acrylic binder based, matt appearance, water based, first class, final coat exterior paint."
+          ,
+          "characteristic": [{
+            "text": "  Acrylic paint is resistant to UV rays thanks to pigments in its structure. In addition to having high closure power, the colors retain their vitality for many years. The water-based structure does not harm human health or the environment."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": "The application surface should be free from all kinds of dust, rust, dirt, oil and old paint residues. The surface cracks should be smoothed with Silkcoat External Putty and sanded, then applied with Silkcoat Silicone Primer to obtain a clean, dry and solid surface. Silicone Paint is diluted with 10-15% clean water for the first coat and thinned with 5-10% water and applied in 2 coats by roller, brush or spray method. Wait at least 2 hours between coats depending on the air temperature. Tools should be cleaned immediately after application. For new coated surfaces, at least 28 days must be waited for the application of paint to the surface. The paint should be mixed until it is completely homogenous before use. Ambient and surface temperature should be between + 5ºC and + 35ºC during application and product drying. If applied on very bright and glassy surfaces, a solid surface should be formed by smoothing the surface first to ensure better adhesion."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Pure acrylic"},
+               {"id":2,"text":"Consumption:  Single coat : 6-10  m²/ lt, 100-170 (g/m2)."},
+               {"id":3,"text":"Thinning Ratio:  %10- 15"},
+               {"id":4,"text":" Touch dry: after 15-20 minutes, Dust repulsive: after 1 hour, Hard dry: after 24 hours"}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,
+                "text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above the reach of children -Do not dump into sewer system.." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "15 lt"},
+              {"id":2,"text": "7.5 lt"},
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },
+        {
+          "id": 3,
+          "productName": "Hydroclean",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Hydroclean_mn7hcsD-Es.png",
+          "description":  "It is resistant to sun rays (UV), rain, snow and industrial effects. It has a high covering ability and is adhesive as well as can be easily applied.",
+          "characteristic": [{
+            "text": " It is resistant to sun rays (UV), rain, snow and industrial effects. It has a high covering ability and is adhesive as well as can be easily applied."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": " can be applied to all pre-prepared, clean and dry exterior surfaces."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Pure Acrylic"},
+               {"id":2,"text":"Consumption:   Single Floor: 6- 10 (m² / lt)"},
+               {"id":3,"text":"Thinning Ratio: % 10-15"},
+               {"id":4,"text":" Touch dry: Touch 15 – 20 min; Dust Hold Time: 1 hour; Full Drying 24 hours"}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above the reach of children -Do not dump into sewer system.." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "15 lt"},
+              {"id":2,"text": "7.5 lt"},
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },
+        {
+          "id": 4,
+          "productName": "Hydroclean Plus",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Hydroclean_Plus_-rJ5PGe-Ix.png ",
+          "description":  "Pure acrylic binder based, silk matt appearance, flexible exterior paint.",
+          "characteristic": [{
+            "text": " Silicone modified top coat with superior adhesion and water repellent power. Due to the silicone content, Silicone Paint does not swell or spill on the surface which makes the surfaces less wet and dry quickly. In addition to being resistant to the harmful effects of rain water, snow water and sun rays, it has high resistance to abrasive effect of sea water near the sea."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": " Hydroclean Plus paint is resistant to sunlight (UV), rain, snow and industrial effects. It has high covering and adhesion ability as well as can be easily applied. It does not crack due to its flexible structure."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Pure Acrylic"},
+               {"id":2,"text":"Consumption:  Single Floor: 6- 10 (m² / lt)"},
+               {"id":3,"text":"Thinning Ratio: 40% max"},
+               {"id":4,"text":" Touch dry: Touch 15 – 20 min; Dust Hold Time: 1 hour; Full Drying 24 hours"}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above the reach of children -Do not dump into sewer system.." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "15 lt"},
+              {"id":2,"text": "7.5 lt"},
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },
+        {
+          "id": 5,
+          "productName": "Stone",
+          "image": " https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Stone_DskUtv-Ytb.png",
+          "description": "Acrylic copolymer binder and granite marble-based, durable decorative exterior coating material.",
+          "characteristic": [{
+            "text": " Natural lively colourfast (preserves its natural color life for many years) -Resistant against atmospheric conditions. -Resistant against water ,washing and rubbing. -Breathable due to its water-based structure, a flexible wall covering and no unpleasant sent."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": " Silkcoat Stone can be easily applied on a wide range of interior and exterior surfaces, concrete, brick, plaster, concrete finishes, wood and similar surfaces except metal and glass."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Styrene Acrylic binder based thin / bold grained"},
+               {"id":2,"text":"Consumption:  For thin: 2500-3500 (g / m2)"},
+               {"id":3,"text":"Thinning Ratio: Thin / bold: Ready to use"},
+               {"id":4,"text":" Touch dry: after 15-20 minutes, Dust repulsive : after 1 hour, Hard dry: after 24 hours"}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above  the reach of children -Do not dump into sewer system" }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "15 lt"},
+              {"id":2,"text": "7.5 lt"},
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },
+        {
+          "id": 6,
+          "productName": "Elasticoat",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Elasticoat_18jxdCA9-4.png",
+          "description":  "Pure acrylic binder based matt appearance elastic exterior paint."
+          ,
+          "characteristic": [{
+            "text": "Pure acrylic binder based matt appearance elastic exterior paint."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": "The floor preparation can be applied to all clean and dry exterior surfaces."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Pure acrylic"},
+               {"id":2,"text":"Consumption:  Single coat: 6- 10  (m²/lt), 100-170 (g/m2)"},
+               {"id":3,"text":"Thinning Ratio:% 10 -15 wat"},
+               {"id":4,"text":" Touch dry: after 15-20 min, Dust repulsive: after 1 hour, Hard dry: after 24 hours"}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above  the reach of children -Do not dump into sewer system." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "15 lt"},
+              {"id":2,"text": "7.5 lt"},
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },
+        {
+          "id": 7,
+          "productName": "Elasticoat Silikonlu",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Elasticoat_Silikonlu_Z9dWVDMrpb.png ",
+          "description":  "Pure Acrylic binder based silicone additifs, silky matte appearance exterior paint.",
+          "characteristic": [{
+
+            "text": " Elasticoat Silicone Paint, which has a silky matte appearance, is modified with silicone resin and has superior water repellency and elasticity. Thanks to the silicon additive, it helps isolation and high resistance to external factors. Resistant to sunlight. It is easy to apply and allows the surface to breathe."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": " Can be applied on all kinds of cleaned exterior and interior surfaces."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Pur acrylique"},
+               {"id":2,"text":"Consumption:  Single coat: 6- 10  (m²/lt), 100-170 (g/m2)"},
+               {"id":3,"text":"Thinning Ratio: % 10-15"},
+               {"id":4,"text":" Touch dry: after 15-20 minutes, Dust repulsive : after 1 hour, Hard dry: after 24 hours"}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above the reach of children -Do not dump into sewer system.." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "15 lt"},
+              {"id":2,"text": "7.5 lt"},
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },   
+        {
+          "id": 8,
+          "productName": "Elasticoat Desenli",
+          "image": " https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Elasticoat__Desenli_Zl6RRxJexb.png",
+          "description": "Acrylic copolymer binder based matt exterior elastic coating.",
+          "characteristic": [{
+            "text": " Elasticoat Pattern, which is quite different from the classical paints thanks to its specially formulated structure, is a combination of quality and aesthetics and it is applied by roller. Thanks to its superior elastomeric structure, it is an exterior coating covering the cracks in the bath. In addition to providing excellent decorative appearance on the facades, it has high resistance against external factors such as snow, rain, humidity, industrial effects and sun rays."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": " Can be applied on surfaces such as gross concrete, concrete, gypsum plaster, gypsum board, prefabricated concrete and similar building elements."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Stirene acrylic"},
+               {"id":2,"text":"Consumption:  Single coat: 800- 1100 gr/m2"},
+               {"id":3,"text":"Thinning Ratio: No thinning, ready-to-use."},
+               {"id":4,"text":" Touch dry: after 6 hours; Hard dry: after 24 hours"}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,
+                "text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above  the reach of children -Do not dump into sewer system." 
+              }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature.  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "15 lt"},
+              {"id":2,"text": "7.5 lt"},
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },
+        {
+          "id": 9,
+          "productName": "Elasticoat Silikonlu Desenli Kaplama",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Elasticoat_Silikonlu_Desenli_Kaplama_aNM90zIDSr.png ",
+          "description":  "Acrylic copolymer binder based coating., silicone additives exterior coating."
+          ,
+          "characteristic": [{
+            "text": " Elasticoat S-Patterned with a decorative appearance and quality combined is a ready-to-apply exterior coating which has a very good water repellency thanks to its silicone resin reinforced structure. In addition to being flexible, Elasticoat S-Patterned protects its appearance of the first day of application for many years, allowing the applied surface to breathe."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": " Can be applied on surfaces such as gross concrete, concrete, gypsum plaster, gypsum board, prefabricated concrete and similar building elements."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Stirene acrylic"},
+               {"id":2,"text":"Consumption:  800- 1100 gr/m2"},
+               {"id":3,"text":"Thinning Ratio: No thinning, ready-to-use."},
+               {"id":4,"text":" Touch dry: after 6 hours; Hard dry: after 24 hours"}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above  the reach of children -Do not dump into sewer system." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "15 lt"},
+              {"id":2,"text": "7.5 lt"},
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },
+        {
+          "id": 10,
+          "productName": "Ruloser Silikonlu",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Ruloser_Silikonlu_-m2DUoryAP.png ",
+          "description":  " Acrylic copolymer binder based, fiber additives, matte appearance, ready for application grained exterior coating material .",
+          "characteristic": [{
+            "text": " Healthy and environmental friendly. -Breathable.  -Water resistant thanks to its silicon base -Several patterns can be obtained."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": "Can be applied on concrete , concrete plate , cement-based , convantional plaster and similar surfaces."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Styrene Acrylic"},
+               {"id":2,"text":"Consumption:  900-1200 (g / m²)"},
+               {"id":3,"text":"Thinning Ratio: Ready to use"},
+               {"id":4,"text":" Touch dry: 6 Hours to Drying, 24 Hours to Full Drying"}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above  the reach of children -Do not dump into sewer system." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"PKeep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "15 lt"},
+              {"id":2,"text": "7.5 lt"},
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },
+        {
+          "id": 11,
+          "productName": "Silkoterasit Silikonlu",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Silkoterasit__Silikonlu_d-GZ05vmAc.png ",
+          "description":  "Acrylic copolymer binder resin based , grained-silicone exterior coating."
+          ,
+          "characteristic": [{
+            
+            "text": " Striped and twisted patterned decorative exterior ready plaster."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": "Can be applied on all exterior and interior prepared surfaces such as concrete , concrete plate ,cement and similar."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Styrene Acrylic"},
+               {"id":2,"text":"Consumption:  3000 – 3500 (g / m2)"},
+               {"id":3,"text":"Thinning Ratio: Ready to use"},
+               {"id":4,"text":" Touch dry: Touch 2 – 4 hours; 24 hours to hard dry."}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above the reach of children -Do not dump into sewer system.." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "15 lt"},
+              {"id":2,"text": "7.5 lt"},
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },     
+        {
+          "id": 12,
+          "productName": "Subend",
+          "image": " https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Subend_IXztoMCcNy.png",
+          "description":  "Acrylic copolymer binder based, modified by resins, excellent water insulation providing elastic isolation material.",
+          "characteristic": [{
+            
+            "text": " Elastic, solid, flexible, rigid, mechanically puncture resistant, superior water impermeability when dry, developed for waterproofing."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": " It can be used on surfaces such as basement, wall, terrace, roof and similar needed for water isolation."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Liquid Plastic"},
+               {"id":2,"text":"Consumption:  1-1,3 (m2/lt), 700-1000 (g/m2)"},
+               {"id":3,"text":"Thinning Ratio:  No Thinning, ready-to-use."},
+               {"id":4,"text":" Touch dry: ( 900 ± 100 ) Micron"}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above the reach of children -Do not dump into sewer system.." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "15 lt"},
+              {"id":2,"text": "7.5 lt"},
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },  
+        {
+          "id": 13,
+          "productName": "Silkoterasit",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Silkoterasit_4FEeZzmiZR.png",
+          "description":  "Acrylic Copolymer binder based, grained exterior coating material."
+          ,
+          "characteristic": [{
+            "text": " High covering ability and feature of covering surface defects. -Breathable and water-based. -Resistant against external weather conditions. -Twisted and striped patterned decorative exterior ready plaster."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": " Can be applied on all exterior and interior prepared surfaces such as concrete , concrete plate ,cement and similar."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Styrene Acrylic"},
+               {"id":2,"text":"Consumption:  3000 – 3500 (g / m2)"},
+               {"id":3,"text":"Thinning Ratio: Ready to use."},
+               {"id":4,"text":" Touch dry: Touch 2-4 hours, hard dry 24 hours."}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above  the reach of children -Do not dump into sewer system." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":" Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },
+        {
+          "id": 14,
+          "productName": "Ruloser",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Ruloser_3EQjhGPprj.png",
+          "description":  " Acrylic copolymer emulsion binder based, ready for application, grained exterior coating."
+          ,
+          "characteristic": [{
+            "text": " Long-lasting, environmental friendly. -Several decorative patterns can be obtained . -High covering ability, also closes plaster faults on the surface. -Easily applicable, water-based structure. -Minimum consumption. -Flexible, fiber additives, matt outward looking."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": " Can be applied on concrete , concrete plate , cement-based , convantional plaster and similar surfaces."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Stirene acrylic"},
+               {"id":2,"text":"Consumption:  Single coat: 900- 1200 g/m2"},
+               {"id":3,"text":"Thinning Ratio: No thinning, ready-to-use."},
+               {"id":4,"text":" Touch dry:  after 6 hours; Hard dry: after 24 hours"}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above  the reach of children -Do not dump into sewer system." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Keep  at a cool and clean place away from sun light. It can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":2,"text": "25 kg PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },
+        {
+          "id": 15,
+          "productName": "Acrylic Macun",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Acrylic_Macun_jCreV-7XM8.png ",
+          "description": "Acrylic Copolymer binder based, exterior putty."
+          ,
+          "characteristic": [{
+
+            "text": " Resistant against outside conditions with its special structure."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": " Can be applied on surfaces such as conventional plaster ,concrete , asbestos plate ,gas concrete and similar"
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Stirene acrylic."},
+               {"id":2,"text":"Consumption:  500 – 1500 gr/m² depending on surface."},
+               {"id":3,"text":"No thinning, ready-to-use."},
+               {"id":4,"text":" Touch dry: After 1 – 4 hours depending on weather conditions."}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above the reach of children -Do not dump into sewer system.." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "25 Kg  5 Kg PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },
+        {
+          "id": 16,
+          "productName": "SX 2005",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/SX_2005_MaWuUTZGmx.png ",
+          "description":  " Pure acrylic binder based, surface protection polish for Silkcoat Mineral Plaster. ",
+          "characteristic": [{
+            "text": "SX 2005 POLISH, produced specifically for mineral plaster, provides excellent water resistance thanks to the film layer it creates. Mineral plaster and other exterior surfaces applied give vitality of the decorative side, as well as increase the resistance of mineral plaster to the surface and enable it to be used for many years. It penetrates into the plaster surface and sticks in a very strong way. Due to its water-based structure, it does not harm human health and environment."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": " On mineral Plaster and exterior surfaces, SX 2005 is applied in double layer."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure:  Pure Acrylic"},
+               {"id":2,"text":"Consumption: 6-10 (m2 / lt), 120-180 (g / m2)"},
+               {"id":3,"text":"Thinning Ratio: 40-50%"},
+               {"id":4,"text":" Application tools: Roller or Sprayer Drying: Drying 4 – 8 hours; Hardening for application of topcoats 24 hours."}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above the reach of children -Do not dump into sewer system.." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "15 lt"},
+              {"id":2,"text": "7.5 lt"},
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },
+        {
+          "id": 17,
+          "productName": "Acrylic Astar",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Acrylic_Astar_iFIXIX4Glp.png",
+          "description":  "Acrylic  copolymer binder based, water based, grained, white primer coating.",
+          "characteristic": [{
+            "text": " Primer used on mineral-based and absorbent surfaces , in topcoats  to provide adhesiveness to the paint , to reduce the paint consumption and to obtain a homogeneous surface."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": " Can be applied on all kinds of exterior and interior prepared surfaces to obtain a jagged surface."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Stiren Acrylic"},
+               {"id":2,"text":"Consumption:  Single coat: 12- 14  (m²/lt), 110-140 (g/m2)"},
+               {"id":3,"text":"Thinning Ratio: 15-20 %"},
+               {"id":4,"text":" Touch dry: After 4- 12 hours depending on weather conditions."}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above the reach of children -Do not dump into sewer system.." },
+              {"id":2,"text":"-Keep above  the reach of children" },
+              {"id":3,"text":"Do not dump into sewer system." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "15 lt"},
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        },
+        {
+          "id": 18,
+          "productName": "Stone Guard",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Stone_Guard_o3_Iom56-h.png ",
+          "description":  "can be thinned with water, it is a mixture solventless emulsion, silane and siloxane. Stone Guard is a general purpose water repellent and provides excellent protection and integration to mineral surfaces, brick, plaster pen. İt is applied as top coat protection."
+        ,
+          "characteristic": [{
+            "text": " Stone Guard, which reduces capillary sucking on the buildings and allows a good breathing to the building, is very resistant to alkaline. The water repellent Stone Guard remains stable when diluted. Penetrates very well on the surface and increases the adhesion of the paint. Due to its water-based structure, it does not harm human health and environment."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": " It is applied on all kinds of natural stone, mineral surfaces, coatings and paints."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Silicone"},
+               {"id":2,"text":"Consumption:  70-80 (m² / lt), 15-25 (g / m2)"},
+               {"id":3,"text":"Thinning Ratio: 1 to 7"},
+               {"id":4,"text":" 15-20 minutes, Full: 4-5 hours."}
+            ]
+          },
+          "caustion": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above the reach of children -Do not dump into sewer system.." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"In a cool, clean and dry environment, the product can be stored for a minimum of 1 year without opening the door of the cabinet, without exposure to direct sunlight"
+          },
+           "datasheet": {
+      "list": [
+          
+      ]
+     }
+          
+        },
+        {
+          "id": 19,
+          "productName": "Silicone Primer Astar",
+          "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/exterior__silkplaster/Silikon_Primer__Astar_UcphIpWqKo.png ",
+          "description":  "Acrylic copolymer emulsion based, water repellent primer.",
+          "characteristic": [{
+            "text": " prevents water permeability when applied before the topcoat on mineral based and very absorbent surfaces. Reduce consumption to minimum. It provides better adhesion of topcoat paints, prevents swelling and spills."
+          }],
+          "application": 
+          {
+            "title":"APPLICATION SURFACES",
+            "text": " Can be applied on surfaces such as fine plaster, gross concrete, asbestos sheets, eternite, gas concrete and similar."
+          },
+          "technical":
+          {
+            "title": "TECHNICAL INFORMATION",
+            "list": [
+               {"id":1,"text":"Structure: Stiren Acrylic"},
+               {"id":2,"text":"Single coat: 12 –  14  (m²/lt), 100-130 (g/m2)"},
+               {"id":3,"text":"Thinning Ratio: % 15-20 with water"},
+               {"id":4,"text":" Touch dry: after 15-20 minutes, Dust repulsive : after 1 hour, Hard dry: after 24 hours"}
+            ]
+          },
+          "caution": {
+            "title": " CAUTION",
+            "list": [
+              {"id":1,"text":"Avoid getting eye and skin contact. In case wash  with plenty of water. -Preserve in a tightly closed container. -Keep above the reach of children -Do not dump into sewer system.." },
+              {"id":1,"text":"Avoid contact with eyes and skin." },
+              {"id":1,"text":" If swallowed, seek medical advice immediately; Show the container or label." },
+              {"id":1,"text":"Store the product in a tightly closed container." }
+              ]
+          },
+          "storage": {
+            "title":"STORAGE",
+            "text":"Please Keep  at a cool and clean place away from sun light. İt can be stored  unopened 1 year  at room temperature."
+          },
+          "packaging": {
+            "list": [
+              {"id":1,"text": "15 lt"},
+              {"id":2,"text": "2.5 lt PE Bucket"}
+            ]
+         },
+          "datasheet": {
+      "list": [
+          
+      ]
+     }
+        }
+      ]
+    }
