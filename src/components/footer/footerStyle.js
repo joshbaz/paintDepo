@@ -4,8 +4,8 @@ import styled from 'styled-components';
 export const FooterWrapper = styled.footer`
   width: 100%;
   height: 100%;
-  background: #272727;
-  margin-top: 100px;
+  background-color: ${({bg})=>(bg)};
+  padding-top: 100px;
 `;
 
 export const FooterContainer = styled.div`
@@ -13,7 +13,8 @@ export const FooterContainer = styled.div`
   height: 100%;
   text-align: center;
   color: #fcfcfc;
-  position:relative;
+  position: relative;
+  background: #272727;
 `;
 
 export const SocialsWrapper = styled.div`
@@ -500,7 +501,7 @@ export const CreatedBy = styled.p`
   }
   @media all and (min-width: 768px) {
     a {
-      color: #39d400;
+      color: white;
       text-decoration: none;
     }
   }

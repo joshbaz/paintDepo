@@ -29,8 +29,9 @@ export const Logo = styled.div`
 `;
 
 export const LogoImage = styled.img`
-color: white;
-height: 40px;
+  color: white;
+  height: 40px;
+  margin-left: 20px;
 `;
 export const Icon = styled.div`
 
@@ -39,8 +40,8 @@ cursor: pointer;
 
 `;
 export const CloseIcon = styled(FaTimes)`
-color: #E9E9E9;
-
+  color: #e9e9e9;
+  margin-right: 20px;
 `;
 export const CancelIcon = styled.img``;
 export const NavMenuWrap = styled.div`

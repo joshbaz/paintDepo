@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Footer from "../components/footer";
 import { ProductLists } from "../components/common";
-
+import ProductsMetaRoute from "../meta/Products";
 import Navigation2 from "../components/common/Navigation2";
 import MobileMenu2 from "../components/common/MobileMenu2";
 
@@ -123,6 +123,7 @@ const ProductsLists = ({ ...props }) => {
         <>
           {!renderdisplay ? (
             <>
+              <ProductsMetaRoute />
               <MobileMenu2 mobileActive={OpenMobileMenu} toggle={toggle} />
               <Navigation2
                 toggle={toggle}
@@ -150,7 +151,11 @@ opacity: 0.9"
                 showModal={showModal}
                 setShowModal={setShowModal}
               />
-              <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
+              <Footer
+                bg={"white"}
+                detailActive={CloseFooterDetail}
+                clickMore={moreClick}
+              />
             </>
           ) : (
             <Loader />

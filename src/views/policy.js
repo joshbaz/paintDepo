@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Footer from '../components/footer'
+import PolicyMetaRoute from '../meta/policy';
 
 import Navigation2 from "../components/common/Navigation2";
 import MobileMenu2 from "../components/common/MobileMenu2";
@@ -28,6 +29,7 @@ const Policy = () => {
        window.addEventListener("scroll", navSolidChange);
     return (
       <>
+        <PolicyMetaRoute />
         <MobileMenu2 mobileActive={OpenMobileMenu} toggle={toggle} />
         <Navigation2
           toggle={toggle}
@@ -37,7 +39,11 @@ const Policy = () => {
           navSolid={navSolid}
         />
         <PolicySection />
-        <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
+        <Footer
+          bg={"white"}
+          detailActive={CloseFooterDetail}
+          clickMore={moreClick}
+        />
       </>
     );
 }

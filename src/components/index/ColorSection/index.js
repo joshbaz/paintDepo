@@ -76,11 +76,15 @@ const ColorSection = ({ Colordata, head, text, url }) => {
             },
             444: {
               slidesPerView: 2,
-              spaceBetween: 110,
+              spaceBetween: 10,
+            },
+            561: {
+              slidesPerView: 3,
+              spaceBetween: 10,
             },
             569: {
               slidesPerView: 3,
-              spaceBetween: 150,
+              spaceBetween: 10,
             },
             768: {
               slidesPerView: 3,

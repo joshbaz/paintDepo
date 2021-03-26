@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Footer from "../components/footer";
 import { SubLists } from "../components/common";
+import ColorMetaData from "../meta/ColorFamily";
 
 import Navigation2 from "../components/common/Navigation2";
 import MobileMenu2 from "../components/common/MobileMenu2";
@@ -108,6 +109,7 @@ if (
         <>
           {!renderdisplay ? (
             <>
+              <ColorMetaData />
               <MobileMenu2 mobileActive={OpenMobileMenu} toggle={toggle} />
               <Navigation2
                 toggle={toggle}
@@ -126,7 +128,11 @@ opacity: 0.9"
 
               <SubLists Colordata={colorDataSet} colorlist={colorList} />
 
-              <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
+              <Footer
+                bg={"white"}
+                detailActive={CloseFooterDetail}
+                clickMore={moreClick}
+              />
             </>
           ) : (
             <Loader />

@@ -15,6 +15,18 @@ export const ChooseContainer = styled.div`
   align-items: center;
   background-color: #fcfcfc;
   overflow: hidden;
+
+  @media all and (min-width: 768px) {
+    width: 700px;
+    margin:auto;
+  }
+
+  @media all and (min-width: 1151px) {
+    width: 800px;
+  }
+  @media all and (min-width: 1366px) {
+    width: 1090px;
+  }
 `;
 
 export const ChooseTitle = styled.h1`

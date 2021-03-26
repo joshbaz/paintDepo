@@ -62,13 +62,14 @@ export const DropdownLink = styled(Link)`
 `;
 
 export const SideMenuDropItem = styled.p`
-  color: black;
+  color: #fff;
   left: 20px;
   z-index: 400;
   position: relative;
   display: block;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 16px;
+  margin-left: 20px;
+  font-weight: thin;
 `;
 export const SideMenuDropSubText = styled.p`
   color: black;

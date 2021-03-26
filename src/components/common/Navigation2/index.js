@@ -6,12 +6,12 @@ import {
   Nav,
   MobileIcon,
   NavMenu,
-  NavBtnWrap,
-  NavBtn,
+  
+  
   NavMenuWrap,
-  LogoIcon,
+ 
   MenuIconWrap,
-  WebLogoIcon,
+  
   ContainerWrap,
   NavLogo,
   LogoImage,

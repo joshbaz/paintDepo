@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://paintdepo.alero.co.ke/sitemap.xml
+Sitemap: https://thepaintdepo.co.ke/sitemap.xml

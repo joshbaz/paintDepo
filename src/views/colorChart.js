@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Footer from "../components/footer";
 import {CommonHero, Lists} from '../components/common'
+import ColorMetaData from '../meta/ColorFamily'
 
 import { SliderColorChart } from "../data/heroSlider";
 import colorchart from '../data/color_chart.json'
@@ -82,7 +83,7 @@ const ColorChart = () => {
     return (
       <>
         {windowloading && <Loader />}
-
+        <ColorMetaData />
         <MobileMenu2 mobileActive={OpenMobileMenu} toggle={toggle} />
         <Navigation2
           toggle={toggle}
@@ -102,7 +103,11 @@ opacity: 0.9"
 
         <Lists Colordata={colorchart} />
 
-        <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
+        <Footer
+          bg={"white"}
+          detailActive={CloseFooterDetail}
+          clickMore={moreClick}
+        />
       </>
     );
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import FaqSection from '../components/FAQ'
 import Footer from '../components/footer'
+import FAQMetaData from '../meta/faq';
 
 import Navigation2 from "../components/common/Navigation2";
 import MobileMenu2 from "../components/common/MobileMenu2";
@@ -29,6 +30,7 @@ const Faq = () => {
        window.addEventListener("scroll", navSolidChange);
     return (
       <>
+        <FAQMetaData />
         <MobileMenu2 mobileActive={OpenMobileMenu} toggle={toggle} />
 
         <Navigation2
@@ -39,7 +41,11 @@ const Faq = () => {
           navSolid={navSolid}
         />
         <FaqSection faqData={QuestionData} />
-        <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
+        <Footer
+          bg={"white"}
+          detailActive={CloseFooterDetail}
+          clickMore={moreClick}
+        />
       </>
     );
 }

@@ -2,12 +2,12 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const ViewWrapper = styled.section`
-width: 100%;
-height: 100%;
-background-color: #FCFCFC;
-padding-top:65px;
-margin-bottom:75px;
-overflow:hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #fcfcfc;
+  padding-top: 65px;
+  padding-bottom: 75px;
+  overflow: hidden;
 `;
 
 export const ViewHeadWrap = styled.div`
@@ -18,6 +18,14 @@ export const ViewHeadWrap = styled.div`
   margin: auto;
   padding-top: 27px;
   margin-bottom: 35px;
+  @media all and (min-width: 768px) {
+    width: 700px;
+  }
+
+  @media all and (min-width: 1151px) {
+    width: 800px;
+  }
+  
   @media all and (min-width: 1366px) {
     width: 1090px;
     margin: auto;
@@ -58,10 +66,19 @@ export const ViewHeadText = styled.p`
 `;
 
 export const ListsWrap = styled.div`
-  position:relative;
-  width:90%;
-  margin:auto;
-   @media all and (min-width: 1366px) {
+  position: relative;
+  width: 90%;
+  margin: auto;
+
+  @media all and (min-width: 768px) {
+    width: 700px;
+  }
+
+  @media all and (min-width: 1151px) {
+    width: 800px;
+  }
+ 
+  @media all and (min-width: 1366px) {
     width: 1090px;
     margin: auto;
   }
@@ -160,6 +177,10 @@ export const SliderLeft = styled.div`
     top: 60px;
     left: -45px;
   }
+  @media all and (min-width: 413px) {
+    top: 60px;
+    left: -55px;
+  }
   @media all and (min-width: 1366px) {
     top: 60px;
     left: -60px;
@@ -186,6 +207,10 @@ export const SliderRight = styled.div`
   @media all and (max-width: 412px) {
     top: 60px;
     right: -45px;
+  }
+  @media all and (min-width: 413px) {
+    top: 60px;
+    right: -55px;
   }
   @media all and (min-width: 1366px) {
     top: 60px;

@@ -11,6 +11,7 @@ import Navigation2 from '../components/common/Navigation2'
 import MobileMenu2 from '../components/common/MobileMenu2';
 import { SliderInfo } from "../data/heroSlider";
 import { categoryData } from "../data/categoryData";
+import HomeMetaRoute from "../meta/Home";
 
 import CookieAccept from "../components/Cookies";
 import Cookies from "js-cookie";
@@ -98,7 +99,7 @@ const Home = () => {
   return (
     <>
       {windowloading && <Loader />}
-
+      <HomeMetaRoute />
       <MobileMenu2 mobileActive={OpenMobileMenu} toggle={toggle} />
       <Navigation2
         toggle={toggle}
@@ -131,7 +132,11 @@ opacity: 0.9"
           "Choose from our selection of decorative products from the Silkcoat Paints family"
         }
       />
-      <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
+      <Footer
+        bg={"#fcfcfc"}
+        detailActive={CloseFooterDetail}
+        clickMore={moreClick}
+      />
     </>
   );
 };

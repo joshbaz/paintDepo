@@ -50,9 +50,9 @@ import {
   CopyRight,
   CreatedBy,
 } from "./footerStyle";
-const Footer = ({detailActive, clickMore}) => {
+const Footer = ({detailActive, clickMore, bg}) => {
     return (
-      <FooterWrapper>
+      <FooterWrapper bg={bg}>
         <FooterContainer>
           <SocialsWrapper>
             <SocialTitle>FOLLOW US</SocialTitle>
@@ -91,7 +91,7 @@ const Footer = ({detailActive, clickMore}) => {
 
             <ProductWrapper>
               <ProductTitle>PRODUCT</ProductTitle>
-              <ProductColorLink>
+              <ProductColorLink to="/colorfamily">
                 <ProductColor>VIEW BY COLOR</ProductColor>
               </ProductColorLink>
 
@@ -148,7 +148,7 @@ const Footer = ({detailActive, clickMore}) => {
           <CopyRightWrapper>
             <CopyRightItems>
               <CopyRight>© 2019 The Paint Depo</CopyRight>
-              <CreatedBy>Created by <a href="https://alero.co.ke">Alero Group</a></CreatedBy>
+              <CreatedBy>Created by <a href="https://alero.co.ke" target="_blank">Alero </a></CreatedBy>
             </CopyRightItems>
           </CopyRightWrapper>
         </FooterContainer>

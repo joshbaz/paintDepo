@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Footer from "../components/footer";
-
+import GalleryMetaData from '../meta/Gallery';
 import CookieAccept from "../components/Cookies";
 import Cookies from "js-cookie";
 import { SiteExamples } from "../components/common/ColorExamples";
@@ -107,6 +107,7 @@ const Gallery = ({ ...props }) => {
       {windowloading && <Loader />}
       {!windowloading && (
         <>
+          <GalleryMetaData />
           <MobileMenu2 mobileActive={OpenMobileMenu} toggle={toggle} />
           <Navigation2
             toggle={toggle}
@@ -125,7 +126,11 @@ opacity: 0.9"
 
           <GalleryS Imgdata={ImageData} pins={pins} />
           <SiteExamples />
-          <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
+          <Footer
+            bg={"white"}
+            detailActive={CloseFooterDetail}
+            clickMore={moreClick}
+          />
         </>
       )}
     </>

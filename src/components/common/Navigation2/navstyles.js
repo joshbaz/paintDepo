@@ -40,6 +40,7 @@ width:200px;
 export const MenuIconWrap = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items:center;
   padding-top: 20px;
   @media all and (min-width: 1342px) {
     display: none;
@@ -53,54 +54,33 @@ export const LogoIcon = styled(Link)`
     width: 53.42px;
     height: 66.12px;
   }
-  .aleroGreen {
-    display: ${({ displaywhite }) => (displaywhite ? "none" : "block")};
-  }
-
-  .aleroWhite {
-    display: ${({ displaywhite }) => (displaywhite ? "block" : "none")};
-  }
+  
 `;
 export const MobileIcon = styled.div`
  color: #662583;
-padding-right:5px;
+padding-right:25px;
  cursor: pointer;
  position relative;
  height: 40px;
  top: 0.3rem;
- font-size: 20px;
-@media all and (min-width: 1000px) {
+ font-size: 24px;
+@media all and (min-width: 1342px) {
  display: none;   
 }
 `;
 
 export const NavMenuWrap = styled.div`
   display: flex;
-align-items:center;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
   margin: auto;
 
   @media all and (max-width: 1341px) {
     display: none;
   }
 `;
-export const WebLogoIcon = styled(Link)`
-  margin-left: 20px;
 
-  .whiteLogo {
-    width: 154.42px;
-    height: 70.12px;
-    display: ${({ displaywhite }) => (displaywhite ? "block" : "none")};
-  }
-
-  .GreenLogo {
-    width: 154.42px;
-    height: 70.12px;
-    display: ${({ displaywhite }) => (displaywhite ? "none" : "block")};
-  }
-  @media all and (min-width: 999px) {
-    display: ${({ displayfalse }) => (displayfalse ? "none" : "block")};
-  }
-`;
 export const NavMenu = styled.div`
   display: flex;
   width: 100%;

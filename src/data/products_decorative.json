@@ -389,10 +389,8 @@
         "id": 8,
         "productName": "Velvetto",
         "image": "https://ik.imagekit.io/dk30bxu4rix/Paint_Depo/Website/Assets/product_page/Products/interior___decorative/Velvetto_tZSLksDJR.png",
-        "description": {
-          "title": "DESCRIPTION",
-          "text": "The Velvetto Silkcoat Efects Group is a series of nacre-additives, velvet-patterned, glossy appearance, pure acrylic based, creating fun and moving spaces."
-        },
+        "description": "The Velvetto Silkcoat Efects Group is a series of nacre-additives, velvet-patterned, glossy appearance, pure acrylic based, creating fun and moving spaces."
+        ,
         "characteristic": [{
           
           "text": "Thanks to its nacre structure, Velvetto offers a semi-gloss and matte velvety special image like pearls, allowing for different pattern applications. Due to its water-based structure, it does not harm human health and environment."

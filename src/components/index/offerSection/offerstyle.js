@@ -14,6 +14,17 @@ export const OfferContainer = styled.div`
   background-color: #fcfcfc;
   overflow: hidden;
   margin:auto;
+
+  @media all and (min-width: 768px){
+    width: 700px;
+  }
+
+  @media all and (min-width: 1151px){
+    width: 800px;
+  }
+  @media all and (min-width: 1366px){
+    width: 1090px;
+  }
 `;
 
 export const OfferTitle = styled.h1`

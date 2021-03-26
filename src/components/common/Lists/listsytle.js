@@ -59,12 +59,38 @@ export const HeadText = styled.p`
 `;
 
 export const ListsWrap = styled.div`
+  width: 100%;
+  height: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-row-gap: 20px;
-  grid-column-gap:5px;
-  width:90%;
-  margin:auto;
+  justify-content: center;
+  grid-row-gap: 10px;
+
+  @media all and (min-width: 360px) {
+    width: 70%;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  @media all and (min-width: 522px) {
+    width: 342px;
+  }
+  @media all and (min-width: 698px) {
+    width: 70%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    margin-top: 20px;
+  }
+  @media all and (min-width: 768px) {
+    width: 498px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  @media all and (min-width: 1170px) {
+    width: 768px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
   @media all and (min-width: 1366px) {
     width: 800px;
     margin: auto;
@@ -78,6 +104,7 @@ export const ListsWrap = styled.div`
 export const ListsContainer = styled(Link)`
   width: 161.28px;
   height: 161.28px;
+  oultine:none;
   position: relative;
   display: flex;
   justify-content: center;

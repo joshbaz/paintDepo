@@ -303,8 +303,10 @@ export const FormInput = styled.input`
   height: 51px;
   border: 2.26667px solid #838386;
   outline: none;
-  
-  width:100%;
+
+  width: 100%;
+  text-align: justify;
+  text-indent: 20px;
 `;
 
 export const FormTextArea = styled.textarea`
@@ -312,8 +314,15 @@ export const FormTextArea = styled.textarea`
   border: 2.26667px solid #838386;
   border-radius: 5.66667px;
   outline: none;
-  width:100%;
-  text-align:justify;
+  width: 100%;
+  text-align: justify;
+  text-align: justify;
+  text-indent: 20px;
+  ::placeholder {
+    text-align: justify;
+    text-indent: 20px;
+    
+  }
 `;
 export const FormButton = styled.button`
   width: 202px;

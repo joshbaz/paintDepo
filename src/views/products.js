@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Footer from "../components/footer";
+import ProductsMetaRoute from '../meta/Products';
 
 import ViewProduct from "../components/index/viewProduct";
 import { CommonHero } from "../components/common";
@@ -22,7 +23,7 @@ const Products = () => {
   const [navSolid, setNavSolid] = useState(false);
 
   //route match
-  const {url, path} = useRouteMatch();
+  const {url} = useRouteMatch();
   const toggle = () => {
     setMobileMenu(!OpenMobileMenu);
   };
@@ -42,6 +43,7 @@ const Products = () => {
   window.addEventListener("scroll", navSolidChange);
   return (
     <>
+      <ProductsMetaRoute />
       <MobileMenu2 mobileActive={OpenMobileMenu} toggle={toggle} />
       <Navigation2
         toggle={toggle}
@@ -61,7 +63,11 @@ opacity: 0.9"
           "Our catalogue will help you navigate the product list, like a pro so that you can choose the perfect finish for your rooms"
         }
       />
-      <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
+      <Footer
+        bg={"white"}
+        detailActive={CloseFooterDetail}
+        clickMore={moreClick}
+      />
     </>
   );
 };

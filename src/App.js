@@ -13,11 +13,11 @@ import Gallery from './views/Gallery';
 import GlobalStyle from "./globalStyles";
 import ScrollTop from "./components/ScrollToTop";
 import Loader from "./components/Loader";
-import { createBrowserHistory } from "history";
+
 
 function App() {
   const [windowloading, setwindowloading] = useState(false);
-const history = createBrowserHistory();
+
    useEffect(() => {
      if (document.readyState === "loading") {
        setwindowloading(true);

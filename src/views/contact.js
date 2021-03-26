@@ -6,6 +6,7 @@ import Navigation2 from "../components/common/Navigation2";
 import MobileMenu2 from "../components/common/MobileMenu2";
 import Success from '../components/contact/sucess';
 
+import ContactMetaData from '../meta/Contact'
 
 const Contact = () => {
 
@@ -36,6 +37,7 @@ const Contact = () => {
       window.addEventListener("scroll", navSolidChange);
     return (
       <>
+        <ContactMetaData />
         <MobileMenu2 mobileActive={OpenMobileMenu} toggle={toggle} />
         <Navigation2
           toggle={toggle}
@@ -49,7 +51,11 @@ const Contact = () => {
         ) : (
           <Success />
         )}
-        <Footer detailActive={CloseFooterDetail} clickMore={moreClick} />
+        <Footer
+          bg={"white"}
+          detailActive={CloseFooterDetail}
+          clickMore={moreClick}
+        />
       </>
     );
 }

@@ -16,7 +16,7 @@ import {
 const Lists = ({ Colordata }) => {
     const {url} = useRouteMatch();
   return (
-    <Wrapper>
+    <Wrapper id="view">
       <Container>
         <HeadWrap>
           <HeadTitle>Choose A Color Family</HeadTitle>

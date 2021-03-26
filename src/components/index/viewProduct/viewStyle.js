@@ -6,7 +6,7 @@ width: 100%;
 height: 100%;
 background-color: #FCFCFC;
 padding-top:65px;
-margin-bottom:75px;
+padding-bottom:75px;
 overflow:hidden;
 `;
 
@@ -18,6 +18,13 @@ width:90%;
 margin:auto;
 padding-top: 27px;
 margin-bottom:35px;
+
+@media all and (min-width:768px){
+   width: 700px;
+}
+@media all and (min-width: 1151px){
+    width: 780px;
+  }
 @media all and (min-width:1366px){
     width:1090px;
     margin:auto;
@@ -60,10 +67,14 @@ margin-top:20px;
 `;
 export const ViewWrap = styles.div`
 display:grid;
-grid-template-columns:1fr ;
-grid-gap:1rem;
-margin:auto;
-width:70%;
+justify-content:center;
+grid-row-gap:1rem;
+
+@media all and (min-width: 768px){
+  grid-template-columns: 1fr 1fr;
+  width: 600px;
+  margin:auto;
+}
 @media all and (min-width:1366px){
     width: 1090px;
     height: 100%;
